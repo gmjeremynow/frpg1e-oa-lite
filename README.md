@@ -1,4 +1,4 @@
-# OA Lite for 1e FRPG, v0.1.0
+# OA Lite for 1e FRPG, v0.1.1
 
 An optional add-on for the 1e FRPG system for Foundry VTT (system 0.48.0 or later, Foundry V14), for use in any campaign. It adds the OA races and classes on the character sheet, martial arts, OA proficiencies, shukenja and wu jen spells, OA weapons, armor and equipment priced in standard coins, magic items and monsters. It leaves out the Eastern Lands setting, the family, honor and society rules, OA's own money and the running-the-game chapters. Turn the module on or off in Manage Modules.
 
@@ -71,3 +71,7 @@ Then switch it on in the world and accept the offer to build the OA Lite compend
 - "shikko-" against "shikki-gaki".
 - Me-zu: "Celestial Empire".
 - Table 56 has no slash totals.
+
+## Changes
+
+- 0.1.1: fixed the mirror of fear's panic roll, which used a saving throw value the system doesn't accept (Foundry showed a validation error when the compendia were built). It is now marked "negates", with a note that the save is versus spell.
