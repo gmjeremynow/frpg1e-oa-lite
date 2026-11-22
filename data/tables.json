@@ -1,0 +1,593 @@
+[
+ {
+  "name": "OA Table 86: OA Magical Items",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Treasure",
+  "description": "<p>OA p.133. Classes in parentheses are the only ones able to use the item. The items are in the OA Lite Magic Items compendium. OA Tables 75-85 (magical armor and weapons) are written out in the Magic folder of the OA Lite journals; OA Table 74 (treasure) is left out of OA Lite, which uses the DMG treasure types.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Banner of Protection",
+    "description": "Banner of Protection",
+    "range": [
+     1,
+     5
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bell of Protection",
+    "description": "Bell of Protection",
+    "range": [
+     6,
+     8
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Bell of Warning",
+    "description": "Bell of Warning",
+    "range": [
+     9,
+     11
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Biwa of Calm",
+    "description": "Biwa of Calm",
+    "range": [
+     12,
+     12
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Biwa of Charm",
+    "description": "Biwa of Charm",
+    "range": [
+     13,
+     13
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Biwa of Discord",
+    "description": "Biwa of Discord",
+    "range": [
+     14,
+     15
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Charm of Protection from Disease",
+    "description": "Charm of Protection from Disease",
+    "range": [
+     16,
+     20
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Charm of Protection from Fire",
+    "description": "Charm of Protection from Fire",
+    "range": [
+     21,
+     24
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Charm of Protection from Spirits",
+    "description": "Charm of Protection from Spirits",
+    "range": [
+     25,
+     27
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Charm of Protection from Theft",
+    "description": "Charm of Protection from Theft",
+    "range": [
+     28,
+     31
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Diamond Mace",
+    "description": "Diamond Mace",
+    "range": [
+     32,
+     32
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Drums of Thunder",
+    "description": "Drums of Thunder",
+    "range": [
+     33,
+     33
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Eight Diagram Coins",
+    "description": "Eight Diagram Coins",
+    "range": [
+     34,
+     35
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Everproducing Rice Mortar",
+    "description": "Everproducing Rice Mortar",
+    "range": [
+     36,
+     36
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gem of Wishes",
+    "description": "Gem of Wishes",
+    "range": [
+     37,
+     37
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Gong of Dispelling",
+    "description": "Gong of Dispelling",
+    "range": [
+     38,
+     41
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mallet of Luck",
+    "description": "Mallet of Luck",
+    "range": [
+     42,
+     44
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Minyan (shukenja, sohei)",
+    "description": "Minyan (shukenja, sohei)",
+    "range": [
+     45,
+     45
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mirror of Curing",
+    "description": "Mirror of Curing",
+    "range": [
+     46,
+     47
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mirror of Enlightenment",
+    "description": "Mirror of Enlightenment",
+    "range": [
+     48,
+     48
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mirror of Fear",
+    "description": "Mirror of Fear",
+    "range": [
+     49,
+     51
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Mirror of Spirit Seeing",
+    "description": "Mirror of Spirit Seeing",
+    "range": [
+     52,
+     53
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Net of Spirit Snaring (shukenja)",
+    "description": "Net of Spirit Snaring (shukenja)",
+    "range": [
+     54,
+     58
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Noisome Spirit Chasers",
+    "description": "Noisome Spirit Chasers",
+    "range": [
+     59,
+     60
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Paper of Forms",
+    "description": "Paper of Forms",
+    "range": [
+     61,
+     63
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Pearl of Protection from Fire",
+    "description": "Pearl of Protection from Fire",
+    "range": [
+     64,
+     70
+    ],
+    "weight": 7,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Pearl of the Ebbing Tide",
+    "description": "Pearl of the Ebbing Tide",
+    "range": [
+     71,
+     71
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Pearl of the Rising Tide",
+    "description": "Pearl of the Rising Tide",
+    "range": [
+     72,
+     72
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Scroll of Protection from Spirits",
+    "description": "Scroll of Protection from Spirits",
+    "range": [
+     73,
+     85
+    ],
+    "weight": 13,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Seal of Deception (ninja, yakuza)",
+    "description": "Seal of Deception (ninja, yakuza)",
+    "range": [
+     86,
+     87
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Seal of Vigor",
+    "description": "Seal of Vigor",
+    "range": [
+     88,
+     92
+    ],
+    "weight": 5,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Tablet of Spirit Summoning (shukenja, wu jen)",
+    "description": "Tablet of Spirit Summoning (shukenja, wu jen)",
+    "range": [
+     93,
+     94
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Wheels of Fire",
+    "description": "Wheels of Fire",
+    "range": [
+     95,
+     96
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Wondrous Writing Set",
+    "description": "Wondrous Writing Set",
+    "range": [
+     97,
+     100
+    ],
+    "weight": 4,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 63: Divination Results",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Spells",
+  "description": "<p>OA p.59, used by the omen spell when the DM has nothing to base the answer on.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "Ill omen: don't undertake the task today. If ignored: -1 on to-hit and saving throws for the day, encounter chance doubled, -10% reaction on all encounters.",
+    "description": "Ill omen: don't undertake the task today. If ignored: -1 on to-hit and saving throws for the day, encounter chance doubled, -10% reaction on all encounters.",
+    "range": [
+     1,
+     2
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Great danger: encounter chance doubled for the day, -10% reaction on all encounters, foes +1 to hit.",
+    "description": "Great danger: encounter chance doubled for the day, -10% reaction on all encounters, foes +1 to hit.",
+    "range": [
+     3,
+     4
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Neutral omen: no special modifiers.",
+    "description": "Neutral omen: no special modifiers.",
+    "range": [
+     5,
+     7
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Favorable omen: travel half again the normal rate today; foes -1 to hit the characters today.",
+    "description": "Favorable omen: travel half again the normal rate today; foes -1 to hit the characters today.",
+    "range": [
+     8,
+     9
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Auspicious omen: as a favorable omen, and +1 on all saving throws today.",
+    "description": "Auspicious omen: as a favorable omen, and +1 on all saving throws today.",
+    "range": [
+     10,
+     10
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ },
+ {
+  "name": "OA Table 65: Fate",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "Spells",
+  "description": "<p>OA p.65, used by the fate spell when the DM knows of no particular event coming for the character.</p>",
+  "results": [
+   {
+    "type": "text",
+    "text": "He will overcome some great opponent in a valiant struggle.",
+    "description": "He will overcome some great opponent in a valiant struggle.",
+    "range": [
+     1,
+     1
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will gain a great fortune but lose it before he can enjoy it.",
+    "description": "He will gain a great fortune but lose it before he can enjoy it.",
+    "range": [
+     2,
+     2
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will rise to high position and enjoy the respect and admiration of those around him.",
+    "description": "He will rise to high position and enjoy the respect and admiration of those around him.",
+    "range": [
+     3,
+     3
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will rise to high position, but evil scheming will bring about his fall.",
+    "description": "He will rise to high position, but evil scheming will bring about his fall.",
+    "range": [
+     4,
+     5
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will suffer a humiliating defeat at the hands of some great enemy.",
+    "description": "He will suffer a humiliating defeat at the hands of some great enemy.",
+    "range": [
+     6,
+     7
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will come into a great fortune that brings ruin and hardship to his house.",
+    "description": "He will come into a great fortune that brings ruin and hardship to his house.",
+    "range": [
+     8,
+     9
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "Powerful beings will show him compassion, sparing his life at an unexpected moment.",
+    "description": "Powerful beings will show him compassion, sparing his life at an unexpected moment.",
+    "range": [
+     10,
+     12
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "His family's actions will bring misfortune on him.",
+    "description": "His family's actions will bring misfortune on him.",
+    "range": [
+     13,
+     15
+    ],
+    "weight": 3,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "A stranger will bring disguised good fortune into his life.",
+    "description": "A stranger will bring disguised good fortune into his life.",
+    "range": [
+     16,
+     17
+    ],
+    "weight": 2,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "He will win great favor with the mighty through a brave and heroic act.",
+    "description": "He will win great favor with the mighty through a brave and heroic act.",
+    "range": [
+     18,
+     18
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "A stranger will bring ill fortune into his life.",
+    "description": "A stranger will bring ill fortune into his life.",
+    "range": [
+     19,
+     19
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   },
+   {
+    "type": "text",
+    "text": "A fearful enemy will seek devious revenge on him when he least expects it.",
+    "description": "A fearful enemy will seek devious revenge on him when he least expects it.",
+    "range": [
+     20,
+     20
+    ],
+    "weight": 1,
+    "img": "icons/svg/d20-black.svg"
+   }
+  ]
+ }
+]

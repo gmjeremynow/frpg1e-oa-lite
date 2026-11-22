@@ -1,0 +1,23 @@
+.oa-tab .hint { color: #6b5f4a; font-size: 11px; }
+.oa-tab .oa-grid { display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-end; margin-bottom: 4px; }
+.oa-tab .oa-grid label span, .oa-tab label.oa-wide span { display: block; font-size: 11px; color: #6b5f4a; }
+.oa-tab .oa-grid input[type="number"] { width: 5em; }
+.oa-tab .oa-grid input[type="text"] { width: 14em; }
+.oa-tab label.oa-wide { display: block; }
+.oa-tab textarea { width: 100%; font-family: inherit; }
+.oa-tab button { width: auto; display: inline-block; }
+.oa-tab .oa-table { width: 100%; border-collapse: collapse; }
+.oa-tab .oa-table td, .oa-tab .oa-table th { text-align: center; padding: 1px 4px; border-bottom: 1px solid #ddd3bd; }
+.oa-tab .oa-table .left { text-align: left; }
+.setting-notes li { color: #3c4f7a; }
+
+/* Book journals and reference tables */
+.oa-src { font-size: 0.85em; color: var(--color-text-secondary, #555); font-style: italic; }
+.oa-table-ref { color: var(--color-text-secondary, #555); }
+table.oa-ref { font-size: 0.85em; border-collapse: collapse; width: 100%; }
+table.oa-ref th, table.oa-ref td { padding: 1px 4px; text-align: center; border-bottom: 1px solid rgba(0,0,0,0.1); }
+table.oa-ref .left { text-align: left; }
+blockquote.oa-box { background: rgba(120, 110, 90, 0.12); border-left: 3px solid rgba(120, 110, 90, 0.5); padding: 0.3em 0.8em; margin: 0.6em 0; }
+
+.oa-cols { columns: 3 12em; column-gap: 1.5em; margin: 0.3em 0 0.8em; }
+.oa-cols li { break-inside: avoid; }

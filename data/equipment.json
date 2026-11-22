@@ -1,0 +1,7879 @@
+[
+ {
+  "name": "Axe, battle",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d8",
+    "l": "1d8",
+    "smRange": "1-8",
+    "lRange": "1-8"
+   },
+   "speed": "7",
+   "acAdj": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    -1,
+    0,
+    0,
+    1,
+    1,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 75.0,
+   "weightText": "75",
+   "cost": "50 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 4'; space needed 4'.</p><p>Variations with other names may exist in the campaign (see Weapon Equivalents in the OA Lite journals).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 75)"
+  }
+ },
+ {
+  "name": "Axe, hand",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "both",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d4",
+    "smRange": "1-6",
+    "lRange": "1-4"
+   },
+   "speed": "4",
+   "acAdj": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -2,
+    -1,
+    0,
+    0,
+    1,
+    1,
+    2
+   ],
+   "missile": {
+    "rate": "1",
+    "short": 1.0,
+    "medium": 2.0,
+    "long": 3.0,
+    "acAdj": [
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     -1,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "weight": 50.0,
+   "weightText": "50",
+   "cost": "1 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 1.5'; space needed 1'.</p><p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Variations with other names may exist in the campaign (see Weapon Equivalents in the OA Lite journals).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 50)"
+  }
+ },
+ {
+  "name": "Bo stick",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d4",
+    "smRange": "1-6",
+    "lRange": "1-4"
+   },
+   "speed": "3",
+   "acAdj": [
+    -13,
+    -11,
+    -9,
+    -7,
+    -5,
+    -3,
+    -1,
+    0,
+    1,
+    0,
+    3
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 40.0,
+   "weightText": "40",
+   "cost": "2 cp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 5-7'; space needed 3'.</p><p>Can be used for the martial arts weapon style special maneuvers.</p><p>A staff of hard wood, usually 6 to 7 feet long, hard to cut or break.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 40)"
+  }
+ },
+ {
+  "name": "Boku-toh",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d2",
+    "smRange": "1-4",
+    "lRange": "1-2"
+   },
+   "speed": "4",
+   "acAdj": [
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    -1,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 30.0,
+   "weightText": "30",
+   "cost": "3 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 3'; space needed 3'.</p><p>A wooden copy of the katana, used to practice swordsmanship without cutting wounds. Swung in earnest, it can still injure by the force of the blow.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 30)"
+  }
+ },
+ {
+  "name": "Chain",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4+1",
+    "l": "1d4",
+    "smRange": "2-5",
+    "lRange": "1-4"
+   },
+   "speed": "5",
+   "acAdj": [
+    -8,
+    -8,
+    -7,
+    -7,
+    -5,
+    -5,
+    -2,
+    0,
+    0,
+    1,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 30.0,
+   "weightText": "30",
+   "cost": "5 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 5'-10'; space needed 5'.</p><p>Can be used for the martial arts weapon style special maneuvers.</p><p>Can make entangling attacks.</p><p>Variations with other names may exist in the campaign (see Weapon Equivalents in the OA Lite journals).</p><p>Also called manriki-gusari or rante: a length of chain weighted at each end. Whirled fast, it strikes hard blows with the weights. One end can be swung out to entangle a foe, or the whole chain thrown like a bola to entangle and hurt at once. It is popular where a lord has banned other weapons, or where secrecy is needed, since it can be worn as a belt or hidden under a sash. Ninja use it often for its many uses.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 30)"
+  }
+ },
+ {
+  "name": "Chijiriki, spear",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d8",
+    "smRange": "1-6",
+    "lRange": "1-8"
+   },
+   "speed": "6-8",
+   "acAdj": [
+    -2,
+    -2,
+    -2,
+    -1,
+    -1,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 60.0,
+   "weightText": "60",
+   "cost": "3 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 7-10'; space needed 1'.</p><p>Can make entangling attacks.</p><p>A spear with a weighted chain on the butt end. It works as a normal spear, or the butt can be swung out to entangle a foe.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 60)"
+  }
+ },
+ {
+  "name": "Chopsticks",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d3",
+    "l": "1d2",
+    "smRange": "1-3",
+    "lRange": "1-2"
+   },
+   "speed": "2",
+   "acAdj": [
+    -16,
+    -14,
+    -12,
+    -10,
+    -8,
+    -6,
+    -4,
+    -2,
+    -1,
+    -1,
+    -1
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 1.0,
+   "weightText": "1",
+   "cost": "",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 1/2'; space needed 1/2'.</p><p>Not on the OA price list (Table 47).</p><p>Chopsticks can serve as a weapon in an emergency: not very effective, but better than nothing.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 1)"
+  }
+ },
+ {
+  "name": "Club",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d3",
+    "smRange": "1-6",
+    "lRange": "1-3"
+   },
+   "speed": "4",
+   "acAdj": [
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    -1,
+    0,
+    0,
+    1
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 30.0,
+   "weightText": "30",
+   "cost": "",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 3'; space needed 1'-3'.</p><p>Not on the OA price list (Table 47).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 30)"
+  }
+ },
+ {
+  "name": "Dagger",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d3",
+    "smRange": "1-4",
+    "lRange": "1-3"
+   },
+   "speed": "2",
+   "acAdj": [
+    -4,
+    -4,
+    -3,
+    -3,
+    -2,
+    -2,
+    0,
+    0,
+    1,
+    1,
+    3
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 10.0,
+   "weightText": "10",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 1'-1.5'; space needed 1'.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 10)"
+  }
+ },
+ {
+  "name": "Fang",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d4",
+    "smRange": "1-6",
+    "lRange": "1-4"
+   },
+   "speed": "4",
+   "acAdj": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 30.0,
+   "weightText": "30",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 3'; space needed 1'.</p><p>Can be used only with the martial arts weapon styles, and can be used for the weapon style special maneuvers.</p><p>A heavy iron weapon modeled on the elephant goad, about as long as a short sword, with a sharp point and a heavy hooked point below it.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 30)"
+  }
+ },
+ {
+  "name": "Gunsen",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d3",
+    "l": "1d2",
+    "smRange": "1-3",
+    "lRange": "1-2"
+   },
+   "speed": "2",
+   "acAdj": [
+    -14,
+    -12,
+    -10,
+    -8,
+    -6,
+    -4,
+    -3,
+    -2,
+    0,
+    -1,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 10.0,
+   "weightText": "10",
+   "cost": "2 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 1'; space needed 1'.</p><p>Can be used for the martial arts weapon style special maneuvers.</p><p>An iron war fan. It is mainly defensive and counts as a small shield, but it can also strike blows. It is normally a weapon of emergency.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 10)"
+  }
+ },
+ {
+  "name": "Halberd",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d10",
+    "l": "1d12",
+    "smRange": "1-10",
+    "lRange": "1-12"
+   },
+   "speed": "9",
+   "acAdj": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 175.0,
+   "weightText": "175",
+   "cost": "5 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 5'+; space needed 5'.</p><p>Variations with other names may exist in the campaign (see Weapon Equivalents in the OA Lite journals).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 175)"
+  }
+ },
+ {
+  "name": "Jitte",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d2",
+    "smRange": "1-4",
+    "lRange": "1-2"
+   },
+   "speed": "2",
+   "acAdj": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -2,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 15.0,
+   "weightText": "15",
+   "cost": "5 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 1'-1.5'; space needed 1'.</p><p>Can be used only with the martial arts weapon styles, and can be used for the weapon style special maneuvers.</p><p>A mainly defensive weapon: a tapered iron bar, not sharp, with a short hook near the handle. It blocks attacks and catches weapons, and can also strike blows.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 15)"
+  }
+ },
+ {
+  "name": "Jo stick",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d3",
+    "smRange": "1-6",
+    "lRange": "1-3"
+   },
+   "speed": "2",
+   "acAdj": [
+    -10,
+    -9,
+    -8,
+    -6,
+    -4,
+    -2,
+    -1,
+    0,
+    1,
+    0,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 15.0,
+   "weightText": "15",
+   "cost": "1 cp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 3'; space needed 2'.</p><p>Can be used for the martial arts weapon style special maneuvers.</p><p>A smaller bo stick of the same hard wood, usable in one hand and often used in pairs.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 15)"
+  }
+ },
+ {
+  "name": "Kama",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d4",
+    "smRange": "1-6",
+    "lRange": "1-4"
+   },
+   "speed": "4",
+   "acAdj": [
+    -3,
+    -2,
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    0,
+    -1,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 20.0,
+   "weightText": "20",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 2'; space needed 3'.</p><p>A straight-bladed sickle, a farm tool that also makes a very effective weapon. Ninja like it, since it can be carried without arousing much suspicion.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 20)"
+  }
+ },
+ {
+  "name": "Katana",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d10",
+    "l": "1d12",
+    "smRange": "1-10",
+    "lRange": "1-12"
+   },
+   "speed": "4",
+   "acAdj": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    1,
+    2,
+    3
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 60.0,
+   "weightText": "60",
+   "cost": "50 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 3'; space needed 3'.</p><p>A single-edged, slightly curved sword ending in a chisel point, perhaps one of the finest swords ever made. Forging one is a rare and prized art: the smith labors long hours for the right temper, and a well-made blade is light, balanced, strong, flexible and resilient, and takes a razor edge. Blades are often etched with designs, prayers or family lineages, and the hilt, guard and scabbard get equal care. Katanas often have names recalling glorious deeds they were used in.</p><p>To a samurai, the katana is part of who he is: his personal weapon, not for others. Touching the scabbard of his sheathed katana, or drawing the blade without permission, insults him. A katana may be a family heirloom for generations, and losing one is a disgrace wiped clean only by recovering it and punishing the takers; many samurai have died trying.</p><p>The listed price is for an average blade; others cost more or less with their quality, workmanship and history. See also The Katana and the Daisho in the OA Lite journals.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 60)"
+  }
+ },
+ {
+  "name": "Kau sin ke",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d8",
+    "l": "1d6",
+    "smRange": "1-8",
+    "lRange": "1-6"
+   },
+   "speed": "6",
+   "acAdj": [
+    3,
+    3,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 40.0,
+   "weightText": "40",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 4'-6'; space needed 4'.</p><p>Can be used only with the martial arts weapon styles, and can be used for the weapon style special maneuvers.</p><p>The \"whipping chain\": four to six short iron bars joined by links of chain, descended from the farm flail. Used well it is deadly, the bars wrapping around shields to land crushing blows.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 40)"
+  }
+ },
+ {
+  "name": "Kawanaga",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d3",
+    "l": "1d2",
+    "smRange": "1-3",
+    "lRange": "1-2"
+   },
+   "speed": "7",
+   "acAdj": [
+    -8,
+    -8,
+    -8,
+    -6,
+    -6,
+    -4,
+    -4,
+    -2,
+    -1,
+    -2,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 10.0,
+   "weightText": "10",
+   "cost": "25 cp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 8'+; space needed 5'.</p><p>Used mostly by ninja.</p><p>Can make entangling attacks.</p><p>A tool and a weapon: a rope with a grappling hook at one end and a weight at the other. It can be used for climbing, swung to strike with the hook or the weight, or used to entangle. Ninja like it for its many uses and because it hides easily.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 10)"
+  }
+ },
+ {
+  "name": "Kiseru",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d2",
+    "smRange": "1-4",
+    "lRange": "1-2"
+   },
+   "speed": "3",
+   "acAdj": [
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    -1,
+    0,
+    0,
+    1
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 5.0,
+   "weightText": "5",
+   "cost": "25 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 2'; space needed 1'.</p><p>Can be used for the martial arts weapon style special maneuvers.</p><p>A metal tobacco pipe whose innocent look hides its use as a club. Popular with peasants and monks: cheap, easy to make, and it doesn't look dangerous. It can also be smoked.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 5)"
+  }
+ },
+ {
+  "name": "Kumade",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d3",
+    "smRange": "1-4",
+    "lRange": "1-3"
+   },
+   "speed": "4",
+   "acAdj": [
+    -6,
+    -6,
+    -5,
+    -5,
+    -3,
+    -2,
+    -2,
+    -1,
+    -1,
+    0,
+    1
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 15.0,
+   "weightText": "15",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 6'; space needed 3'.</p><p>Used mostly by ninja.</p><p>A long wooden shaft with a rake head at one end. Set the prongs in a crack, ledge or sill and climb the pole, or fight with it. Since it has several uses and draws no suspicion, ninja carry it often.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 15)"
+  }
+ },
+ {
+  "name": "Kusari-gama",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d4",
+    "smRange": "1-6",
+    "lRange": "1-4"
+   },
+   "speed": "6",
+   "acAdj": [
+    -3,
+    -2,
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    0,
+    -1,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 30.0,
+   "weightText": "30",
+   "cost": "30 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 2'+; space needed 2'+.</p><p>Used mostly by ninja.</p><p>Can make entangling attacks.</p><p>A kama made for fighting, with a weighted chain on the butt of the handle. The user can strike with the kama in hand, club and entangle with the chain, or whirl the kama on the end of the chain. It is easy to make and favored by peasants and ninja.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 30)"
+  }
+ },
+ {
+  "name": "Kyoketsu-shogi",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d4",
+    "smRange": "1-4",
+    "lRange": "1-4"
+   },
+   "speed": "5",
+   "acAdj": [
+    -8,
+    -8,
+    -8,
+    -6,
+    -6,
+    -4,
+    -4,
+    -2,
+    -1,
+    -2,
+    1
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 10.0,
+   "weightText": "10",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 6'+; space needed 5'.</p><p>Used mostly by ninja.</p><p>Can make entangling attacks.</p><p>A rope with a sharp hooked blade at one end and a heavy iron ring at the other, used much like a chain weapon: swung to strike with blade or weight, snapped around feet or arms to entangle, thrown like a bola, or held while striking with the blade. Rope is far easier to cut or break than chain, but ninja use it because it is almost silent. It hides easily, often worn as a belt or under a sash.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 10)"
+  }
+ },
+ {
+  "name": "Lajatang",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d10",
+    "l": "1d10",
+    "smRange": "1-10",
+    "lRange": "1-10"
+   },
+   "speed": "6",
+   "acAdj": [
+    -3,
+    -3,
+    -3,
+    -2,
+    -2,
+    -1,
+    0,
+    0,
+    1,
+    1,
+    3
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 60.0,
+   "weightText": "60",
+   "cost": "70 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 5'; space needed 3'.</p><p>Can be used for the martial arts weapon style special maneuvers.</p><p>A rare, unusual weapon, usually in the hands of a martial artist trained in it: a 3- to 5-foot shaft with a crescent blade at each end, some with small barbs hooking down from the crescents' tips. It is held in two hands like a staff.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 60)"
+  }
+ },
+ {
+  "name": "Lance (light)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d8",
+    "smRange": "1-6",
+    "lRange": "1-8"
+   },
+   "speed": "7",
+   "acAdj": [
+    -3,
+    -3,
+    -2,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 50.0,
+   "weightText": "50",
+   "cost": "30 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 10'; space needed 1'.</p><p>Does double damage to creatures of any size when used by a rider on a charging mount.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 50)"
+  }
+ },
+ {
+  "name": "Lasso",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "both",
+   "damage": {
+    "sm": "0",
+    "l": "0",
+    "smRange": "-",
+    "lRange": "-"
+   },
+   "speed": "10",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1/2",
+    "short": 1.0,
+    "medium": 2.0,
+    "long": 3.0,
+    "acAdj": [
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0,
+     -1
+    ]
+   },
+   "weight": 20.0,
+   "weightText": "20",
+   "cost": "",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 10'-20'; space needed 8'+.</p><p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Not on the OA price list (Table 47).</p><p>The lasso does no damage. A hit means it has settled around a man-sized or smaller victim, who is entangled.</p><ul><li>A victim with intelligence above 2 and a way to cut the rope saves versus poison; success means he has freed himself.</li><li>A mounted victim without horsemanship is dismounted automatically; one with it rolls against his proficiency.</li><li>A two-legged creature on foot weighing no more than half the lasso user's weight is pulled off its feet 25% of the time. Several creatures pulling on the rope together add 20% each, and the reverse.</li><li>The rope takes 2 points of cutting damage, and a victim can break it with a successful bend bars roll, one try per character.</li></ul><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 20)"
+  }
+ },
+ {
+  "name": "Mace",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6+1",
+    "l": "1d6",
+    "smRange": "2-7",
+    "lRange": "1-6"
+   },
+   "speed": "7",
+   "acAdj": [
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    -1
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 100.0,
+   "weightText": "100",
+   "cost": "",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 3'; space needed 4'.</p><p>Not on the OA price list (Table 47).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 100)"
+  }
+ },
+ {
+  "name": "Man catcher",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d2",
+    "l": "1d2",
+    "smRange": "1-2",
+    "lRange": "1-2"
+   },
+   "speed": "7",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -1,
+    -2,
+    -3
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 80.0,
+   "weightText": "80",
+   "cost": "3 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 8'+; space needed 2.5'.</p><p>A two-pronged pole arm, each prong curved to close around a man-sized humanoid. Creatures 50% or more larger or smaller than man-sized are unaffected. Spikes and sharp edges hurt the victim and stop him using his hands and arms.</p><ul><li>A caught victim loses all shield and dexterity bonuses.</li><li>He can be pushed and pulled with it, taking 1-2 damage a round automatically, with a 25% chance of being pulled off his feet to kneeling or prone.</li><li>He can break free with a successful bend bars roll, and may keep trying, but takes 1-4 damage each try unless wearing heavy gloves or gauntlets.</li><li>Others can rescue him by chopping through the haft (6 points of cutting damage).</li><li>A common tactic is to catch the victim, jerk him off his feet or horse, and press the pole down to pin his neck to the ground, leaving him almost helpless.</li></ul><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 80)"
+  }
+ },
+ {
+  "name": "Nagimaki",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d8",
+    "smRange": "1-6",
+    "lRange": "1-8"
+   },
+   "speed": "6",
+   "acAdj": [
+    -3,
+    -3,
+    -2,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 60.0,
+   "weightText": "60",
+   "cost": "3 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 5'-8'; space needed 1'.</p><p>Does double damage to any opponent when set to receive its charge.</p><p>A shortened naginata, used by horsemen.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 60)"
+  }
+ },
+ {
+  "name": "Naginata",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d8",
+    "l": "1d10",
+    "smRange": "1-8",
+    "lRange": "1-10"
+   },
+   "speed": "7",
+   "acAdj": [
+    -2,
+    -2,
+    -1,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 100.0,
+   "weightText": "100",
+   "cost": "4 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 8'+; space needed 1'.</p><p>Does double damage to size L creatures when firmly set to receive a charge.</p><p>Does double damage to any opponent when set to receive its charge.</p><p>A light but strong glaive: a 6- to 8-foot shaft ending in a curved, sword-like blade, used as a standard pole arm. It is often the preferred weapon of women.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 100)"
+  }
+ },
+ {
+  "name": "Nekode",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d3",
+    "smRange": "1-4",
+    "lRange": "1-3"
+   },
+   "speed": "2",
+   "acAdj": [
+    -8,
+    -7,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 5.0,
+   "weightText": "5",
+   "cost": "30 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 1/2'; space needed 1'.</p><p>Used mostly by ninja.</p><p>Another two-purpose ninja tool: straps or gloves with spikes in the palm. Jammed into cracks they help climbing, adding 5% to the climber's chance. They can also claw a foe for a little damage. The wearer can still use other items normally. They are usually worn only when needed, since they mark the wearer as a ninja.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 5)"
+  }
+ },
+ {
+  "name": "Ninja-to",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d8",
+    "l": "1d6",
+    "smRange": "1-8",
+    "lRange": "1-6"
+   },
+   "speed": "3",
+   "acAdj": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 50.0,
+   "weightText": "50",
+   "cost": "2 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 2'; space needed 1'.</p><p>Used mostly by ninja.</p><p>The ninja's standard sword, about the length of a short sword and easy to hide. The blade is straight and of lower quality than a katana's, but sword and scabbard have many uses, varying from ninja to ninja: secret compartments in the hilt or scabbard tip for powders, poisons or daggers; a scabbard longer than the sword and open at both ends, to serve as a blowpipe or breathing tube; strong silk cord wrapped around it for climbing; a stiff scabbard that can serve as a ladder rung. The DM can allow other hidden devices.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 50)"
+  }
+ },
+ {
+  "name": "Nunchaku",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d6",
+    "smRange": "1-6",
+    "lRange": "1-6"
+   },
+   "speed": "3",
+   "acAdj": [
+    -8,
+    -7,
+    -6,
+    -4,
+    -2,
+    -2,
+    0,
+    0,
+    1,
+    0,
+    3
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 30.0,
+   "weightText": "30",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 3'; space needed 4'.</p><p>Can be used only with the martial arts weapon styles, and can be used for the weapon style special maneuvers.</p><p>A martial arts weapon descended from the farm flail: two lengths of hard wood or iron joined by a short chain or cord, used to parry, club or catch weapons. It hides easily. Martial arts training is needed to use it well.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 30)"
+  }
+ },
+ {
+  "name": "Parang",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d8",
+    "l": "1d8",
+    "smRange": "1-8",
+    "lRange": "1-8"
+   },
+   "speed": "4",
+   "acAdj": [
+    -5,
+    -5,
+    -4,
+    -4,
+    -3,
+    -1,
+    0,
+    0,
+    0,
+    1,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 50.0,
+   "weightText": "50",
+   "cost": "75 cp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 2'; space needed 3'.</p><p>A tool and a weapon, a heavy-bladed machete that delivers chopping blows of great force. Primitive tribesmen use it for everything and are seldom without one.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 50)"
+  }
+ },
+ {
+  "name": "Sai",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d2",
+    "smRange": "1-4",
+    "lRange": "1-2"
+   },
+   "speed": "2",
+   "acAdj": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -2,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 20.0,
+   "weightText": "20",
+   "cost": "5 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 1'-1.5'; space needed 1'.</p><p>Can be used only with the martial arts weapon styles, and can be used for the weapon style special maneuvers.</p><p>Also called tjabang: a martial arts weapon used like the jitte, but with two projecting tines instead of one.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 20)"
+  }
+ },
+ {
+  "name": "Sang kauw",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d8",
+    "l": "1d6",
+    "smRange": "1-8",
+    "lRange": "1-6"
+   },
+   "speed": "7",
+   "acAdj": [
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 100.0,
+   "weightText": "100",
+   "cost": "5 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 3'-5'; space needed 3'.</p><p>Can be used only with the martial arts weapon styles, and can be used for the weapon style special maneuvers.</p><p>A martial arts weapon in two forms. The basic one is a double-headed spear with a loop handle in the middle, from which a dagger or crescent blade projects, used one-handed to parry and attack. The other looks the same but has a small buckler in the middle with the dagger blade projecting from it; in that form the wielder counts as using a small shield. Either form needs great training to use well.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 100)"
+  }
+ },
+ {
+  "name": "Siangkam",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4+1",
+    "l": "1d4",
+    "smRange": "2-5",
+    "lRange": "1-4"
+   },
+   "speed": "3",
+   "acAdj": [
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    -1,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 5.0,
+   "weightText": "5",
+   "cost": "1 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 1'; space needed 3'.</p><p>Can be used only with the martial arts weapon styles, and can be used for the weapon style special maneuvers.</p><p>It hardly looks useful, and only someone trained in the right martial arts style can use it well: a metal-shafted arrow with a small wooden handle in place of the feathers, usually used in pairs, one in each hand, to jab, thrust, slash and parry. Despite its look, it can't be thrown well.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 5)"
+  }
+ },
+ {
+  "name": "Sode garami",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d3",
+    "smRange": "1-4",
+    "lRange": "1-3"
+   },
+   "speed": "7",
+   "acAdj": [
+    -10,
+    -9,
+    -9,
+    -8,
+    -6,
+    -6,
+    -4,
+    -3,
+    0,
+    0,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 50.0,
+   "weightText": "50",
+   "cost": "50 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 6'+; space needed 5'.</p><p>Can make entangling attacks.</p><p>The sleeve entangler, a specialized weapon for catching a foe without great harm: a pole and crossbar set with many spikes and hooks. On a hit it hooks the foe's clothing, and he saves versus paralyzation to escape; on a failure he is entangled. Used only to catch, it does no damage, but it can also strike forcefully, with the same effect and the listed damage. Palace guards and city constables often carry it.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 50)"
+  }
+ },
+ {
+  "name": "Spear",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "both",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d8",
+    "smRange": "1-6",
+    "lRange": "1-8"
+   },
+   "speed": "6-8",
+   "acAdj": [
+    -2,
+    -2,
+    -2,
+    -1,
+    -1,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1",
+    "short": 1.0,
+    "medium": 2.0,
+    "long": 3.0,
+    "acAdj": [
+     -4,
+     -4,
+     -3,
+     -3,
+     -2,
+     -2,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 50.0,
+   "weightText": "40-60",
+   "cost": "30 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 5'-10'; space needed 1'.</p><p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Does double damage to size L creatures when firmly set to receive a charge.</p><p>Does double damage to any opponent when set to receive its charge.</p><p>Can be used for the martial arts weapon style special maneuvers.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "derived",
+   "weightRef": "OA p.41 (Table 49: 40-60; midpoint)"
+  }
+ },
+ {
+  "name": "Sword, broad",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "2d4",
+    "l": "1d6+1",
+    "smRange": "2-8",
+    "lRange": "2-7"
+   },
+   "speed": "5",
+   "acAdj": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 75.0,
+   "weightText": "75",
+   "cost": "2 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 3.5'; space needed 4'.</p><p>Variations with other names may exist in the campaign (see Weapon Equivalents in the OA Lite journals).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 75)"
+  }
+ },
+ {
+  "name": "Sword, long",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d8",
+    "l": "1d12",
+    "smRange": "1-8",
+    "lRange": "1-12"
+   },
+   "speed": "5",
+   "acAdj": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 60.0,
+   "weightText": "60",
+   "cost": "3 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 3.5'; space needed 3'.</p><p>Variations with other names may exist in the campaign (see Weapon Equivalents in the OA Lite journals).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 60)"
+  }
+ },
+ {
+  "name": "Sword, short",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d8",
+    "smRange": "1-6",
+    "lRange": "1-8"
+   },
+   "speed": "3",
+   "acAdj": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 35.0,
+   "weightText": "35",
+   "cost": "30 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 2'; space needed 1'.</p><p>The short sword class includes every pointed cutting and thrusting weapon with a blade 15 to 24 inches long, unless listed separately.</p><p>Variations with other names may exist in the campaign (see Weapon Equivalents in the OA Lite journals).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 35)"
+  }
+ },
+ {
+  "name": "Sword, two-handed",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d10",
+    "l": "3d6",
+    "smRange": "1-10",
+    "lRange": "3-18"
+   },
+   "speed": "10",
+   "acAdj": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    1,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 200.0,
+   "weightText": "150-250",
+   "cost": "10 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 6'; space needed 6'.</p><p>Variations with other names may exist in the campaign (see Weapon Equivalents in the OA Lite journals).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "derived",
+   "weightRef": "OA p.41 (Table 49: 150-250; midpoint)"
+  }
+ },
+ {
+  "name": "Tetsu-bishi",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d4",
+    "smRange": "1-4",
+    "lRange": "1-4"
+   },
+   "speed": "4",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 3.0,
+   "weightText": "3",
+   "cost": "25 cp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 2\"; space needed 0.</p><p>Used mostly by ninja.</p><p>Small caltrops: balls or four-sided spiked shapes that always land with a spike up. They aren't melee or thrown weapons; they are scattered at the feet of pursuers to make the ground dangerous to cross. Ninja favor them for quick, unpursued escapes.</p><ul><li>The user says how many he scatters and over what area. The base is 10 in a 5-foot square (25 square feet).</li><li>Anyone entering saves versus paralyzation. On a failure he steps on one, takes 1-4 damage and must stop.</li><li>With half the base number, the save is at +4. Each 5 over the base 10 gives -2 on the save and +1 damage (up to +6).</li><li>Moving faster than half normal speed gives -2 on the save. Check once for each 5-foot section entered. Moving cautiously (1/3 speed) needs no saves.</li><li>A creature that steps on one must spend a round pulling it out before moving on, then saves versus paralyzation again: on a failure it is lamed and moves at 1/3 speed for 24 hours or until the damage is healed.</li></ul><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 3)"
+  }
+ },
+ {
+  "name": "Tetsubo",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d8",
+    "l": "1d8",
+    "smRange": "1-8",
+    "lRange": "1-8"
+   },
+   "speed": "7",
+   "acAdj": [
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    -1
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 75.0,
+   "weightText": "75",
+   "cost": "1 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 4'; space needed 5'.</p><p>Can be used for the martial arts weapon style special maneuvers.</p><p>The iron-shod rod, a pole arm version of the mace: a long wooden rod, wielded in two hands, its upper half covered with studded iron strips. Travelers often carry one, since it doubles as a walking stick.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 75)"
+  }
+ },
+ {
+  "name": "Three-piece rod",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d4",
+    "smRange": "1-6",
+    "lRange": "1-4"
+   },
+   "speed": "7",
+   "acAdj": [
+    -2,
+    -2,
+    -2,
+    -1,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 50.0,
+   "weightText": "50",
+   "cost": "1 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length c. 6'; space needed 4'.</p><p>Can be used only with the martial arts weapon styles, and can be used for the weapon style special maneuvers.</p><p>Another martial arts weapon descended from the farm flail: three 2- to 3-foot lengths of hard wood joined by short chains. In trained hands it strikes, blocks, and catches or breaks weapons; in untrained hands it is nearly useless.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 50)"
+  }
+ },
+ {
+  "name": "Trident",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6+1",
+    "l": "3d4",
+    "smRange": "2-7",
+    "lRange": "3-12"
+   },
+   "speed": "6-8",
+   "acAdj": [
+    -4,
+    -3,
+    -3,
+    -2,
+    -1,
+    -1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 50.0,
+   "weightText": "50",
+   "cost": "50 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 4'-8'+; space needed 1'.</p><p>Variations with other names may exist in the campaign (see Weapon Equivalents in the OA Lite journals).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 50)"
+  }
+ },
+ {
+  "name": "Tui-fa (Tonfa)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d4",
+    "smRange": "1-6",
+    "lRange": "1-4"
+   },
+   "speed": "4",
+   "acAdj": [
+    -8,
+    -8,
+    -6,
+    -6,
+    -4,
+    -2,
+    0,
+    0,
+    0,
+    -1,
+    2
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 15.0,
+   "weightText": "15",
+   "cost": "25 cp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 2'; space needed 1'.</p><p>Can be used only with the martial arts weapon styles, and can be used for the weapon style special maneuvers.</p><p>A hardwood rod about two to three feet long with a small handle sticking out from the side, off center, once the handle of a millstone. In trained hands it blocks, catches and breaks weapons, and attacks well. It is often used where normal weapons are banned.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 15)"
+  }
+ },
+ {
+  "name": "Wakizashi",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d8",
+    "l": "1d8",
+    "smRange": "1-8",
+    "lRange": "1-8"
+   },
+   "speed": "4",
+   "acAdj": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 30.0,
+   "weightText": "30",
+   "cost": "30 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 2'-3'; space needed 1'.</p><p>A short sword made like the katana, which may also be named for some past deed. It holds almost as important a place for a samurai as his katana, and when part of a matched set it is treated the same way. Worn together, katana and wakizashi are the daisho (\"long and short\"); in many lands only samurai may wear both, and others who do can be arrested or executed on the spot. See The Katana and the Daisho in the OA Lite journals.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 30)"
+  }
+ },
+ {
+  "name": "Whip",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d2",
+    "l": "1",
+    "smRange": "1-2",
+    "lRange": "1"
+   },
+   "speed": "5-8",
+   "acAdj": [
+    -14,
+    -12,
+    -10,
+    -8,
+    -6,
+    -4,
+    -2,
+    -1,
+    1,
+    0,
+    3
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 30.0,
+   "weightText": "25-35",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Length 8'-20'; space needed 8'-20'.</p><p>Can make entangling attacks.</p><p>To do damage, a whip must strike bare or lightly covered skin. Heavy clothing, thick hair or fur protects well until torn away by repeated lashes. Thick hide like an elephant's or rhinoceros's feels at most a slight sting and takes no real damage, and heavily scaled or armored creatures don't even feel it, even with a weighted tip. A whip can also entangle, often more usefully than it does damage.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "derived",
+   "weightRef": "OA p.41 (Table 49: 25-35; midpoint)"
+  }
+ },
+ {
+  "name": "Blowpipe (blowgun)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d2",
+    "l": "1",
+    "smRange": "1-2",
+    "lRange": "1"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "2",
+    "short": 1.0,
+    "medium": 2.0,
+    "long": 3.0,
+    "acAdj": [
+     -14,
+     -12,
+     -10,
+     -8,
+     -6,
+     -4,
+     -2,
+     -1,
+     -1,
+     1,
+     2
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "1 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "needle",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Damage, rate and ranges are the blowgun dart's (OA Tables 49 and 51).</p><p>A blowpipe that shoots small darts (the darts are separate ammunition). The book lists it on the price list (1 sp) and gives the dart's damage and ranges.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Bow, composite short",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d6",
+    "smRange": "1-6",
+    "lRange": "1-6"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "2",
+    "short": 5.0,
+    "medium": 10.0,
+    "long": 18.0,
+    "acAdj": [
+     -4,
+     -4,
+     -3,
+     -3,
+     -1,
+     0,
+     1,
+     2,
+     2,
+     2,
+     3
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "5 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "arrow",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Bow, short",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d6",
+    "smRange": "1-6",
+    "lRange": "1-6"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "2",
+    "short": 5.0,
+    "medium": 10.0,
+    "long": 15.0,
+    "acAdj": [
+     -7,
+     -6,
+     -5,
+     -4,
+     -1,
+     0,
+     0,
+     1,
+     2,
+     2,
+     2
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "50 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "arrow",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Chu-ko-nu (repeating crossbow)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d4",
+    "smRange": "1-4",
+    "lRange": "1-4"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "2",
+    "short": 5.0,
+    "medium": 10.0,
+    "long": 15.0,
+    "acAdj": [
+     -4,
+     -3,
+     -3,
+     -2,
+     -1,
+     0,
+     0,
+     1,
+     2,
+     3,
+     3
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "15 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "bolt-light",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>A repeating light crossbow. A magazine on top holds up to 10 quarrels, and a single lever, pushed forward and pulled back, cocks and reloads it, so it fires faster than a normal crossbow.</p><ul><li>Two quarrels can be loaded into the magazine per round, so a full reload takes five rounds.</li><li>It can't fire and reload in the same round.</li><li>It is heavier than a normal crossbow and has a shorter range.</li></ul><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Club, thrown",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d3",
+    "smRange": "1-6",
+    "lRange": "1-3"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1",
+    "short": 2.0,
+    "medium": 4.0,
+    "long": 6.0,
+    "acAdj": [
+     -9,
+     -8,
+     -7,
+     -5,
+     -3,
+     -2,
+     -1,
+     -1,
+     -1,
+     0,
+     0
+    ]
+   },
+   "weight": 30.0,
+   "weightText": "30",
+   "cost": "",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Not on the OA price list (Table 47).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49)"
+  }
+ },
+ {
+  "name": "Crossbow, heavy",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4+1",
+    "l": "1d6+1",
+    "smRange": "2-5",
+    "lRange": "2-7"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1/2",
+    "short": 8.0,
+    "medium": 16.0,
+    "long": 24.0,
+    "acAdj": [
+     -2,
+     -1,
+     -1,
+     0,
+     1,
+     2,
+     3,
+     3,
+     4,
+     4,
+     4
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "4 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "bolt-heavy",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Crossbow, light",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d4",
+    "smRange": "1-4",
+    "lRange": "1-4"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1",
+    "short": 6.0,
+    "medium": 12.0,
+    "long": 18.0,
+    "acAdj": [
+     -3,
+     -2,
+     -2,
+     -1,
+     0,
+     0,
+     1,
+     2,
+     3,
+     3,
+     3
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "3 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "bolt-light",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Dagger, thrown",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d3",
+    "smRange": "1-4",
+    "lRange": "1-3"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "2",
+    "short": 1.0,
+    "medium": 2.0,
+    "long": 3.0,
+    "acAdj": [
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     -1,
+     0,
+     0,
+     1
+    ]
+   },
+   "weight": 10.0,
+   "weightText": "10",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49)"
+  }
+ },
+ {
+  "name": "Daikyu (great bow)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d6",
+    "smRange": "1-6",
+    "lRange": "1-6"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "2",
+    "short": 7.0,
+    "medium": 14.0,
+    "long": 21.0,
+    "acAdj": [
+     -1,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2,
+     3,
+     4,
+     4,
+     4
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "50 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "arrow",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>The largest bow in OA, in some ways like a longbow: seven feet long and bent at the ends for more power. Its grip is set low rather than in the middle, so it can be fired from horseback or kneeling.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Dart",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d3",
+    "l": "1d2",
+    "smRange": "1-3",
+    "lRange": "1-2"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "3",
+    "short": 1.5,
+    "medium": 3.0,
+    "long": 4.5,
+    "acAdj": [
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   "weight": 1.0,
+   "weightText": "1",
+   "cost": "4 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 1)"
+  }
+ },
+ {
+  "name": "Hankyu (little bow)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d6",
+    "smRange": "1-6",
+    "lRange": "1-6"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "2",
+    "short": 5.0,
+    "medium": 10.0,
+    "long": 15.0,
+    "acAdj": [
+     -5,
+     -5,
+     -4,
+     -4,
+     -2,
+     -1,
+     0,
+     0,
+     1,
+     2,
+     2
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "5 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "arrow",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Used mostly by ninja.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Javelin",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d6",
+    "smRange": "1-6",
+    "lRange": "1-6"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1",
+    "short": 2.0,
+    "medium": 4.0,
+    "long": 6.0,
+    "acAdj": [
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     -1,
+     0,
+     0,
+     1
+    ]
+   },
+   "weight": 20.0,
+   "weightText": "20",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Does double damage to size L creatures when firmly set to receive a charge.</p><p>Variations with other names may exist in the campaign (see Weapon Equivalents in the OA Lite journals).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 20)"
+  }
+ },
+ {
+  "name": "Metsubishi",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d4",
+    "smRange": "",
+    "lRange": ""
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1/3",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "1 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Rate of fire 1/3; range printed 3' (in tens of feet).</p><p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Does double damage to size L creatures when firmly set to receive a charge.</p><p>Used mostly by ninja.</p><p>A small wooden blower with a mouthpiece, a powder chamber and a tube. Blowing hard puffs the powder out, perhaps into the victim's face. It does no damage but blows irritating or blinding powders, most often pepper, ashes or dust. On a hit the victim saves versus poison or is helpless for 1-6 rounds. Ninja use it to distract and escape, and city constables when catching criminals. (Its range is printed as 3', with the note that the range is in tens of feet.)</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Needle",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1",
+    "l": "1",
+    "smRange": "1 per needle",
+    "lRange": "1 per needle"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": 0.5,
+    "medium": 1.0,
+    "long": 2.0,
+    "acAdj": [
+     -16,
+     -14,
+     -12,
+     -10,
+     -10,
+     -8,
+     -6,
+     -4,
+     -2,
+     -3,
+     0
+    ]
+   },
+   "weight": 1.0,
+   "weightText": "1",
+   "cost": "3 cp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Rate of fire: see below. Ranges are in tens of feet, not tens of yards.</p><p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Does double damage to size L creatures when firmly set to receive a charge.</p><p>Used mostly by ninja.</p><p>Hardly an effective weapon, but ninja sometimes carry needles for distraction or surprise, up to 20 in the mouth, fired by spitting or blowing (using the tongue as a blowpipe).</p><ul><li>Fired one at a time, each needle needs a normal to-hit roll and does 1 point of damage.</li><li>Fired in a burst, roll the die equal to the number fired for damage: all 20 at once do 1d20.</li><li>Needles carried in the mouth can't be poisoned, have very poor range and almost never work against any armor, but they surprise and distract, being hidden.</li><li>Needles aren't usually considered an honorable weapon.</li></ul><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 1)"
+  }
+ },
+ {
+  "name": "Pellet bow",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4+1",
+    "l": "1d6+1",
+    "smRange": "2-5",
+    "lRange": "2-7"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1",
+    "short": 6.0,
+    "medium": 12.0,
+    "long": 18.0,
+    "acAdj": [
+     -3,
+     -2,
+     -2,
+     -1,
+     0,
+     0,
+     1,
+     2,
+     3,
+     3,
+     3
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "50 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "bullet",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Built and used almost like a normal bow, but with a small sling in the bowstring holding a stone or a pellet of clay or lead instead of an arrow. It is shot differently from a bow and throws a pellet harder than a sling.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Shaken",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d4",
+    "smRange": "1-4",
+    "lRange": "1-4"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "2",
+    "short": 1.0,
+    "medium": 2.0,
+    "long": 3.0,
+    "acAdj": [
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   "weight": 5.0,
+   "weightText": "5",
+   "cost": "1 gp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Used mostly by ninja.</p><p>Similar to the shuriken and used the same way.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 5)"
+  }
+ },
+ {
+  "name": "Shuriken, spike",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d3",
+    "smRange": "1-4",
+    "lRange": "1-3"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "2",
+    "short": 1.0,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   "weight": 1.0,
+   "weightText": "1",
+   "cost": "2 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Used mostly by ninja.</p><p>A shuriken is a small throwing weapon in many sizes and shapes, the commonest being the star and the spike. Spikes are large pins tapering to sharp points, thrown by hand at short range. They hide easily in clothing or sashes, and spikes can even be worn in the hair.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 1)"
+  }
+ },
+ {
+  "name": "Shuriken, star, large",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d4",
+    "smRange": "1-6",
+    "lRange": "1-4"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "3",
+    "short": 0.5,
+    "medium": 1.0,
+    "long": 2.0,
+    "acAdj": [
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   "weight": 2.0,
+   "weightText": "2",
+   "cost": "10 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Used mostly by ninja.</p><p>A shuriken star has three or more razor-edged points, so at least one strikes when thrown. Stars come in many sizes, divided here into large and small. Thrown by hand at short range, they hide easily in clothing or sashes.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 2)"
+  }
+ },
+ {
+  "name": "Shuriken, star, small",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d4",
+    "smRange": "1-4",
+    "lRange": "1-4"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "4",
+    "short": 0.5,
+    "medium": 1.0,
+    "long": 2.0,
+    "acAdj": [
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   "weight": 1.0,
+   "weightText": "1",
+   "cost": "3 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Used mostly by ninja.</p><p>A shuriken star has three or more razor-edged points, so at least one strikes when thrown. Stars come in many sizes, divided here into large and small. Thrown by hand at short range, they hide easily in clothing or sashes.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 1)"
+  }
+ },
+ {
+  "name": "Sling (bullet)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4+1",
+    "l": "1d6+1",
+    "smRange": "2-5",
+    "lRange": "2-7"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1",
+    "short": 5.0,
+    "medium": 10.0,
+    "long": 20.0,
+    "acAdj": [
+     -3,
+     -3,
+     -2,
+     -2,
+     -1,
+     0,
+     0,
+     0,
+     2,
+     1,
+     3
+    ]
+   },
+   "weight": 2.0,
+   "weightText": "2",
+   "cost": "1 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "bullet",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 2)"
+  }
+ },
+ {
+  "name": "Sling (stone)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d4",
+    "smRange": "1-4",
+    "lRange": "1-4"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1",
+    "short": 4.0,
+    "medium": 8.0,
+    "long": 16.0,
+    "acAdj": [
+     -7,
+     -6,
+     -5,
+     -4,
+     -2,
+     -1,
+     0,
+     0,
+     2,
+     1,
+     3
+    ]
+   },
+   "weight": 2.0,
+   "weightText": "2",
+   "cost": "1 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "stone",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 2)"
+  }
+ },
+ {
+  "name": "Sling, staff (bullet)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "2d4",
+    "l": "2d4+1",
+    "smRange": "2-8",
+    "lRange": "3-9"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1/2",
+    "short": null,
+    "medium": null,
+    "long": 9.0,
+    "acAdj": [
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 5.0,
+   "weightText": "5",
+   "cost": "25 cp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "bullet",
+   "description": "<p>Table 51 prints its medium range as 3-6 and no short range; only the long range (9) is stored.</p><p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 5)"
+  }
+ },
+ {
+  "name": "Sling, staff (stone)",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d8",
+    "l": "2d4",
+    "smRange": "1-8",
+    "lRange": "2-8"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1/2",
+    "short": null,
+    "medium": null,
+    "long": 9.0,
+    "acAdj": [
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 5.0,
+   "weightText": "5",
+   "cost": "25 cp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "stone",
+   "description": "<p>Table 51 prints its medium range as 3-6 and no short range; only the long range (9) is stored.</p><p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 5)"
+  }
+ },
+ {
+  "name": "Uchi-ne",
+  "type": "weapon",
+  "img": "icons/svg/target.svg",
+  "folder": "Missile Weapons",
+  "system": {
+   "attackType": "missile",
+   "damage": {
+    "sm": "1d4",
+    "l": "1d4",
+    "smRange": "1-4",
+    "lRange": "1-4"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "2",
+    "short": 1.0,
+    "medium": 2.0,
+    "long": 3.0,
+    "acAdj": [
+     -7,
+     -6,
+     -5,
+     -4,
+     -3,
+     -2,
+     -1,
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   "weight": 5.0,
+   "weightText": "5",
+   "cost": "15 cp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>A short, heavy javelin like a small arrow, thrown well at short range or used to thrust and jab. Nobles often carry them when traveling.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49: 5)"
+  }
+ },
+ {
+  "name": "Banded",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 4,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "bulky",
+   "weight": 350.0,
+   "baseMove": 9,
+   "equipped": false,
+   "thiefArmor": "banded",
+   "cost": "25 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Its weight is printed as \"at least\" (35+ lb).</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 35+ lb)"
+  }
+ },
+ {
+  "name": "Buckler",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "shield",
+   "baseAC": 10,
+   "shieldBonus": 1,
+   "magic": 0,
+   "bulk": "non-bulky",
+   "weight": 30.0,
+   "baseMove": null,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "25 cp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>A small shield strapped to the arm near the fist; it can be worn while using a weapon in the same hand. It counts as a small shield. Horse nomads use bucklers often.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 3 lb)"
+  }
+ },
+ {
+  "name": "Chain",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 5,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 300.0,
+   "baseMove": 9,
+   "equipped": false,
+   "thiefArmor": "chain",
+   "cost": "25 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Its weight is printed as \"at least\" (30+ lb).</p><p>Rings of metal woven or pinned together, easily tailored to almost any shape and put to many uses: horse nomads sometimes wear chain helmets and vests, kote are made of it, and ninja and nobles alike wear chain suits. Worn under clothing it is hard to detect.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 30+ lb)"
+  }
+ },
+ {
+  "name": "Do-maru",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 8,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 200.0,
+   "baseMove": 9,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "25 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor piece: improves armor class by 2 step(s) from AC 10 (OA Table 53). Pieces add together (e.g. kote, do-maru and haidate give AC 6); the sheet counts only the best single item, so enter the combined total as an armor class override or misc adjustment. Pieces cannot be worn with suits of armor; only one piece per body area.</p><p>A corselet covering the stomach, chest, shoulders and back, with small tassets hanging over the waist and upper legs that can overlap the haidate. It may be plain or elaborate, and is usually laced armor.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 20 lb)"
+  }
+ },
+ {
+  "name": "Haidate",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 9,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 100.0,
+   "baseMove": null,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "5 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor piece: improves armor class by 1 step(s) from AC 10 (OA Table 53). Pieces add together (e.g. kote, do-maru and haidate give AC 6); the sheet counts only the best single item, so enter the combined total as an armor class override or misc adjustment. Pieces cannot be worn with suits of armor; only one piece per body area.</p><p>An apron of laced armor protecting the thighs and knees, made of large plates hanging loose in front and at the sides, worn around the waist. The smaller plates of a do-maru or hara-ate overlap it slightly.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 10 lb)"
+  }
+ },
+ {
+  "name": "Hara-ate",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 8,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "non-bulky",
+   "weight": 100.0,
+   "baseMove": 9,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "5 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor piece: improves armor class by 2 step(s) from AC 10 (OA Table 53). Pieces add together (e.g. kote, do-maru and haidate give AC 6); the sheet counts only the best single item, so enter the combined total as an armor class override or misc adjustment. Pieces cannot be worn with suits of armor; only one piece per body area.</p><p>Armor protecting the front of the body: a laced breastplate with thigh guards. It is open at the back, and attacks from behind are against armor class 10.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 10 lb)"
+  }
+ },
+ {
+  "name": "Hara-ate-gawa",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 9,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "non-bulky",
+   "weight": 100.0,
+   "baseMove": 12,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "50 sp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor piece: improves armor class by 1 step(s) from AC 10 (OA Table 53). Pieces add together (e.g. kote, do-maru and haidate give AC 6); the sheet counts only the best single item, so enter the combined total as an armor class override or misc adjustment. Pieces cannot be worn with suits of armor; only one piece per body area.</p><p>A simple, cheap leather corselet for the stomach, chest and back (the book's note on Table 53 says it leaves the back uncovered), usually worn by common foot soldiers.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 10 lb)"
+  }
+ },
+ {
+  "name": "Haramaki",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 9,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "non-bulky",
+   "weight": 150.0,
+   "baseMove": 12,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "10 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor piece: improves armor class by 1 step(s) from AC 10 (OA Table 53). Pieces add together (e.g. kote, do-maru and haidate give AC 6); the sheet counts only the best single item, so enter the combined total as an armor class override or misc adjustment. Pieces cannot be worn with suits of armor; only one piece per body area.</p><p>The belly protector: light armor of silk and chain mail or small metal plates protecting the stomach, chest and back. It isn't bulky and can be worn under clothing.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 15 lb)"
+  }
+ },
+ {
+  "name": "Haramaki-do",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 8,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 200.0,
+   "baseMove": 9,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "15 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor piece: improves armor class by 2 step(s) from AC 10 (OA Table 53). Pieces add together (e.g. kote, do-maru and haidate give AC 6); the sheet counts only the best single item, so enter the combined total as an armor class override or misc adjustment. Pieces cannot be worn with suits of armor; only one piece per body area.</p><p>Made like the haramaki, but it can't be hidden under clothing.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 20 lb)"
+  }
+ },
+ {
+  "name": "Hide",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 6,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 250.0,
+   "baseMove": 9,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "4 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor of the hide of especially thick-skinned animals, most often elephant or rhinoceros, giving better protection than ordinary leather.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 25 lb)"
+  }
+ },
+ {
+  "name": "Kote",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 9,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "non-bulky",
+   "weight": 0,
+   "baseMove": null,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "4 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor piece: improves armor class by 1 step(s) from AC 10 (OA Table 53). Pieces add together (e.g. kote, do-maru and haidate give AC 6); the sheet counts only the best single item, so enter the combined total as an armor class override or misc adjustment. Pieces cannot be worn with suits of armor; only one piece per body area.</p><p>A pair of armored sleeves joined by a band of leather or cloth across the shoulders, running from the shoulders to the backs of the hands. Usually mail, some with small metal plates sewn in, from very plain to highly decorated. Kote can be worn inconspicuously under robes and combined with other pieces.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Leather",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 8,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "non-bulky",
+   "weight": 150.0,
+   "baseMove": 12,
+   "equipped": false,
+   "thiefArmor": "leather",
+   "cost": "1 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 15 lb)"
+  }
+ },
+ {
+  "name": "O-yoroi (great armor)",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 3,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "bulky",
+   "weight": 400.0,
+   "baseMove": 6,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "100 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor class 3, as printed on Table 52 (\"o-yori\").</p><p>A complete matched suit of laced armor: kote, do-maru, sode, haidate, kabuto and sune-ate, plus smaller pieces including the mempo (face mask), nodawa (neck guard), wakibiki (armpit guards), and the sendan-no-ita and hato-wo-no-ita (guards for the front of the armpits). Being made as a set, with matching colors and patterns, it fits better and gives a better armor class than unmatched pieces. Costly and highly decorative, o-yoroi are worn for ceremonies and major battles, seldom every day.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 40 lb)"
+  }
+ },
+ {
+  "name": "Padded",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 8,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 100.0,
+   "baseMove": 9,
+   "equipped": false,
+   "thiefArmor": "studded",
+   "cost": "10 sp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 10 lb)"
+  }
+ },
+ {
+  "name": "Ring",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 7,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 250.0,
+   "baseMove": 9,
+   "equipped": false,
+   "thiefArmor": "chain",
+   "cost": "5 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 25 lb)"
+  }
+ },
+ {
+  "name": "Scale, leather",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 7,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 200.0,
+   "baseMove": 9,
+   "equipped": false,
+   "thiefArmor": "banded",
+   "cost": "2 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Thick pieces of hardened leather sewn to cloth or leather, each overlapping its neighbors, worn by common soldiers and horsemen.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 20 lb)"
+  }
+ },
+ {
+  "name": "Scale, metal",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 6,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 400.0,
+   "baseMove": 6,
+   "equipped": false,
+   "thiefArmor": "banded",
+   "cost": "10 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Made like leather scale but of metal, and far less common; usually worn by wealthier or more important warriors.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 40 lb)"
+  }
+ },
+ {
+  "name": "Shield, large",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "shield",
+   "baseAC": 10,
+   "shieldBonus": 1,
+   "magic": 0,
+   "bulk": "bulky",
+   "weight": 100.0,
+   "baseMove": null,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "1 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Whether shields are used depends on the land; in some, never. Nearly all are lighter than the shields of the PHB: woven bamboo and wicker, stretched and hardened leather, or thick layers of coconut fiber or hemp. Metal-edged wooden shields are extremely rare.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 10 lb)"
+  }
+ },
+ {
+  "name": "Shield, medium",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "shield",
+   "baseAC": 10,
+   "shieldBonus": 1,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 50.0,
+   "baseMove": null,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "15 sp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Whether shields are used depends on the land; in some, never. Nearly all are lighter than the shields of the PHB: woven bamboo and wicker, stretched and hardened leather, or thick layers of coconut fiber or hemp. Metal-edged wooden shields are extremely rare.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 5 lb)"
+  }
+ },
+ {
+  "name": "Sode, pair",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 9,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "non-bulky",
+   "weight": 30.0,
+   "baseMove": null,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "4 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor piece: improves armor class by 1 step(s) from AC 10 (OA Table 53). Pieces add together (e.g. kote, do-maru and haidate give AC 6); the sheet counts only the best single item, so enter the combined total as an armor class override or misc adjustment. Pieces cannot be worn with suits of armor; only one piece per body area.</p><p>Square or rectangular shoulder plates, usually about a foot square, tied by cords to the other pieces, especially the corselet, so they can never be worn without a do-maru, hara-ate, haramaki or haramaki-do. In battle a cloth (sode jiruchi) dyed or painted with the wearer's badge is sometimes tied over them.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 3 lb)"
+  }
+ },
+ {
+  "name": "Splinted",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 4,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "bulky",
+   "weight": 400.0,
+   "baseMove": 6,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "20 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 40 lb)"
+  }
+ },
+ {
+  "name": "Studded",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 7,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "fairly",
+   "weight": 200.0,
+   "baseMove": 9,
+   "equipped": false,
+   "thiefArmor": "studded",
+   "cost": "2 gp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 20 lb)"
+  }
+ },
+ {
+  "name": "Sune-ate",
+  "type": "armor",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "kind": "armor",
+   "baseAC": 9,
+   "shieldBonus": 0,
+   "magic": 0,
+   "bulk": "non-bulky",
+   "weight": 50.0,
+   "baseMove": null,
+   "equipped": false,
+   "thiefArmor": "",
+   "cost": "50 sp",
+   "source": "OA p.39, 48-49 (Tables 47, 52-54)",
+   "description": "<p>Armor piece: improves armor class by 1 step(s) from AC 10 (OA Table 53). Pieces add together (e.g. kote, do-maru and haidate give AC 6); the sheet counts only the best single item, so enter the combined total as an armor class override or misc adjustment. Pieces cannot be worn with suits of armor; only one piece per body area.</p><p>Shin guards from the ankle to below the knee, usually metal splints on leather padding wrapped around and tied, protecting against crippling blows to the lower leg.</p><p class=\"oa-src\">OA p.39, 48-49 (Tables 47, 52-54).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.49 (Table 54: 5 lb)"
+  }
+ },
+ {
+  "name": "Hanburi",
+  "type": "gear",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "category": "Armor piece",
+   "cost": "10 sp",
+   "source": "OA p.39, 49",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>A simple helmet of hardened leather or light metal plates that fits the head snugly. Some cover only the crown and forehead; others the whole head and ears. Small, light, collapsible, cheap and undecorated, they are often worn by common soldiers. The book gives it no armor class effect.</p><p class=\"oa-src\">OA p.39, 49.</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Helmet, small",
+  "type": "gear",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "category": "Armor piece",
+   "cost": "1 gp",
+   "source": "OA p.39, 49",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>On the price list (1 gp), but the book doesn't describe it or give it an armor class effect.</p><p class=\"oa-src\">OA p.39, 49.</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Horo",
+  "type": "gear",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "category": "Armor piece",
+   "cost": "1 gp",
+   "source": "OA p.39, 49",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>Long strips of cloth sewn together, tied at the neck and near the waist, worn by some mounted warriors. When riding, it fills with wind and balloons out behind; worn this way it works only while riding, but a wicker frame underneath makes it work at all times. It improves the wearer's armor class by 1 against missiles shot at his back only, and has no other protective use. Usually brightly colored and bearing the owner's crest, it identifies the rider's family and shows he is no common soldier.</p><p class=\"oa-src\">OA p.39, 49.</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Jingasa (war hat)",
+  "type": "gear",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "category": "Armor piece",
+   "cost": "10 sp",
+   "source": "OA p.39, 49",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>An iron version of the peasant's round straw hat, worn by common soldiers, with no guards for ears, cheeks or neck. It is popular because it doubles as a cooking pot on campaign. The book gives it no armor class effect.</p><p class=\"oa-src\">OA p.39, 49.</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Kabuto (great helm)",
+  "type": "gear",
+  "img": "icons/svg/shield.svg",
+  "folder": "Armor",
+  "system": {
+   "category": "Armor piece",
+   "cost": "25 gp",
+   "source": "OA p.39, 49",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>The great helmet often worn with the o-yoroi. Its bowl is iron strips riveted together, often with a small opening at the top where they meet. A flaring neck guard hangs at the back and sides, usually curving out in two wings at the front, and elaborate crests are mounted in front: horns, antlers, leaping fish, half-moons. Red silk cords hold it on. One of the most visible parts of a warrior's armor, it is often fancifully shaped (demon faces, seashells, fists holding thunderbolts, tall cones, fish, wild animals), sometimes covered with human hair or fur, its bowl decorated with silver, copper and gold, its neck guard laced outside and lined with dyed or painted leather.</p><p>The kabuto gives armor class 3 to the wearer's head.</p><p class=\"oa-src\">OA p.39, 49.</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Boots, high hard",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "25 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Boots, high soft",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "15 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Cap",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "8 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Cloak, cloth",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "10 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Cloak, fur",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "2 gp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Gloves",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "25 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Hat, fur",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "1 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Hat, straw",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "1 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Loincloth",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "1 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Outer robe (ho, happi)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "2 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Raincape, straw (mino)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "5 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Robe, cotton (kosode, kimono)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "1 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Robe, fur trimmed",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "30 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Robe, silk (kosode)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "30 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Sandals",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "4 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Sash or belt (obi)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "5 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Tabi (boot/sock)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "25 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Trousers, cotton (hakama)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "15 cp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Trousers, woolen",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "10 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Turban",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "1 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Vest, fur",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "1 gp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Vest, silk",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Clothing",
+  "system": {
+   "category": "Clothing",
+   "cost": "10 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Canary",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "50 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Cat",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "1 sp",
+   "source": "OA p.39 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.39 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Chicken or rooster",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "3 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Cricket, fighting",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Dog, guard",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "50 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Dog, hunting",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "30 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Dog, lap",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "4 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Donkey",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Dove",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "50 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Elephant, war",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "250 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Fish, ornamental",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "1 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Goat",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "50 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Hawk, fledgling",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "25 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Hawk, trained",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "100 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Horse, draft",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "150 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Horse, heavy war",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "25 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Horse, light war",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "250 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Horse, medium war",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "15 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Horse, riding (light)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "10 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Monkey",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "4 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Nightingale",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Ox",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "10 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Peacock",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "3 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Pony, riding",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "150 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Pony, war",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Livestock",
+  "system": {
+   "category": "Livestock",
+   "cost": "10 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Backpack, wicker",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "25 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   }
+  }
+ },
+ {
+  "name": "Basket, large",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "2 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   }
+  }
+ },
+ {
+  "name": "Basket, small",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "1 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   }
+  }
+ },
+ {
+  "name": "Blanket, coarse",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Candle, tallow",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "3 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Chest, Armor",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "50 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   }
+  }
+ },
+ {
+  "name": "Chest, common wooden, large",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "30 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   }
+  }
+ },
+ {
+  "name": "Chest, common wooden, small",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "15 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   }
+  }
+ },
+ {
+  "name": "Chest, quality, large",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   }
+  }
+ },
+ {
+  "name": "Chest, quality, small",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "3 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   }
+  }
+ },
+ {
+  "name": "Chopsticks, lacquered",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "2 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Cloth, cotton bolt",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Cloth, silk bolt",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "15 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Cord, 10'",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "2 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Eggshell grenade, dust",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>Thrown: rate of fire 3, range 1/1.5/2 (OA Table 51). Preferred by ninja.</p><p>Grenades are blown-out eggshells (or hollow nutshells, or paper packets) filled with powder, used by ninja to blind foes and cause distractions. Throwing one takes a normal to-hit roll, using the rules for grenade-like missiles for misses, with no adjustment for armor.</p><p><strong>Dust:</strong> affects one target, who saves versus poison or is blinded for 1-6 rounds.</p><p>Eggshell grenades are fragile: if the carrier falls 10 feet or more and takes damage, each saves versus crushing blow.</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Eggshell grenade, flashpowder",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "30 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>Thrown: rate of fire 3, range 1/1.5/2 (OA Table 51). Preferred by ninja.</p><p>Grenades are blown-out eggshells (or hollow nutshells, or paper packets) filled with powder, used by ninja to blind foes and cause distractions.</p><p><strong>Flash powder:</strong> must be thrown onto a fire, where it flares brilliantly. Everyone looking at the light is blinded for 1-3 rounds; anyone who may or may not have been looking saves versus petrification to avoid it.</p><p>Eggshell grenades are fragile: if the carrier falls 10 feet or more and takes damage, each saves versus crushing blow.</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Eggshell grenade, pepper",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>Thrown: rate of fire 3, range 1/1.5/2 (OA Table 51). Preferred by ninja.</p><p>Grenades are blown-out eggshells (or hollow nutshells, or paper packets) filled with powder, used by ninja to blind foes and cause distractions. Throwing one takes a normal to-hit roll, using the rules for grenade-like missiles for misses, with no adjustment for armor.</p><p><strong>Pepper:</strong> affects one target, who saves versus poison or is helpless for 1-6 rounds from choking and sneezing.</p><p>Eggshell grenades are fragile: if the carrier falls 10 feet or more and takes damage, each saves versus crushing blow.</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Eggshell grenade, poison smoke",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>Thrown: rate of fire 3, range 1/1.5/2 (OA Table 51). Preferred by ninja.</p><p>Grenades are blown-out eggshells (or hollow nutshells, or paper packets) filled with powder, used by ninja to blind foes and cause distractions.</p><p><strong>Poison smoke:</strong> must be thrown onto a fire. It bursts into vile, stinking smoke that fills a 5-foot square a round, up to a 10-foot square per grenade. Everyone in it saves versus poison or is blinded and helpless from the acid stench, and takes 1-2 damage a round. The smoke lasts a turn or until the wind blows it away.</p><p>Eggshell grenades are fragile: if the carrier falls 10 feet or more and takes damage, each saves versus crushing blow.</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Fishhook",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "1 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Fishing net, 10'",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Goza (straw mat)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Ink, brush, and inking stone",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "30 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Lantern, hooded",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "50 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Lantern, paper",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "1 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Mirror, small metal",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Oil, flask of",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "15 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Paper, writing, 10 sheets",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "2 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Pot, iron",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "3 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Quiver, 2 dozen arrows cap.",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   },
+   "notes": "Holds two dozen arrows (by its name)"
+  }
+ },
+ {
+  "name": "Rope, hemp 50'",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Rope, silk 50'",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "25 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>Preferred by ninja (OA Table 47).</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Signal rocket",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Standard, flag, sashimono",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "1 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Sword stand",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Tent, large",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "1 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Tent, small",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Thieves picks and tools",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Tinder box, flint and steel",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "4 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Tobacco pipe",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "25 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Tobacco, 1 lb.",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Tool, common",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Torch",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Miscellaneous Equipment",
+  "system": {
+   "category": "Miscellaneous Equipment & Items",
+   "cost": "1 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Beer, jar",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "1 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Food, banquet",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Food, common meal",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "5 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Food, exotic",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "2 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Food, poor",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "2 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Grain, horse 1 day",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "5 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Pepper/spices, 1 lb.",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "5 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Rice, koku",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "25 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Ricecake, 1 week's rations",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "75 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Sake, jar",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "25 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Tea, 1 lb.",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Provisions",
+  "system": {
+   "category": "Provisions",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Beads, prayer",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Religious Items",
+  "system": {
+   "category": "Religious Items",
+   "cost": "5 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Bell, small",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Religious Items",
+  "system": {
+   "category": "Religious Items",
+   "cost": "15 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Bell, temple",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Religious Items",
+  "system": {
+   "category": "Religious Items",
+   "cost": "250 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Gong",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Religious Items",
+  "system": {
+   "category": "Religious Items",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Incense, stick",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Religious Items",
+  "system": {
+   "category": "Religious Items",
+   "cost": "3 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Paper, prayer strip",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Religious Items",
+  "system": {
+   "category": "Religious Items",
+   "cost": "1 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Symbol, holy (unholy)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Religious Items",
+  "system": {
+   "category": "Religious Items",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Wheel, prayer",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Religious Items",
+  "system": {
+   "category": "Religious Items",
+   "cost": "30 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Acrobats, per performance",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "15 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Actors, per performance",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "25 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Chef, per banquet",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "5 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Clerk, per month",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "70 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Courier, per day",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "1 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Dancers, per performance",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "15 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Gardener, per month",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "3 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Lantern bearer",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "1 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Lodging, common or small village",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "4 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Lodging, good inn",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "6 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Messenger, in town",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "2 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Mourners",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "1 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Musician, per performance",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "15 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Servant, one month",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "50 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Stabling, one night",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Services",
+  "system": {
+   "category": "Services",
+   "cost": "3 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "A service, not an item"
+  }
+ },
+ {
+  "name": "Barding, half chain",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "50 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 1750,
+   "description": "<p>Barding: leather or padded adds 1 to the horse's armor class, metal scale 2, chain 3; half barding counts only against attacks from the front (OA p.50).</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.50: half barding weighs half of full (chain 350 lb)"
+  }
+ },
+ {
+  "name": "Barding, elephant, leather",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "100 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>Barding: see Grenades and Barding in the OA Lite journals (OA p.50).</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Barding, full leather or padded",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "10 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 1600,
+   "description": "<p>Barding: leather or padded adds 1 to the horse's armor class, metal scale 2, chain 3; half barding counts only against attacks from the front (OA p.50).</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.50: leather or padded barding weighs 160 lb"
+  }
+ },
+ {
+  "name": "Barding, half brigandine",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "25 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p>Barding: see Grenades and Barding in the OA Lite journals (OA p.50).</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Barding, half padded",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "5 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 800,
+   "description": "<p>Barding: leather or padded adds 1 to the horse's armor class, metal scale 2, chain 3; half barding counts only against attacks from the front (OA p.50).</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.50: half barding weighs half of full (padded 160 lb)"
+  }
+ },
+ {
+  "name": "Barding, half metal scale",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "40 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 1250,
+   "description": "<p>Barding: leather or padded adds 1 to the horse's armor class, metal scale 2, chain 3; half barding counts only against attacks from the front (OA p.50).</p><p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.50: half barding weighs half of full (metal scale 250 lb)"
+  }
+ },
+ {
+  "name": "Bit and bridle",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "1 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Harness and feed bag",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "75 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Horse yoke",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "2 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Howdah",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "25 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Ox yoke",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "30 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Saddle bags, large",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "10 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   }
+  }
+ },
+ {
+  "name": "Saddle bags, small",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "75 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight",
+   "container": {
+    "kind": "pack",
+    "capacity": 0,
+    "max": 0,
+    "fullWeight": 0
+   }
+  }
+ },
+ {
+  "name": "Saddle blanket",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "5 cp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Saddle, pack",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "50 sp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Saddle, riding",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Tack and Harness",
+  "system": {
+   "category": "Tack and Harness",
+   "cost": "4 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Barge, large",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "1,500 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Barge, small",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "500 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Boat",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "100 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Canoe, small",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "15 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Canoe, war",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "40 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Chariot, riding",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "250 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Chariot, war",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "500 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Junk, large",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "2,500 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Junk, small",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "1,500 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Junk, war",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "4,000 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Ox cart",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "25 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Palanquin",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "25 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Wagon",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Transport",
+  "system": {
+   "category": "Transport",
+   "cost": "100 gp",
+   "source": "OA p.40 (Table 47)",
+   "carried": true,
+   "ammo": "",
+   "weight": 0,
+   "description": "<p class=\"oa-src\">OA p.40 (Table 47).</p>",
+   "quantity": 1,
+   "weightSource": "exempt",
+   "weightRef": "Not carried (animal or vehicle)"
+  }
+ },
+ {
+  "name": "Arrow, armor piercer",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Ammunition",
+  "system": {
+   "category": "Ammunition",
+   "cost": "25 cp",
+   "source": "OA p.39, 41 (Tables 47, 49)",
+   "carried": true,
+   "ammo": "arrow",
+   "weight": 2,
+   "description": "<p>Ammunition. Each shot from a matching weapon uses one.</p><p>A narrow spike head made to punch through armor.</p><p class=\"oa-src\">OA p.39, 41 (Tables 47, 49).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49, each)"
+  }
+ },
+ {
+  "name": "Arrow, frog crotch",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Ammunition",
+  "system": {
+   "category": "Ammunition",
+   "cost": "5 sp",
+   "source": "OA p.39, 41 (Tables 47, 49)",
+   "carried": true,
+   "ammo": "arrow",
+   "weight": 2,
+   "description": "<p>Ammunition. Each shot from a matching weapon uses one.</p><p>A V-shaped head sharpened on the inside, for cutting standards and armor cords and making terrible wounds on whatever it catches. To use the cutting action, the archer must hit a specific point.</p><p class=\"oa-src\">OA p.39, 41 (Tables 47, 49).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49, each)"
+  }
+ },
+ {
+  "name": "Arrow, humming bulb",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Ammunition",
+  "system": {
+   "category": "Ammunition",
+   "cost": "5 sp",
+   "source": "OA p.39, 41 (Tables 47, 49)",
+   "carried": true,
+   "ammo": "arrow",
+   "weight": 2,
+   "description": "<p>Ammunition. Each shot from a matching weapon uses one.</p><p>A carved wooden head that whistles loudly in flight, heard up to a mile away, used for signals. Fitted with oil-soaked cloth or straw it becomes a fire arrow, doing 1-3 damage from impact and flame and setting flammable things alight unless put out quickly.</p><p class=\"oa-src\">OA p.39, 41 (Tables 47, 49).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49, each)"
+  }
+ },
+ {
+  "name": "Arrow, leaf head",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Ammunition",
+  "system": {
+   "category": "Ammunition",
+   "cost": "10 sp",
+   "source": "OA p.39, 41 (Tables 47, 49)",
+   "carried": true,
+   "ammo": "arrow",
+   "weight": 2,
+   "description": "<p>Ammunition. Each shot from a matching weapon uses one.</p><p>A broad head for greater wounds, often carved or pierced with artistic designs, making it a work of art in itself.</p><p class=\"oa-src\">OA p.39, 41 (Tables 47, 49).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49, each)"
+  }
+ },
+ {
+  "name": "Arrow, normal",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Ammunition",
+  "system": {
+   "category": "Ammunition",
+   "cost": "1 sp",
+   "source": "OA p.39, 41 (Tables 47, 49)",
+   "carried": true,
+   "ammo": "arrow",
+   "weight": 2,
+   "description": "<p>Ammunition. Each shot from a matching weapon uses one.</p><p>The common arrow, with an ordinary wedge-shaped head.</p><p class=\"oa-src\">OA p.39, 41 (Tables 47, 49).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49, each)"
+  }
+ },
+ {
+  "name": "Quarrel, single",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Ammunition",
+  "system": {
+   "category": "Ammunition",
+   "cost": "5 cp",
+   "source": "OA p.39, 41 (Tables 47, 49)",
+   "carried": true,
+   "ammo": "bolt",
+   "weight": 0,
+   "description": "<p>Ammunition. Each shot from a matching weapon uses one.</p><p>Fits light or heavy crossbows; the price list doesn't say which kind.</p><p class=\"oa-src\">OA p.39, 41 (Tables 47, 49).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight (Table 49: light quarrel 1, heavy 2)"
+  }
+ },
+ {
+  "name": "Sling/pellet bow bullets, score",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Ammunition",
+  "system": {
+   "category": "Ammunition",
+   "cost": "5 sp per score",
+   "source": "OA p.39, 41 (Tables 47, 49)",
+   "carried": true,
+   "ammo": "bullet",
+   "weight": 2,
+   "description": "<p>Ammunition. Each shot from a matching weapon uses one.</p><p class=\"oa-src\">OA p.39, 41 (Tables 47, 49).</p>",
+   "quantity": 20,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49, each)"
+  }
+ },
+ {
+  "name": "Dart, blowgun",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Ammunition",
+  "system": {
+   "category": "Ammunition",
+   "cost": "1 cp",
+   "source": "OA p.39, 41 (Tables 47, 49)",
+   "carried": true,
+   "ammo": "needle",
+   "weight": 1,
+   "description": "<p>Ammunition. Each shot from a matching weapon uses one.</p><p class=\"oa-src\">OA p.39, 41 (Tables 47, 49).</p>",
+   "quantity": 1,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49, each)"
+  }
+ },
+ {
+  "name": "Shakujo yari",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Weapons",
+  "system": {
+   "attackType": "both",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d8",
+    "smRange": "1-6",
+    "lRange": "1-8"
+   },
+   "speed": "6-8",
+   "acAdj": [
+    -2,
+    -2,
+    -2,
+    -1,
+    -1,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1",
+    "short": 1.0,
+    "medium": 2.0,
+    "long": 3.0,
+    "acAdj": [
+     -4,
+     -4,
+     -3,
+     -3,
+     -2,
+     -2,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "50 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Uses the spear's numbers; with the sheath on it is used as a bo stick instead.</p><p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>A spear in a sheath made to look like a staff. With the sheath on it can be used as a bo stick. It is carried on secret missions, or when the user wants to look defenseless.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Shikomi-zue",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "folder": "Ninja Weapons",
+  "system": {
+   "attackType": "both",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d8",
+    "smRange": "1-6",
+    "lRange": "1-8"
+   },
+   "speed": "6-8",
+   "acAdj": [
+    -2,
+    -2,
+    -2,
+    -1,
+    -1,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "1",
+    "short": 1.0,
+    "medium": 2.0,
+    "long": 3.0,
+    "acAdj": [
+     -4,
+     -4,
+     -3,
+     -3,
+     -2,
+     -2,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "weight": 0,
+   "weightText": "",
+   "cost": "70 sp",
+   "source": "OA p.39-43 (Tables 47, 49-51)",
+   "ammo": "",
+   "description": "<p>Uses the spear's numbers; with the spear head hidden it is used as a bo stick instead.</p><p>Missile to-hit adjustments are for short range: a further -2 at medium range and -5 at long range (OA Table 51).</p><p>Used mostly by ninja.</p><p>A favorite of ninja: it looks like a bamboo or wooden staff about 6 feet long, but at a twist or the press of a button a spear head springs from one end, so it is used as a bo stick or a spear, with the damage of either. Shikomi-zue can also be made to hide other weapons, such as chains, hooks or grenades.</p><p class=\"oa-src\">OA p.39-43 (Tables 47, 49-51).</p>",
+   "quantity": 1,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Quarrels, two dozen",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Ammunition",
+  "system": {
+   "category": "Ammunition",
+   "cost": "10 sp",
+   "source": "OA p.39, 41 (Tables 47, 49)",
+   "carried": true,
+   "ammo": "bolt",
+   "weight": 0,
+   "description": "<p>Ammunition. Each shot from a matching weapon uses one.</p><p>Fits light or heavy crossbows; the price list doesn't say which kind.</p><p class=\"oa-src\">OA p.39, 41 (Tables 47, 49).</p>",
+   "quantity": 24,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight (Table 49: light quarrel 1, heavy 2)"
+  }
+ },
+ {
+  "name": "Sling stones",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "folder": "Ammunition",
+  "system": {
+   "category": "Ammunition",
+   "cost": "none listed (gathered)",
+   "source": "OA p.39, 41 (Tables 47, 49)",
+   "carried": true,
+   "ammo": "stone",
+   "weight": 1,
+   "description": "<p>Ammunition. Each shot from a matching weapon uses one.</p><p>Not on the OA price list; stones are gathered. Weight from Table 49.</p><p class=\"oa-src\">OA p.39, 41 (Tables 47, 49).</p>",
+   "quantity": 20,
+   "weightSource": "published",
+   "weightRef": "OA p.41 (Table 49, each)"
+  }
+ }
+]

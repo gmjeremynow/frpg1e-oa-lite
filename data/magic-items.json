@@ -1,0 +1,1018 @@
+[
+ {
+  "name": "Banner of Protection",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A flag or banner such as flies over a castle or palace, with the characters for health, prosperity and fame written on it in red.</p>\n<ul><li>To work, it must be fixed to the highest point of the building or compound it protects, with that place's name boldly written on it.</li>\n<li>It then raises a magic field that blocks spells of 5th level or higher, over all the buildings and grounds that form the one place named (on the main building of a castle, the whole castle), up to a 100-yard radius.</li>\n<li>It works only while flying in plain view; cut down or removed, its protection stops until it is put back.</li></ul><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Bell of Protection",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A huge bell like those in temples. Hung in a frame and rung so its tone carries, it raises a fearsome barrier against spirit creatures for one turn, to the edges of the compound or group of buildings used for one purpose (a temple's grounds, a cluster of hermitages), up to a 50-yard radius.</p>\n<ul><li>Lesser spirits can't cross the barrier.</li>\n<li>Greater spirits must save versus death at -4 to cross it, and take 4d10 damage from the painful effort.</li>\n<li>Spirits inside the area when the bell is struck take 3d10 damage from the painful noise.</li>\n<li>It has no effect on spirit folk.</li></ul><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Greater spirit crossing",
+     "kind": "dmg",
+     "formula": "4d10",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "After saving versus death at -4 to cross.",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    },
+    {
+     "label": "Spirits in the area when struck",
+     "kind": "dmg",
+     "formula": "3d10",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Bell of Warning",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A small bell about 6 inches long and 4 across. Hung from a branch, rafter or the like and activated by its command word, it rings automatically whenever an invisible, ethereal or astral creature comes within 30 feet, or anyone within that range tries to move silently or hide in shadows. It keeps ringing until the presence leaves or the bell is turned off. Each activation uses a charge and lasts 3d6 hours.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Charges when found",
+     "kind": "num",
+     "formula": "3d10",
+     "save": "",
+     "each": "",
+     "fn": "Determine type (when found)",
+     "charges": 0,
+     "note": "Charges when found: 3d10 (OA p.133-135).",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    },
+    {
+     "label": "Activation lasts (hours)",
+     "kind": "dur",
+     "formula": "3d6",
+     "save": "",
+     "each": "",
+     "fn": "Activate",
+     "charges": 1,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "charges": {
+    "value": 0,
+    "max": 0
+   },
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Biwa of Calm",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A biwa is a stringed instrument like a lute; magic ones are always exceptionally fine. Played by someone proficient in it, this one fills everyone listening within 3\" with dignified calm, as the pacify spell, for as long as it is played.</p>\n<p>Each round the musician rolls against his proficiency. On a 1 his music turns harsh and ugly, the calm breaks at once for the rest of the encounter, and the biwa can't be used again effectively while any hostile creature who heard the bad playing is present.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Biwa of Charm",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Looks like any magic biwa. A musician proficient in it rolls against his proficiency: on a success he can cast one suggestion spell that round; on a failure (above 1) the music does nothing; on a 1 he plays so badly that it acts as a biwa of discord.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Biwa of Discord",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Looks like any magic biwa, but played it gives off painful, jarring tones that enrage everyone within 3\" (except the player) for 2-5 rounds. The enraged attack the musician 50% of the time and the nearest target otherwise. Its nature can't be found until it is played in earnest; tuning and idle strumming give clear, sweet tones.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Frenzy lasts (rounds)",
+     "kind": "dur",
+     "formula": "1d4+1",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Charm of Protection from Disease",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A long strip of yellow or red paper inked with prayers to one of various deities. Hung in a house or similar building, it protects everyone inside from catching any disease there; plague won't touch the building. It works as long as it hangs in place, though fire and other disasters easily destroy it.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Charm of Protection from Fire",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A long strip of yellow or red paper inked with threats against the fire deities, pasted over the door. The protected building has only a 50% chance of catching fire, and a fire that does break out burns slowly, doing half the usual damage. It doesn't reduce damage to characters from fire attacks inside, only damage from the building itself burning. The charm itself is immune to fire.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Charm of Protection from Spirits",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A strip of yellow or red paper inked with powerful threats against spirits, pasted over the door. Any spirit trying to enter saves versus death: if it saves it is unaffected; if it fails it can't enter, though it can still attack those inside with spells and missiles. No spirit creature can touch the charm.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Charm of Protection from Theft",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A strip of yellow or red paper inked with prayers against thieves, pasted over the door where all can see the house is protected. Anyone inside trying to move silently, hide in shadows or open locks has -20% on the chance. Anyone but the building's owner who tries to remove it takes 2d10 damage.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Removing the charm (not the owner)",
+     "kind": "dmg",
+     "formula": "2d10",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Diamond Mace",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A small iron rod topped with a large diamond, too small to be a useful weapon. At the command word a 12-dice lightning bolt leaps from the gem, using a charge. When the charges are gone, the diamond can be sold for 5,000 gp.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Charges when found",
+     "kind": "num",
+     "formula": "3d10",
+     "save": "",
+     "each": "",
+     "fn": "Determine type (when found)",
+     "charges": 0,
+     "note": "Charges when found: 3d10 (OA p.133-135).",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    },
+    {
+     "label": "Lightning bolt (12 dice)",
+     "kind": "dmg",
+     "formula": "12d6",
+     "save": "half",
+     "each": "",
+     "fn": "Lightning bolt",
+     "charges": 1,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "charges": {
+    "value": 0,
+    "max": 0
+   },
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Drums of Thunder",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A small pair of drums with tassels and a harness to fasten them at the waist. Only one power can be used per round, each costing charges:</p>\n<ul><li>Fly for one turn (1 charge).</li><li>Cloud trapeze for one turn (3 charges).</li><li>Drums of panic, as in the DMG (2 charges).</li><li>Control weather (1 charge).</li><li>A 20-dice lightning bolt (5 charges).</li></ul><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Charges when found",
+     "kind": "num",
+     "formula": "2d10",
+     "save": "",
+     "each": "",
+     "fn": "Determine type (when found)",
+     "charges": 0,
+     "note": "Charges when found: 2d10 (OA p.133-135).",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    },
+    {
+     "label": "Lightning bolt (20 dice)",
+     "kind": "dmg",
+     "formula": "20d6",
+     "save": "half",
+     "each": "",
+     "fn": "Lightning bolt",
+     "charges": 5,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "charges": {
+    "value": 0,
+    "max": 0
+   },
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Eight Diagram Coins",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A set of eight copper discs, each engraved with a symbol. Tossed while the command word is spoken, they let the caster know his own or another's fate, as the fate spell.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Everproducing Rice Mortar",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Looks like an ordinary rice mortar and mallet: 80% common, 20% extraordinary. Turning the mallet one way in the mortar starts it; the other way stops it.</p>\n<ul><li><strong>Common:</strong> once a day it makes any food or drink for 1d100 people, hot and fresh (rice, buns, sake, candies, tea, salt and so on), normal in every way.</li>\n<li><strong>Extraordinary:</strong> it does all that and can grant 1d4 wishes. Once they are used, it becomes a common mortar.</li></ul><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Kind of mortar (when found)",
+     "kind": "table",
+     "formula": "",
+     "save": "",
+     "each": "",
+     "fn": "Determine type (when found)",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "1d100",
+      "rows": [
+       {
+        "lo": 1,
+        "hi": 80,
+        "text": "Common",
+        "formula": "",
+        "kind": ""
+       },
+       {
+        "lo": 81,
+        "hi": 100,
+        "text": "Extraordinary (1d4 wishes)",
+        "formula": "",
+        "kind": ""
+       }
+      ]
+     }
+    },
+    {
+     "label": "Food: people fed",
+     "kind": "other",
+     "formula": "1d100",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Gem of Wishes",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A large gem that looks like any other fine stone, but detect magic shows it is magical. It grants 1-4 wishes, then loses all its magic. The gem is worth 500-5,000 gp.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Charges when found",
+     "kind": "num",
+     "formula": "1d4",
+     "save": "",
+     "each": "",
+     "fn": "Determine type (when found)",
+     "charges": 0,
+     "note": "Wishes when found: 1d4 (OA p.133-135).",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "charges": {
+    "value": 0,
+    "max": 0
+   },
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Gong of Dispelling",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A large gong 3 feet across. Hung in a frame and struck, it works as dispel evil and dispel magic on everything within 3\", at the power of a 15th level caster. Each stroke uses a charge.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Charges when found",
+     "kind": "num",
+     "formula": "1d100",
+     "save": "",
+     "each": "",
+     "fn": "Determine type (when found)",
+     "charges": 0,
+     "note": "Charges when found: 1d100 (OA p.133-135).",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "charges": {
+    "value": 0,
+    "max": 0
+   },
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Mallet of Luck",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Looks like a common wooden mallet, made by some twisted mind. Struck hard with it, the target gets +2 on all to-hit rolls and saving throws for six turns, but the blow does 2d6 damage. More blows don't add to the bonus, but still do the damage. It can be used in combat, if the wielder doesn't mind giving his foe the bonus.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Blow from the mallet",
+     "kind": "dmg",
+     "formula": "2d6",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Minyan",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "shukenja, sohei",
+   "description": "<p><em>Usable only by: shukenja, sohei (OA Table 86).</em></p><p>A large portable shrine, 10 to 20 feet long, devoted to one deity, carried on poles like a palanquin by 20 men. Many monasteries and temples have one, and squads of sohei often carry them into battle. Its powers:</p>\n<ul><li><strong>Cause fear:</strong> any being of a different ethos from the minyan's must save versus spell or flee in panic for one turn. Always in effect, 3\" radius.</li>\n<li><strong>Remove curse:</strong> three times a day, as a 20th level caster.</li>\n<li><strong>Presence:</strong> on the battlefield, the sight of it raises friendly sohei's morale by 10%.</li>\n<li><strong>Ancient curse:</strong> once a month.</li>\n<li><strong>Heal:</strong> once a week.</li></ul>\n<p>A minyan is usually kept by a monastery or temple, in the charge of the abbot or someone he names. Its power comes from its deity, so it must be properly cared for: daily offerings and incense, and services said by a shukenja of its religion. Its keepers, and those who seek its aid, must be of the proper ethos or alignment. On the deity's holy days it must be paraded through the streets for the people to see and honor the deity. If any of these duties is neglected, it loses all its power forever.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Mirror of Curing",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Looks like a normal mirror. At the command word, a creature looking into it gets the benefit of a heal spell, using a charge. When the charges are gone, the mirror shatters.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Charges when found",
+     "kind": "num",
+     "formula": "2d4",
+     "save": "",
+     "each": "",
+     "fn": "Determine type (when found)",
+     "charges": 0,
+     "note": "Charges when found: 2d4 (OA p.133-135).",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "charges": {
+    "value": 0,
+    "max": 0
+   },
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Mirror of Enlightenment",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Looks like a normal round mirror. At the command word, the reflection of a creature in front of it is surrounded by a colored aura that only the speaker sees, revealing its nature as detect evil/good, detect motivation and know alignment. One person can be studied per round.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Mirror of Fear",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Looks just like a mirror of enlightenment. Anyone looking into it sees a hideous, twisted reflection and must save versus spell or flee in panic for 1d6 rounds; one who can't flee collapses in a quivering heap for that time.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Panic lasts (rounds)",
+     "kind": "dur",
+     "formula": "1d6",
+     "save": "spell",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Mirror of Spirit Seeing",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A round mirror about a foot across, like any other. Every spirit creature that passes in front of it is shown in its true form, through invisibility, disguise, illusion, polymorph and shapechange. It is always working. Careful householders often hang one where it watches a door or entrance, hoping to guard against evil spirits.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Net of Spirit Snaring",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "shukenja",
+   "description": "<p><em>Usable only by: shukenja (OA Table 86).</em></p><p>Looks like a common fishing net, and against normal creatures works no better than one. Cast over a spirit creature, it freezes the spirit in place and stops all its attacks and spell-like powers, and the spirit can't remove it itself. The spirit can still talk, and may bargain for its release.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Noisome Spirit Chasers",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Strings of 100 that look like firecrackers. Lit and thrown down, they explode with loud bangs that spirits can't bear: lesser spirits flee for 2-5 rounds, and greater spirits must save versus spell or flee likewise. They do no damage and affect no other creatures.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Spirits flee (rounds)",
+     "kind": "dur",
+     "formula": "1d4+1",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Paper of Forms",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Magic colored paper for someone with the origami proficiency.</p>\n<ul><li>He folds it into a shape and rolls against his origami proficiency. On a success, he blows on it and speaks the command word, and it becomes a life-size version of the shape, with all the normal properties of the real thing.</li>\n<li>It can make only normal creatures of animal intelligence, nonmagical made objects and natural objects: a horse, a house or a tree, but not an oni, a person or a magic item. One sheet makes anything up to the size of a small house or a junk.</li>\n<li>The result can't be told from the real thing except that it gives off a faint aura of magic. It burns very easily: normal fire ignites it 80% of the time, magic fire always.</li>\n<li>It stays transformed until a second command word folds it back into its origami shape, ready for reuse. Once a sheet has made a shape, it can only ever make that shape. Unfolding the origami ruins the paper.</li></ul><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Charges when found",
+     "kind": "num",
+     "formula": "1d4",
+     "save": "",
+     "each": "",
+     "fn": "Determine type (when found)",
+     "charges": 0,
+     "note": "Sheets when found: 1d4 (OA p.133-135).",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "charges": {
+    "value": 0,
+    "max": 0
+   },
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Pearl of Protection from Fire",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Carried, this pearl has all the powers of a ring of fire resistance (see the DMG).</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Pearl of the Ebbing Tide",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Held in the hand at the command word, it makes water recede: each round the holder concentrates, all water within 60 feet falls back 5 feet. When he stops concentrating, the water rushes back at once to its normal banks or depth.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Pearl of the Rising Tide",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Like the pearl of the ebbing tide, except that the water within 60 feet rises 5 feet each round instead of falling.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Scroll of Protection from Spirits",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "scroll",
+   "usable": "",
+   "description": "<p>Like other protection scrolls, anyone can use it. Read, it casts protection from spirits as a 12th level shukenja.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Seal of Deception",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "ninja, yakuza",
+   "description": "<p><em>Usable only by: ninja, yakuza (OA Table 86).</em></p><p>Name seals are vital to official business where they are used: no order or document is official without its writer's personal seal, and officials who lose theirs are severely punished, since that opens the way to forgery and worse.</p>\n<p>This magic seal reshapes its stamp to match any seal the user has seen. He speaks the command word and concentrates on the seal he wants. With an impression of the real seal in front of him, there is a 5% chance of error; from memory, 30%. A faulty copy passes a quick look but is found to be a forgery under careful checking.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Seal of Vigor",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Found as a blank name seal. Once the user carves his name on it, its magic wakes: while he carries it, he heals at double the normal rate and cure spells on him have their maximum effect. If the inscribed seal falls into someone else's hands, the named character takes all the damage the new holder takes, until he is killed, the seal is destroyed, or he gets it back.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Tablet of Spirit Summoning",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "shukenja, wu jen",
+   "description": "<p><em>Usable only by: shukenja, wu jen (OA Table 86).</em></p><p>A small jade tablet inscribed with characters. At the command word, the user casts summon spirit as the 9th level wu jen spell, once a week. Each use, one character magically fades from it; when all are gone, it is a smooth piece of jade worth 50 gp.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Charges when found",
+     "kind": "num",
+     "formula": "2d6",
+     "save": "",
+     "each": "",
+     "fn": "Determine type (when found)",
+     "charges": 0,
+     "note": "Characters when found: 2d6 (OA p.133-135).",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "charges": {
+    "value": 0,
+    "max": 0
+   },
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Wheels of Fire",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>Always found in pairs: large, ornately decorated chariot wheels. Mounted on a chariot and given the command word, they burst into magic flame that doesn't hinder the chariot or harm it, its animals or its riders, but every creature within 30 feet takes 2d6 damage from the heat (unless immune to fire), and the chariot leaves burning tracks wherever it goes. The command word again puts the flames out.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Heat (within 30 feet)",
+     "kind": "dmg",
+     "formula": "2d6",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ },
+ {
+  "name": "Wondrous Writing Set",
+  "type": "magic",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+   "source": "OA p.133-135 (Table 86)",
+   "xp": "",
+   "gpValue": "",
+   "category": "misc",
+   "usable": "",
+   "description": "<p>A lacquered box holding a brush, an inking stone and an inkwell of ink. Writing with it improves the user's calligraphy by +2 on the roll (the plus sign is faint in the scan, as elsewhere in the book). With a sample of someone's handwriting, he can forge it perfectly on a successful calligraphy roll. The inkwell holds enough ink for 2-5 pages.</p><p class=\"oa-src\">OA p.133-135; Table 86 gives how often it is found.</p>",
+   "rolls": [
+    {
+     "label": "Pages of ink",
+     "kind": "other",
+     "formula": "1d4+1",
+     "save": "",
+     "each": "",
+     "fn": "Determine type (when found)",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ],
+   "weight": 0,
+   "weightSource": "unspecified",
+   "weightRef": "OA gives no weight"
+  }
+ }
+]

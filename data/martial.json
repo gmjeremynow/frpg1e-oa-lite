@@ -1,0 +1,962 @@
+[
+ {
+  "name": "Martial arts: Karate",
+  "type": "weapon",
+  "img": "icons/svg/combat.svg",
+  "folder": "Styles",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d6",
+    "smRange": "1-6",
+    "lRange": "1-6"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "natural": true,
+   "weight": 0,
+   "weightText": "",
+   "cost": "",
+   "source": "OA p.101 (Table 68)",
+   "ammo": "",
+   "description": "<p>Attacks per round 3/1; damage 1-6; armor class 8 while fighting in this style; principal attack: Hand.</p><p>Special maneuvers taught: Strike 1, 2, 3; Kick 1; Movement 1; Mental 1 (OA Table 68; numbers are the maneuvers' places in Table 70).</p><p class=\"oa-src\">OA p.101. The style's number of attacks applies only when fighting in this style (OA p.102). Monks add the extra attacks and damage of OA Table 21.</p>"
+  }
+ },
+ {
+  "name": "Martial arts: Kung-fu",
+  "type": "weapon",
+  "img": "icons/svg/combat.svg",
+  "folder": "Styles",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d6",
+    "smRange": "1-6",
+    "lRange": "1-6"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "natural": true,
+   "weight": 0,
+   "weightText": "",
+   "cost": "",
+   "source": "OA p.101 (Table 68)",
+   "ammo": "",
+   "description": "<p>Attacks per round 2/1; damage 1-6; armor class 6 while fighting in this style; principal attack: Hand.</p><p>Special maneuvers taught: Lock 1, 2, 3; Strike 1, 2; Kick 2; Movement 4; Mental 5 (OA Table 68; numbers are the maneuvers' places in Table 70).</p><p class=\"oa-src\">OA p.101. The style's number of attacks applies only when fighting in this style (OA p.102). Monks add the extra attacks and damage of OA Table 21.</p>"
+  }
+ },
+ {
+  "name": "Martial arts: Tae Kwon Do",
+  "type": "weapon",
+  "img": "icons/svg/combat.svg",
+  "folder": "Styles",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d8",
+    "l": "1d8",
+    "smRange": "1-8",
+    "lRange": "1-8"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "natural": true,
+   "weight": 0,
+   "weightText": "",
+   "cost": "",
+   "source": "OA p.101 (Table 68)",
+   "ammo": "",
+   "description": "<p>Attacks per round 1/1; damage 1-8; armor class 8 while fighting in this style; principal attack: Foot.</p><p>Special maneuvers taught: Kick 1, 2, 3; Strike 1; Throw 4; Movement 5 (OA Table 68; numbers are the maneuvers' places in Table 70).</p><p class=\"oa-src\">OA p.101. The style's number of attacks applies only when fighting in this style (OA p.102). Monks add the extra attacks and damage of OA Table 21.</p>"
+  }
+ },
+ {
+  "name": "Martial arts: Jujutsu",
+  "type": "weapon",
+  "img": "icons/svg/combat.svg",
+  "folder": "Styles",
+  "system": {
+   "attackType": "melee",
+   "damage": {
+    "sm": "1d6",
+    "l": "1d6",
+    "smRange": "1-6",
+    "lRange": "1-6"
+   },
+   "speed": "",
+   "acAdj": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "missile": {
+    "rate": "",
+    "short": null,
+    "medium": null,
+    "long": null,
+    "acAdj": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "natural": true,
+   "weight": 0,
+   "weightText": "",
+   "cost": "",
+   "source": "OA p.101 (Table 68)",
+   "ammo": "",
+   "description": "<p>Attacks per round 2/1; damage 1-6; armor class 7 while fighting in this style; principal attack: Hand.</p><p>Special maneuvers taught: Throw 1, 2, 3, 4; Movement 1, 3; Vital Area 1, 2; Mental 1, 2, 3 (OA Table 68; numbers are the maneuvers' places in Table 70).</p><p class=\"oa-src\">OA p.101. The style's number of attacks applies only when fighting in this style (OA p.102). Monks add the extra attacks and damage of OA Table 21.</p>"
+  }
+ },
+ {
+  "name": "Circle kick",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Kick",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Kick",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Kick 1 (hard). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>The attacker spins a full circle to build power before landing the kick, usually to the side of the head or body. On a normal hit it does double damage. On a miss, he loses his next attack recovering his balance.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Flying kick",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Kick",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Kick",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Kick 2 (hard). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Needs at least 5 feet of running space. The character leaps high and leads with a powerful kick to the head (or head height on creatures larger than man-sized). A hit does triple damage. On a miss he lands beside the target and spends a round getting up (unless he also has prone fighting or instant stand).</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Backward kick",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Kick",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Kick",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Kick 3 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>This simple-looking kick is extremely hard to master. The character makes a normal attack on a creature directly behind him, kicking up over his own head or straight back, without turning to face it. It does normal damage, and a miss has no ill effect.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Choke hold",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Lock",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Lock",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Lock 1 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Lock maneuvers grip a foe so he can't act: twisting an arm until the joint locks, or pressing to cut off breath and blood.</p><p>The character knows how to press so as to knock a foe unconscious. On a hit the choke is applied, and he must hold it to the end of the next round, doing nothing else (no attacks that round). The victim can try to escape with a hit at -2, as many times as he has attacks. If he hasn't escaped by the end of the round, he falls unconscious for 1-3 rounds.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Locking block",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Lock",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Lock",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Lock 2 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Lock maneuvers grip a foe so he can't act: twisting an arm until the joint locks, or pressing to cut off breath and blood.</p><p>Used instead of a normal attack, against unarmed fighters or melee weapon attacks. On a normal hit, the character traps the foe's weapon, arm or leg in a scissors lock and it can't attack. While it is trapped, he can attack with his feet only, at +4 to hit. The victim can break free by spending an attack and hitting normally. The block does no damage. A miss against an unarmed fighter just wastes the attack; a miss against a weapon means the character takes the weapon's damage, having only managed to get himself hit.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Incapacitator",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Lock",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Lock",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Lock 3 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Lock maneuvers grip a foe so he can't act: twisting an arm until the joint locks, or pressing to cut off breath and blood.</p><p>By gripping and twisting the joints, the character can make a finger, arm or leg useless for 24 hours and do double damage; the effects of a useless limb are as under the wu jen spell withering palm. It takes a hit, and the victim saves versus paralyzation: if he fails, the limb is useless; if he saves (or the attack misses), the attack simply fails, with no damage and no other effect on the attacker. It is especially useful to stop foes escaping or attacking.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Immobilizing",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Lock",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Lock",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Lock 4 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Lock maneuvers grip a foe so he can't act: twisting an arm until the joint locks, or pressing to cut off breath and blood.</p><p>With one hand the character holds a foe so he can take no action, while still attacking with his feet or other hand (even immobilizing another victim). It takes a hit and does no damage. The held foe can try to escape by spending an attack, at -6 on the roll. A failed attempt to immobilize gives -4 on the character's next attack.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Feint",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Movement",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Movement",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Movement 1 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Movement maneuvers rest on control of the body: posture, stance and reflexes, speed, sudden changes of direction and footwork. Seldom aggressive alone, they make a dangerous fighter combined with other methods.</p><p>The character starts an attack one way and switches it at the last moment, leaving the foe out of position. It costs one attack and needs a normal hit, doing no damage; if it works, his next attack is +2 to hit. If it fails, he just loses the attack.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Prone fighting",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Movement",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Movement",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Movement 2 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Movement maneuvers rest on control of the body: posture, stance and reflexes, speed, sudden changes of direction and footwork. Seldom aggressive alone, they make a dangerous fighter combined with other methods.</p><p>The character fights effectively lying on the ground. Always in effect whenever he is knocked down. While prone, he can use no other special maneuver except instant stand.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Immovability",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Movement",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Movement",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Movement 3 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Movement maneuvers rest on control of the body: posture, stance and reflexes, speed, sudden changes of direction and footwork. Seldom aggressive alone, they make a dangerous fighter combined with other methods.</p><p>By placing his feet carefully and tensing and relaxing his muscles, the character avoids being knocked down, lifted or thrown. Whenever that would happen, he automatically gets a save versus paralyzation; if he saves, he stays where he is.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Missile deflection",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Movement",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Movement",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Movement 4 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Movement maneuvers rest on control of the body: posture, stance and reflexes, speed, sudden changes of direction and footwork. Seldom aggressive alone, they make a dangerous fighter combined with other methods.</p><p>Quick reflexes and nimble footwork let the character sometimes dodge nonmagical missiles (including magical arrows and bolts). Always in effect, but he must be aware of the attack. He saves versus paralyzation against each missile; on a success he dodges it, otherwise it hits normally.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Leap",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Movement",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Movement",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Movement 5 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Movement maneuvers rest on control of the body: posture, stance and reflexes, speed, sudden changes of direction and footwork. Seldom aggressive alone, they make a dangerous fighter combined with other methods.</p><p>By channeling inner power and making himself light as a feather, the character performs extraordinary springs and leaps.</p><ul><li>From a standing start: 4 feet up and 3 feet forward, plus 1 foot per level. He can flip in mid-air to change facing.</li><li>From a running start (at least 10 feet of space): 8 feet up and 10 feet forward, plus 1 foot per level.</li><li>A leap costs one attack, not the whole round, so he could flip over a foe, land behind him and attack from the rear with his next attack.</li><li>Either way he makes a normal to-hit roll: on a success he lands safely; on a failure he makes the leap but falls on landing.</li></ul><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Speed",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Movement",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Movement",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Movement 6 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Movement maneuvers rest on control of the body: posture, stance and reflexes, speed, sudden changes of direction and footwork. Seldom aggressive alone, they make a dangerous fighter combined with other methods.</p><p>Lightning reflexes and trained muscles let the character make twice his normal attacks (with martial arts or ordinary weapons) and move at double his combat movement rate (not normal movement), for up to five rounds. It is hard and tiring: once a day only, and afterward he must rest 1-3 rounds.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Slow resistance",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Movement",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Movement",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Movement 7 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Movement maneuvers rest on control of the body: posture, stance and reflexes, speed, sudden changes of direction and footwork. Seldom aggressive alone, they make a dangerous fighter combined with other methods.</p><p>Through bodily training and a disciplined mind, the character is immune to slow effects.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Concentrated push",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Push",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Push",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Push 1 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Push is a soft, mainly protective method, built on understanding the forces of motion: the foe's own force is turned against him, deflecting his attack, throwing him off balance or knocking him back with a single touch. It takes great mental discipline but not great strength.</p><p>The character focuses inner energy into his hands, getting great force from a gentle push. On a hit, the foe is knocked back 1 foot per level of the character. If that is more than 3 feet, the victim saves versus paralyzation to stay on his feet. If he hits something solid, he takes damage as if he had fallen that distance. A character with immovability can resist being pushed. If the push misses, all attacks on the character for the rest of the round are +2 to hit.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Sticking touch",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Push",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Push",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Push 2 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Push is a soft, mainly protective method, built on understanding the forces of motion: the foe's own force is turned against him, deflecting his attack, throwing him off balance or knocking him back with a single touch. It takes great mental discipline but not great strength.</p><p>The character's sense of touch is so keen that, by resting his hand lightly on a foe, he can follow his every move. It takes a normal hit and does no damage, but while he keeps contact he is +2 on all later to-hit rolls and his armor class improves by 2, since he feels each move before it comes. Contact breaks only if the foe moves in a way or at a speed beyond the character's ability: a foe with leap could break it, but if both know leap, the character can leap with him and keep contact.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "One finger",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Push",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Push",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Push 3 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Push is a soft, mainly protective method, built on understanding the forces of motion: the foe's own force is turned against him, deflecting his attack, throwing him off balance or knocking him back with a single touch. It takes great mental discipline but not great strength.</p><p>Long, hard practice: first pushing a heavy bell with one finger, then touching it ever more lightly while making it swing more, until the bell moves without being touched at all, his inner power reaching from his finger. One finger gives the power of concentrated push without touching: he points at the victim, at a range of 1 foot per level. It needs great concentration and is his only action that round, however many attacks he has. On a normal hit the victim is affected as by concentrated push; a miss has no effect.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Iron fist",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Strike",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Strike",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Strike 1 (hard). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Toughening exercises have made the character's hands as hard as steel. If his style's principal body part is the hands, he does 1d10 damage with each attack; otherwise, 1d10 on one attack per round.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Crushing blow",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Strike",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Strike",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Strike 2 (hard). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>The character can shatter hard objects (wood, ceramics, masonry, not metal) with a blow of his hand: 1/2 inch of wood or 1/4 inch of brittle stone per level, adjusted by the DM for shape, hardness and age. Against a living target, it does normal damage plus his level. It needs great concentration and is his only action that round, however many attacks he has. A normal hit is always needed; the DM sets the number to hit a still object by its hardness. If he fails against a hard object (such as a stone), he badly hurts his hand: he takes his normal damage and the hand is useless for 24 hours.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Eagle claw",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Strike",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Strike",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Strike 3 (hard). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Through exercise and concentration, the character summons immense crushing strength into his hand. On a hit he can shatter objects (snap spear shafts, crush stones and so on), crush metal, or do 3d10 damage. It needs great concentration and is his only action that round.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Fall",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Throw",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Throw",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Throw 1 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>The first thing a student of throwing learns: to fall and roll, taking the impact on the safest parts of the body. Always in effect: he takes half damage from any fall.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Instant stand",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Throw",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Throw",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Throw 2 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>After learning to fall, the student learns to get up fast, by rolling to his feet or an acrobatic jump. Getting up normally takes a round; with this he stands automatically instead of making an attack, and can still do other things that round if he has attacks left.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Hurl",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Throw",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Throw",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Throw 3 (hard). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>This throw relies more on strength than leverage. The character picks up a foe and throws him 1d4 feet to the ground, for double damage. Characters with immovability can resist it. It takes a hit; on a miss, he loses his remaining attacks this round and automatically loses initiative next round.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Great throw",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Throw",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Throw",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Throw 4 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Using leverage and the foe's own momentum, the character throws him a great distance. It takes a normal hit. A standing victim is thrown 1 foot per level; a charging victim 6 feet plus 1 foot per level. The victim takes triple damage. On a miss, the foe has countered and knocked the character off his feet, and he automatically loses initiative next round.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Pain touch",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Vital Area",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Vital Area",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Vital Area 1 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Vital area maneuvers, like strikes and kicks, rely on the blow, but where it lands matters far more than how hard: the throat, ears, feet, nerve points and other weak spots. Because they rely on knowing anatomy, they work only against humans and humanoids.</p><p>Pressing a finger to certain points of the body causes great pain. Used instead of a normal attack; it does no damage, but on a hit the victim feels as if on fire, and for 1-3 rounds he is -2 to hit and others are +2 to hit him. A miss has no effect on the victim.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Stunning touch",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Vital Area",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Vital Area",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Vital Area 2 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Vital area maneuvers, like strikes and kicks, rely on the blow, but where it lands matters far more than how hard: the throat, ears, feet, nerve points and other weak spots. Because they rely on knowing anatomy, they work only against humans and humanoids.</p><p>A light slap of the fingers in the right place stuns and dazes a foe. Used instead of a normal attack; it does no damage. On a hit the victim saves versus paralyzation; if he fails, he is stunned for 1d4 rounds and can take no action. A miss or a successful save means no effect.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Paralyzing touch",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Vital Area",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Vital Area",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Vital Area 3 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Vital area maneuvers, like strikes and kicks, rely on the blow, but where it lands matters far more than how hard: the throat, ears, feet, nerve points and other weak spots. Because they rely on knowing anatomy, they work only against humans and humanoids.</p><p>Pressing certain nerve junctions paralyzes the victim, unable to move for 1d6 turns. It takes a normal hit, and the victim saves versus paralyzation. A miss or a successful save does no damage.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Distance death",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Vital Area",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Vital Area",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Vital Area 4 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Vital area maneuvers, like strikes and kicks, rely on the blow, but where it lands matters far more than how hard: the throat, ears, feet, nerve points and other weak spots. Because they rely on knowing anatomy, they work only against humans and humanoids.</p><p>The ultimate vital area skill, needing great practice and concentration. To learn it, the character practices at a pool, thrusting his finger at the water without touching it and willing his power out from his finger; when he hears the echo of his thrust come back from the water, he has mastered it.</p><p>It needs great concentration and is his only action that round, at a range of 1 foot per level. It can apply the effect of pain, stunning or paralyzing touch, or do triple his normal damage. Against pain, the victim gets no save; against stunning, his save is at -2. A normal hit is always needed.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Weapon catch",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Weapon",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Weapon",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Weapon 1 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Some weapons can't be used well without training in the moves and stances of the martial arts. These maneuvers work only with weapons listed as usable only with martial arts.</p><p>The character uses martial arts weapons to catch and lock a foe's weapon (including the arms and legs of an unarmed foe). Used instead of a normal attack, with a to-hit roll. On a success, the foe's weapon is locked and can't be used to fight, and the character can keep attacking him at +2 to hit if his style's principal body part is free. The foe breaks the catch by dropping the weapon, or by spending an attack and making a normal hit. If the catch fails, the character has fouled his own weapon on the foe's, and a quick twist pulls it from his grasp, leaving him disarmed.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Weapon breaker",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Weapon",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Weapon",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Weapon 2 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Some weapons can't be used well without training in the moves and stances of the martial arts. These maneuvers work only with weapons listed as usable only with martial arts.</p><p>A swift blow or twist with a martial arts weapon breaks a foe's melee weapon (not an unarmed fighter); it also works with a bo stick against a sword. It takes a normal hit, then the foe's weapon saves versus crushing blow or breaks. A miss or a successful save means it fails. It does no damage. (An unbreakable magic weapon resists it; see Magic Weapons in the OA Lite journals.)</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Steel cloth",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Weapon",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Weapon",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Weapon 3 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Some weapons can't be used well without training in the moves and stances of the martial arts. These maneuvers work only with weapons listed as usable only with martial arts.</p><p>The character need never be unarmed: he whirls a 6- to 10-foot length of cloth and snaps it tight, keeping it moving so it is as rigid as a spear. It counts as a spear, but can't be thrown. Automatic; no roll is needed.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Meditation",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Mental and Physical Training",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Mental and Physical Training",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Mental and Physical Training 1 (hard/soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>The character gains all the powers of meditation described for the shukenja. Shukenja and kensai already have it and need not spend a slot on it.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "All-around sight",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Mental and Physical Training",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Mental and Physical Training",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Mental and Physical Training 2 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Training has made the character so aware of his surroundings that he senses foes on every side, unless they are invisible. He can never be struck from behind or suffer a back attack penalty. Always in effect.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Mental resistance",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Mental and Physical Training",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Mental and Physical Training",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Mental and Physical Training 3 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>The mental exercises and ordeals of training have hardened the character's will: +2 on all saving throws against mental attacks, including charm, illusion and hold spells. Always in effect.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Blind fighting",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Mental and Physical Training",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Mental and Physical Training",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Mental and Physical Training 4 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Long training blindfolded or in dark rooms lets the character find foes with his other senses: only -1 when fighting in darkness, blinded, or against invisible foes. Any of these combined with a silence spell leaves him effectively blind again. Always in effect.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Ironskin",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Mental and Physical Training",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Mental and Physical Training",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Mental and Physical Training 5 (hard). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Rigorous training lets the character harden his muscles like iron: his armor class improves by 2, but only when he wears no other armor.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ },
+ {
+  "name": "Levitation",
+  "type": "proficiency",
+  "img": "icons/svg/combat.svg",
+  "folder": "Maneuvers/Mental and Physical Training",
+  "system": {
+   "group": "oaManeuver",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "Mental and Physical Training",
+   "target": 0,
+   "source": "OA p.103-105 (Table 70)",
+   "notes": "",
+   "description": "<p><em>Mental and Physical Training 6 (soft). Learned in order of difficulty; see Learning Martial Arts (OA p.105).</em></p><p>Perhaps the rarest maneuver, demanding the utmost concentration and discipline: the character practices daily at making his body lighter with his mind until he overcomes all his weight. It takes a turn of concentration to begin; then he can move up, down or sideways 5 feet a round. He can take no other action while levitating, and if his concentration breaks he falls. Afterward he must rest a round before doing anything else.</p><p class=\"oa-src\">OA p.103-105 (Table 70).</p>"
+  }
+ }
+]

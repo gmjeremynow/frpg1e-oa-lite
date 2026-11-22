@@ -1,0 +1,1102 @@
+[
+ {
+  "name": "Armorer",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 2,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 2 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character can make every kind of armor in OA. Armor from other 1eFRPG books he can make only with a piece to copy, and then at -2 on the roll.</p>\n<ul><li><strong>Time:</strong> two weeks for each step of armor class below 10 (a shield takes two weeks, an o-yoroi 14). An ordinary helmet takes one week; an elaborate one (with a crest and so on) takes a month.</li>\n<li><strong>The roll</strong> is made at the end of the work. A modified 25 or more means armor of quality (see Magic Armor in the OA Lite journals), which takes as long again to finish.</li>\n<li><strong>Flawed armor:</strong> a failed roll within 4 of the number needed gives usable but flawed armor. It is one armor class worse than intended, though it looks right. Whenever the wearer is hit on an unmodified 19 or 20, a vital piece breaks: his armor class worsens by 4 at once (never past 10), and he is -4 to hit until he gets the armor off.</li></ul><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Blacksmith",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 14,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 14:</strong> roll 14 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Bowyer",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 15,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 15:</strong> roll 15 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character can make the bows and arrows in OA, though a weaponsmith must make the arrowheads.</p>\n<ul><li><strong>Time:</strong> two weeks for a bow, two days for an arrow, then roll. A modified 25 or more means a weapon of quality, which takes another two weeks (or two days) to finish.</li>\n<li><strong>Failure:</strong> a failed arrow is useless. A bow failed by 4 or less is flawed: it breaks whenever its user rolls 5 or less to hit, and a broken bow is useless.</li></ul><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Brewer",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Carpenter",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 15,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 15:</strong> roll 15 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Civil engineer",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 2,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 18,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 18:</strong> roll 18 or more on 1d20. Learning it takes 2 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Herbalist",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 2,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 17,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 17:</strong> roll 17 or more on 1d20. Learning it takes 2 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character can prepare nonmagical potions, poultices, powders, balms and ointments for medicine (real or supposed), and some natural plant poisons. The DM decides whether a given mixture is within his knowledge.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Jeweler",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 2,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 2 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Masseur",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 14,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 14:</strong> roll 14 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Navigator",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 12,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 12:</strong> roll 12 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character navigates by the stars and currents and watches for signs of land, reefs and hidden dangers. It is of little use on land. At sea, a successful roll cuts the chance of getting lost by 20%.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Paper-maker",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 18,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 18:</strong> roll 18 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Potter",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Seamstress/tailor",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 17,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 17:</strong> roll 17 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Silk maker",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 19,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 19:</strong> roll 19 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Stonemason",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Tanner/Leatherworker",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 15,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 15:</strong> roll 15 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Weaponsmith",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 3,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 17,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 17:</strong> roll 17 or more on 1d20. Learning it takes 3 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character can make any OA weapon except bows and finished arrows, and weapons from other 1eFRPG books if he has one to copy.</p>\n<ul><li><strong>Time:</strong> two days for any weapon but a katana, which takes a month. Then roll 1d20.</li>\n<li><strong>Quality:</strong> a modified 25 or more makes a weapon of quality (see Magic Weapons in the OA Lite journals), which takes two more weeks to finish, or two more months for a katana. A finished katana must then be taken to a temple and named by the priests; only then is it complete.</li>\n<li><strong>Flawed:</strong> a failure within 4 of the number needed gives a flawed weapon, which breaks like a flawed bow (see Bowyer).</li></ul><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Weaver",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Artisan proficiencies",
+  "system": {
+   "group": "oaArtisan",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 15,
+   "source": "OA p.53 (Table 58)",
+   "notes": "",
+   "description": "<p><strong>Base number 15:</strong> roll 15 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 58).</p>"
+  }
+ },
+ {
+  "name": "Chanting",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Barbarian proficiencies",
+  "system": {
+   "group": "oaBarbarian",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 15,
+   "source": "OA p.53 (Table 59)",
+   "notes": "",
+   "description": "<p><strong>Base number 15:</strong> roll 15 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Only barbarians can learn barbarian proficiencies.</em></p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.53 (Table 59).</p>"
+  }
+ },
+ {
+  "name": "Fire building",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Barbarian proficiencies",
+  "system": {
+   "group": "oaBarbarian",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 8,
+   "source": "OA p.53 (Table 59)",
+   "notes": "",
+   "description": "<p><strong>Base number 8:</strong> roll 8 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p><em>Only barbarians can learn barbarian proficiencies.</em></p><p>On a successful roll, the character starts a fire in 30 minutes with a few pieces of dry wood and some tinder.</p><p class=\"oa-src\">OA p.53 (Table 59).</p>"
+  }
+ },
+ {
+  "name": "Running",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Barbarian proficiencies",
+  "system": {
+   "group": "oaBarbarian",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.53 (Table 59)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p><em>Only barbarians can learn barbarian proficiencies.</em></p><p>The barbarian can move at twice his normal rate for a whole day, then must sleep eight hours. After the first day he rolls: on a success he can run again the next day; on a failure he must sleep eight hours and can't run the next day. If he fights on a day spent running, he is -1 to hit.</p><p class=\"oa-src\">OA p.53 (Table 59).</p>"
+  }
+ },
+ {
+  "name": "Signaling",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Barbarian proficiencies",
+  "system": {
+   "group": "oaBarbarian",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 12,
+   "source": "OA p.53 (Table 59)",
+   "notes": "",
+   "description": "<p><strong>Base number 12:</strong> roll 12 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p><em>Only barbarians can learn barbarian proficiencies.</em></p><p>The character knows his tribe's way of signaling over long distances (drums, mirrors, smoke and so on) and what the messages mean. It is really another language, though its messages are simple and limited to war and the like. A successful roll means the message was received and understood.</p><p class=\"oa-src\">OA p.53 (Table 59).</p>"
+  }
+ },
+ {
+  "name": "Snare building",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Barbarian proficiencies",
+  "system": {
+   "group": "oaBarbarian",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 14,
+   "source": "OA p.53 (Table 59)",
+   "notes": "",
+   "description": "<p><strong>Base number 14:</strong> roll 14 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p><em>Only barbarians can learn barbarian proficiencies.</em></p><p>The character can set deadfalls, rope snares, pit traps and the like for creatures up to large and even very large size.</p><p class=\"oa-src\">OA p.53 (Table 59).</p>"
+  }
+ },
+ {
+  "name": "Sound imitation",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Barbarian proficiencies",
+  "system": {
+   "group": "oaBarbarian",
+   "slots": 2,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.53 (Table 59)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 2 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p><em>Only barbarians can learn barbarian proficiencies.</em></p><p>The character can mimic the creatures of his homeland: bird calls, seal barks and other animal sounds, for signaling, distraction and so on. A successful roll means the imitation fools animals and others skilled in sound imitation.</p><p class=\"oa-src\">OA p.53 (Table 59).</p>"
+  }
+ },
+ {
+  "name": "Survival",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Barbarian proficiencies",
+  "system": {
+   "group": "oaBarbarian",
+   "slots": 2,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 15,
+   "source": "OA p.53 (Table 59)",
+   "notes": "",
+   "description": "<p><strong>Base number 15:</strong> roll 15 or more on 1d20. Learning it takes 2 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Only barbarians can learn barbarian proficiencies.</em></p><p>The barbarian finds food, shelter and water in his homeland and similar country, and always finds enough for himself. A successful roll means he finds enough for others in his party too. The food is berries, bark, roots, grubs, small animals and so on; large game comes under hunting.</p><p class=\"oa-src\">OA p.53 (Table 59).</p>"
+  }
+ },
+ {
+  "name": "Tracking",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Barbarian proficiencies",
+  "system": {
+   "group": "oaBarbarian",
+   "slots": 3,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 17,
+   "source": "OA p.53 (Table 59)",
+   "notes": "",
+   "description": "<p><strong>Base number 17:</strong> roll 17 or more on 1d20. Learning it takes 3 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p><em>Only barbarians can learn barbarian proficiencies.</em></p><p>The character is an accomplished tracker. These modify his roll:</p>\n<table class=\"oa-ref\"><tbody>\n<tr><td class=\"left\" colspan=\"2\"><strong>Terrain</strong> (only one applies)</td></tr>\n<tr><td class=\"left\">Soft or muddy ground</td><td>+4</td></tr><tr><td class=\"left\">Occasional signs of passage</td><td>+2</td></tr>\n<tr><td class=\"left\">Normal earth</td><td>0</td></tr><tr><td class=\"left\">Hard rocky ground, water</td><td>-10</td></tr>\n<tr><td class=\"left\" colspan=\"2\"><strong>Other modifiers</strong> (all that apply)</td></tr>\n<tr><td class=\"left\">Each two creatures tracked beyond the first</td><td>+1</td></tr><tr><td class=\"left\">Each 12 hours since the trail was made</td><td>-1</td></tr>\n<tr><td class=\"left\">Each hour of rain or snow</td><td>-5</td></tr><tr><td class=\"left\">Poor light (moonlight and so on)</td><td>-6</td></tr>\n</tbody></table>\n<ul><li>A careful effort to hide the trail moves the terrain one category worse; if it is already -10, tracking fails automatically.</li>\n<li><strong>Speed while tracking:</strong> 1/4 normal if his chance (the number he must roll) is 1-6, 1/2 normal at 7-14, 3/4 normal at 14 or more (the book prints both ranges with 14).</li>\n<li>He can tell what made the trail and which way it went if he knows that kind of creature. Barbarians know the common creatures of their homeland; to know an unusual creature or monster he must have met one at least once.</li>\n<li>Creatures that leave no trail (fliers, bodiless creatures) can't be tracked.</li>\n<li>Where a creature is harder to track by a percentage, each 5% is -1 on this roll: 20% harder is -4.</li></ul><p class=\"oa-src\">OA p.53 (Table 59).</p>"
+  }
+ },
+ {
+  "name": "Agriculture",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 15,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 15:</strong> roll 15 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Animal handling",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 2,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 14,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 14:</strong> roll 14 or more on 1d20. Learning it takes 2 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character can care for, tame and train animals: dogs, wild cats, small birds and others trained for work or amusement, but not birds for hunting (that is falconry).</p>\n<ul><li><strong>Taming:</strong> only young wild animals can be tamed. It takes a month of work (he can do other things meanwhile), then a roll. Success: the creature is tame and trainable. Failure: it stays too wild to train, though it can be kept caged or chained.</li>\n<li><strong>Training:</strong> a tame creature can learn simple tasks (fetching, hunting for its master, herding sheep and so on), each taking 2d6 weeks (he can do other things meanwhile), then a roll; on a failure it can never learn that task. The DM can make a hard task take longer or split it into smaller tasks. Each creature can learn 2d4 tasks.</li>\n<li>A trained creature must use each task at least once a week or lose it.</li></ul><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Cooking",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Dance",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 17,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 17:</strong> roll 17 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Fishing",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 14,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 14:</strong> roll 14 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The character fishes with hook and line or nets. Each day spent fishing he catches enough to feed himself, and on a successful roll enough for 1d6 others with hook and line, or 1d20 others with a net.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Gaming",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character knows and plays most games, including go, dice, shoji and other entertainments of the nobility. Roll to see if he wins (as in a contest). He can also cheat at games of chance for +1 on the roll; roll again to see if the cheating works, and on 1-4 he is caught (even if he wins).</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Horsemanship",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 18,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 18:</strong> roll 18 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character is skilled at riding and handling horses, especially in combat, and can try these feats:</p>\n<ul><li><strong>Vault into the saddle</strong>, even in armor, and get the horse moving in one segment. Roll; on a failure he falls to the ground and makes a fool of himself.</li>\n<li><strong>Jumps and leaps:</strong> with a running start the horse can jump obstacles up to 7 feet high and leap gaps of 20 feet. Roll; on a failure the horse balks, and he rolls again to stay in the saddle.</li>\n<li><strong>Extra speed:</strong> he can spur the horse to +6\" movement for four turns, then must dismount and walk it for a turn to cool down.</li>\n<li><strong>Knee riding:</strong> he guides the horse with his knees, so he can use two-handed weapons (bows, go-daichi as printed, and so on) while riding.</li>\n<li><strong>Riding hidden:</strong> he drops down and hangs along the horse's side, using it as a shield. He can't attack or wear armor while doing it. Roll; on a failure he falls, taking 1d6 damage.</li>\n<li><strong>Flying dismount:</strong> he leaps from the horse, even at full gallop, lands on his feet and can still attack anyone within 10 feet that round. Roll at -4; on a failure he lands badly and takes 1-3 damage.</li></ul>\n<p>These feats also work on horse-like creatures (ki-rin and so on). Horsemanship is also needed to shoot from a moving horse and to stay mounted when struck (see the Combat journal).</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Hunting",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>In the wilderness, a successful roll gets the character within bowshot of game (deer, pheasant, wild boar and so on; the DM decides). The game is at long range for his missile weapon (or the longest range of any missile weapon in a group), and he has surprise in the first round. Actually bagging it is up to him.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Husbandry",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 14,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 14:</strong> roll 14 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Iaijutsu",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": false,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 0,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>No base number:</strong> not rolled. Learning it takes 1 slot.</p><p>Iaijutsu is the art of drawing (and sheathing) a melee weapon with blinding speed. It is a weapon skill rather than a peaceful one, but anyone willing to put in the time can learn it.</p>\n<ul><li>Characters specialized in a melee weapon learn iaijutsu for it automatically. It can also be learned separately for another weapon.</li>\n<li>The player names one specific weapon, not a group.</li>\n<li>The character can switch to or from that weapon without the usual loss of a round, and in some situations has a better chance to surprise a foe (see Surprise and Iaijutsu in the Combat journal).</li>\n<li>It has no base number and isn't rolled.</li></ul><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Juggling",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 13,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 13:</strong> roll 13 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Music",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 17,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 17:</strong> roll 17 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Reading/writing",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 10,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 10:</strong> roll 10 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The character learns to read and write a language of the campaign. The limit on how many languages he can read and write is the same as for speaking them. It doesn't teach speaking: he can read and write a language he can't speak.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Sailing craft",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 15,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 15:</strong> roll 15 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The character knows seagoing ships (junks, sampans and larger ships) and can serve as a sailor on them. It doesn't teach navigating.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Singing",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 17,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 17:</strong> roll 17 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Small water craft",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 13,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 13:</strong> roll 13 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The character can handle small boats that work rivers and lakes or keep close to shore: canoes, rafts, hide boats, rowboats and the like. He can also build a sound raft from local materials (if stranded on a river island, say). He can't handle them on the open ocean.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Swimming",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Common proficiencies",
+  "system": {
+   "group": "oaCommon",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 10,
+   "source": "OA p.54 (Table 60)",
+   "notes": "",
+   "description": "<p><strong>Base number 10:</strong> roll 10 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character can swim. Unarmored and unencumbered, he swims 90 feet a round. Each point of armor class cuts this by 10 feet a round and adds a 10% chance (cumulative) of sinking. A heavily encumbered swimmer moves at half speed with double the chance of sinking.</p><p class=\"oa-src\">OA p.54 (Table 60).</p>"
+  }
+ },
+ {
+  "name": "Calligraphy",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 2,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 18,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 18:</strong> roll 18 or more on 1d20. Learning it takes 2 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The writing used in calligraphy isn't an alphabet but pictographs: each character stands for a word or part of one. Once each was a little picture of its meaning, but time has simplified them until they barely resemble it, and their meanings shift when combined with others. Every word has its own character or combination, thousands are needed to write books, and great precision is needed to write clearly.</p>\n<ul><li>A person's style with the brush is an important measure of his social worth. A stranger's first impression may rest on how graceful his writing is, and how well one writes can matter more than what it says, so calligraphy is vital to anyone aiming high.</li>\n<li>It is needed to inscribe magical scrolls, write reports to one's lord, impress officials and win favor with powerful non-player characters. It shows the writer's rank, and fine writing lends prestige to the lowborn. A court poetry contest can also be a calligraphy contest: a brilliant poem in a crude hand can please less than a good poem finely written.</li>\n<li>Roll for the quality each time the character writes an important document. The DM adjusts the reader's reaction: good calligraphy for the better, bad for the worse.</li>\n<li>It needs a brush, an inkwell and an inking stone, usually carried as a set, though the character can improvise.</li></ul>\n<p class=\"oa-table-ref\">Table 61 gives base number 18; the example on OA p.52 uses 17. The table's 18 is used here.</p><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Etiquette",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character knows proper forms of address and good manners. Society can be extremely formal, and breaches give great offense.</p>\n<ul><li>In everyday situations, characters are assumed to behave acceptably unless the player says otherwise.</li>\n<li>At formal ceremonies (an audience with the emperor, a formal duel and so on), roll to see how well he does: does he use the right forms of address, or speak, laugh or yawn at the wrong moment? Failures worsen important non-player characters' reactions.</li>\n<li>The roll mustn't replace role-playing. If the player has played the character correctly, or has just described a gross blunder, no roll is needed. It is a guide, and the DM should overrule it based on what the character is described doing.</li></ul><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Falconry",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 2,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 17,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 17:</strong> roll 17 or more on 1d20. Learning it takes 2 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>Falconry is a noble sport, a pastime of the court. The character can train and handle hunting birds.</p>\n<ul><li>Only young birds can be trained, with great patience, and only by one person per bird. Training takes a year of regular work. Roll after six months: on a success, train six more months and roll again; on a second success the bird hunts and catches birds on the wing and returns to its owner. Failing either roll makes the bird unsuitable.</li>\n<li>Anyone taught its commands and calls can then handle the bird. When hunting, a successful roll means it brings back small game birds.</li>\n<li>Birds can also be taught to attack people, but few lords use them so, not wanting to risk a good hunting bird.</li>\n<li>Hunting birds are sometimes given as prized gifts.</li></ul><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Flower arranging",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 15,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 15:</strong> roll 15 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Heraldry",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": true,
+   "improvements": 0,
+   "specialty": "",
+   "target": 12,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 12:</strong> roll 12 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p><em>Always rolled: this proficiency has a clear success or failure.</em></p><p>The character can identify the crests and symbols of families and nobles: stylized helmets, banners, or circular designs called mon. Each noble family has a device for its members and followers, and some individuals have their own. In war they are often the only way to tell friend from foe.</p>\n<p>Roll each time he tries to identify a device: on a success he knows the family or person; on a failure he doesn't recognize it. The DM can rule some devices instantly recognizable, especially one he has seen and named correctly before.</p><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Landscape gardening",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 16,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 16:</strong> roll 16 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Noh",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 17,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 17:</strong> roll 17 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>Noh is a form of drama performed in some lands, combining speech, song and dance. There are many noh plays, mostly on historical subjects, very exacting and stylized: every move and word is done a set way, and every costume stands for a set person. Mastery means learning the parts, movements and rituals, performing them correctly with grace and beauty, and giving one's own reading of the play within the form. Noh masters are highly prized and often asked to perform for important nobles.</p><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Origami",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 14,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 14:</strong> roll 14 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Painting",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 19,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 19:</strong> roll 19 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Poetry",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 19,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 19:</strong> roll 19 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The book describes this proficiency only by its name.</p><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Religion",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 1,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 12,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 12:</strong> roll 12 or more on 1d20. Learning it takes 1 slot; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The character knows the basic beliefs and teachings of the land's common religions, and can identify religious artifacts, scriptures and anything else to do with religion.</p><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ },
+ {
+  "name": "Tea ceremony",
+  "type": "proficiency",
+  "img": "icons/svg/book.svg",
+  "folder": "Court proficiencies",
+  "system": {
+   "group": "oaCourt",
+   "slots": 2,
+   "ability": "",
+   "check": true,
+   "modifier": 0,
+   "everyUse": false,
+   "improvements": 0,
+   "specialty": "",
+   "target": 15,
+   "source": "OA p.55 (Table 61)",
+   "notes": "",
+   "description": "<p><strong>Base number 15:</strong> roll 15 or more on 1d20. Learning it takes 2 slots; each later slot adds +1 to the roll (never needing less than 3). See Peaceful Proficiencies in the OA Lite journals.</p><p>The tea ceremony is a specialized art practiced by nobles in some lands. It looks simple, even trivial, but takes painstaking concentration: every movement must be done with exact grace and precision, to create utter calm and serenity, free of all distraction; otherwise the ceremony has failed. Stories tell of masters who can't be surprised or distracted in the least during a ceremony.</p>\n<p>During a ceremony the DM secretly rolls against the character's number. If the roll is greater than the number needed (as printed), he has reached that perfect concentration and can't be surprised during the ceremony, which lasts an hour.</p><p class=\"oa-src\">OA p.55 (Table 61).</p>"
+  }
+ }
+]
