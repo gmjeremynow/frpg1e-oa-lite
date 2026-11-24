@@ -21,3 +21,26 @@ blockquote.oa-box { background: rgba(120, 110, 90, 0.12); border-left: 3px solid
 
 .oa-cols { columns: 3 12em; column-gap: 1.5em; margin: 0.3em 0 0.8em; }
 .oa-cols li { break-inside: avoid; }
+
+/* ---- OA tab: martial arts, ki and slots (laid out like the Combat tab) ---- */
+.oa-tab .combat-top { margin-bottom: 12px; }
+.oa-tab .combat-top > .box { margin-bottom: 0; }
+.oa-tab .ac-line select.oa-pick { width: auto; max-width: 60%; height: 24px; font-size: 14px; background: transparent; border: none; border-bottom: 1px solid var(--rule-strong, #444); text-align: right; }
+.oa-tab .ac-line.oa-taught > span:last-child { text-align: right; max-width: 65%; font-size: 13px; }
+.oa-tab .oa-ki-line > span:first-child { flex: 1 1 auto; padding-right: 8px; }
+.oa-tab .oa-ki-line.spent > span:first-child { opacity: .55; }
+.oa-tab .oa-ki-count { display: inline-flex; align-items: center; gap: 2px; white-space: nowrap; }
+.oa-tab .oa-ki-count .icon-btn { width: 20px; height: 20px; font-size: 14px; line-height: 1; padding: 0; }
+.oa-tab .oa-ki-count input[type="number"] { width: 2.4em !important; min-width: 0 !important; }
+.oa-tab .oa-of { font-weight: 700; font-size: 15px; margin: 0 2px; }
+.oa-tab .oa-warn { color: var(--blood, #8a1c1c); font-style: normal; }
+.oa-tab .oa-man-table { width: 100%; }
+.oa-tab .oa-man-table td { vertical-align: top; padding-top: 4px; padding-bottom: 4px; }
+.oa-tab .oa-man-table th:nth-child(2), .oa-tab .oa-man-table td:nth-child(2) { width: 9em; }
+.oa-tab .oa-man-table th:nth-child(3), .oa-tab .oa-man-table td:nth-child(3) { width: 9em; }
+.oa-tab .oa-man-table td.row-tools { width: 8.5em; text-align: right; white-space: nowrap; }
+.oa-tab .oa-man-table .sub-note { display: block; font-size: 12px; font-style: italic; opacity: .85; }
+.oa-tab .oa-man-name { cursor: pointer; font-weight: 600; }
+.oa-tab .oa-man-name:hover { color: var(--blood, #8a1c1c); }
+.oa-tab .oa-rule-list { margin: 4px 0 8px 1.1em; padding: 0; font-size: 13px; }
+.oa-tab .oa-rule-list li { margin: 2px 0; }

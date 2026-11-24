@@ -60,47 +60,129 @@ export const KI_POWERS = {
 };
 export function registerKi(key, fn) { KI_POWERS[key] = fn; }
 
-function kiBox(actor) {
-  const s = actor.system, used = actor.flags?.[MID]?.kiUsed ?? {};
-  const rows = [];
+
+
+/* ---------- martial arts, ki and slots: the top of the OA tab ---------- */
+const STAT_RE = /Attacks per round ([^;]+); damage ([^;]+); armor class (\d+)[^;]*; principal attack: ([^.<]+)/;
+const METHOD_KEY = { "kick": "kick", "lock": "lock", "movement": "movement", "push": "push", "strike": "strike", "throw": "throw",
+  "vital area": "vital area", "weapon": "weapon", "mental and physical training": "mental", "mental": "mental" };
+
+/** A style's printed numbers, read from its description: { attacks, damage, ac, principal, taught: {method: Set}, taughtText, weapons }. */
+export function styleStats(item) {
+  const d = String(item?.system?.description ?? "");
+  const m = d.match(STAT_RE);
+  const t = d.match(/Special maneuvers taught: ([^(<]+?)\s*(\(|<\/p>)/);
+  const w = d.match(/Weapons: ([^<]+)<\/p>/);
+  const taught = {};
+  if (t) for (const part of t[1].split(";")) {
+    const mm = part.trim().match(/^([A-Za-z ]+?)\s+([\d,\s]+)$/);
+    if (!mm) continue;
+    const key = METHOD_KEY[mm[1].toLowerCase()];
+    if (key) taught[key] = new Set(mm[2].split(",").map(n => Number(n.trim())).filter(Boolean));
+  }
+  return m ? { attacks: m[1].trim(), damage: m[2].trim(), ac: Number(m[3]), principal: m[4].trim(), taught, taughtText: t ? t[1].trim() : "", weapons: w ? w[1].trim() : "" }
+    : { taught, taughtText: t ? t[1].trim() : "", weapons: w ? w[1].trim() : "" };
+}
+
+/** A maneuver's method and difficulty from its description ("Kick 1 (hard)."). */
+export function maneuverInfo(item) {
+  const d = String(item?.system?.description ?? "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  const m = d.match(/^([A-Za-z ]+?)\s(\d+)(?:\s\(([^)]+)\))?\./);
+  if (!m) return { method: item?.system?.specialty ?? "", diff: null, form: "" };
+  return { method: m[1].trim(), diff: Number(m[2]), form: m[3] ?? "" };
+}
+
+function topHTML(actor, flags, compName) {
+  const s = actor.system;
+  const weapons = attackWeapons(actor, isStyle);
+  const sel = weapons.find(w => w.id === flags.attackWith) ?? weapons[0] ?? null;
+  const st = sel && isStyle(sel) ? styleStats(sel) : null;
+  const short = n => String(n).replace(/^Martial arts:\s*/, "");
+  const line = (label, value) => `<div class="ac-line"><span>${label}</span><strong>${value}</strong></div>`;
+
+  /* style box */
+  const opts = weapons.map(w => `<option value="${w.id}" ${w === sel ? "selected" : ""}>${esc(short(w.name))}${isStyle(w) ? "" : " (weapon)"}</option>`).join("");
+  const styleBody = sel ? `
+      <div class="ac-line"><span>Fighting with</span><select data-oa-flag="attackWith" class="oa-pick">${opts}</select></div>
+      ${st?.attacks ? line("Attacks per round", esc(st.attacks)) : ""}
+      ${line("Damage S-M / L", esc(`${sel.system.damage?.smRange || sel.system.damage?.sm || "—"} / ${sel.system.damage?.lRange || sel.system.damage?.l || "—"}`))}
+      ${st?.ac ? line("Armor class in this style", st.ac) : ""}
+      ${st?.principal ? line("Principal attack", esc(st.principal)) : ""}
+      ${st?.taughtText ? `<div class="ac-line oa-taught"><span>Maneuvers taught</span><span>${esc(st.taughtText)}</span></div>` : ""}
+      ${st?.weapons && st.weapons !== "None." ? `<div class="ac-line oa-taught"><span>Style weapons</span><span>${esc(st.weapons)}</span></div>` : ""}
+      <p class="hint">The style's attacks and armor class apply only while fighting in it (OA p.102); armor class is not applied to the sheet.</p>`
+    : `<p class="hint">No style on the sheet. Drag one from the ${compName} compendium onto the sheet; it costs one proficiency slot (OA p.106).</p>`;
+  const styleBox = `<div class="box oa-style"><h3 class="box-title">Martial Arts
+      ${sel ? `<button type="button" class="mini mini-text brawl-btn oa-style-attack" title="Attack with ${esc(short(sel.name))}"><i class="fa-solid fa-hand-fist"></i> Attack</button>` : ""}</h3>${styleBody}</div>`;
+
+  /* ki box */
+  const used = flags.kiUsed ?? {};
+  const kiRows = [];
   for (const c of s.classInfo ?? []) {
     const fn = KI_POWERS[c.key];
     if (!fn) continue;
     const powers = fn(Math.max(1, c.level));
-    if (!powers.length) continue;
-    const any = powers.some(p => (used[`${c.key}-${p.id}`] ?? 0) > 0);
     for (const p of powers) {
       const id = `${c.key}-${p.id}`, n = used[id] ?? 0;
-      const warn = p.all && n > 0 && powers.some(q => q !== p && (used[`${c.key}-${q.id}`] ?? 0) > 0);
-      rows.push(`<tr><td class="left">${esc(c.label)}: ${esc(p.label)}${p.all ? ` <span class="hint">(needs all of the day's ki)</span>` : ""}${warn ? ` <strong>Other ki was used today.</strong>` : ""}</td>
-        <td><input type="number" min="0" max="${p.max}" data-oa-ki="${id}" value="${n}" style="width:3.5em"> of ${p.max}${n > p.max ? " <strong>(over)</strong>" : ""}</td></tr>`);
+      const clash = p.all && n > 0 && powers.some(q => q !== p && (used[`${c.key}-${q.id}`] ?? 0) > 0);
+      kiRows.push(`<div class="ac-line oa-ki-line ${n >= p.max ? "spent" : ""}"><span>${esc(p.label)}${p.all ? ` <em class="hint">needs all the day's ki</em>` : ""}${clash ? ` <strong class="oa-warn">other ki used today</strong>` : ""}</span>
+        <span class="oa-ki-count"><button type="button" class="icon-btn" data-oa-ki-step="${id}" data-step="-1" title="One fewer">−</button><input type="number" min="0" max="${p.max}" data-oa-ki="${id}" value="${n}"><span class="oa-of">/ ${p.max}</span><button type="button" class="icon-btn" data-oa-ki-step="${id}" data-step="1" data-max="${p.max}" title="Use one">+</button></span></div>`);
     }
   }
-  if (!rows.length) return "";
-  return box("Ki uses today", `<table class="oa-ki"><tr><th class="left">Power</th><th>Used</th></tr>${rows.join("")}</table>
-    <button type="button" class="oa-ki-reset"><i class="fa-solid fa-sun"></i> New day (clear ki uses)</button>
-    <p class="hint">Ki powers recover each day. Powers marked as needing all of the day's ki can be used only if no other ki power was used that day.</p>`);
-}
+  const kiBox = `<div class="box oa-ki"><h3 class="box-title">Ki Uses Today
+      ${kiRows.length ? `<button type="button" class="mini mini-text brawl-btn oa-ki-reset" title="Ki powers recover each day"><i class="fa-solid fa-sun"></i> New day</button>` : ""}</h3>
+    ${kiRows.length ? kiRows.join("") : `<p class="hint">No ki powers with a daily limit for this character's classes.</p>`}</div>`;
 
-function martialHTML(actor, flags) {
-  const weapons = attackWeapons(actor, isStyle);
-  const sel = weapons.find(w => w.id === flags.attackWith) ?? weapons[0] ?? null;
+  /* maneuvers */
   const man = actor.items.filter(i => i.type === "proficiency" && i.system.group === "oaManeuver")
-    .sort((a, b) => a.name.localeCompare(b.name));
-  const opts = weapons.map(w => `<option value="${w.id}" ${w === sel ? "selected" : ""}>${esc(w.name.replace(/^Martial arts:\s*/, ""))}${isStyle(w) ? "" : " (weapon)"}</option>`).join("");
-  const attackRow = weapons.length
-    ? `<div class="oa-grid"><label><span>Attack with</span><select data-oa-flag="attackWith">${opts}</select></label>
-        <button type="button" class="oa-style-attack"><i class="fa-solid fa-hand-fist"></i> Attack</button></div>`
-    : `<p class="hint">No style or weapon on the sheet yet.</p>`;
-  const rows = man.map(i => {
+    .map(i => ({ i, info: maneuverInfo(i) }))
+    .sort((a, b) => a.info.method.localeCompare(b.info.method) || (a.info.diff ?? 0) - (b.info.diff ?? 0) || a.i.name.localeCompare(b.i.name));
+  const rows = man.map(({ i, info }) => {
     const atk = MANEUVER_ATTACKS[i.name];
-    const tag = atk ? (atk.none ? "attack, no damage" : "attack") : (ALWAYS_ON.has(i.name) ? "always in effect" : "");
-    return `<tr><td class="left">${esc(i.name)}${tag ? ` <span class="hint">(${tag})</span>` : ""}</td>
-      <td>${atk && sel ? `<button type="button" class="cast-btn" data-oa-man-attack="${esc(i.name)}">Attack</button>` : ""}
+    const L = Math.max(1, ...(s.classInfo ?? []).map(c => c.level || 1));
+    const use = atk ? (atk.none ? "Attack, no damage" : atk.mult ? `Attack, ×${atk.mult} dice` : atk.dice ? `Attack, ${atk.dice}` : atk.plusLevel ? `Attack, +${L} damage` : "Attack")
+      : ALWAYS_ON.has(i.name) ? "Always in effect" : "As described";
+    const key = METHOD_KEY[info.method.toLowerCase()];
+    // Mental and Physical Training can be learned in any style (OA p.105)
+    const off = st && key && key !== "mental" && info.diff && Object.keys(st.taught).length && !st.taught[key]?.has(info.diff);
+    const hitText = atk ? (typeof atk.hit === "function" ? atk.hit(L) : atk.hit ?? "") : "";
+    return `<tr>
+      <td class="left"><a class="oa-man-name" data-oa-man-show="${i.id}" title="Post the description to chat">${esc(i.name)}</a>
+        ${hitText ? `<span class="sub-note">${esc(hitText)}</span>` : ""}${off ? `<span class="sub-note oa-warn">Not on ${esc(short(sel.name))}'s list (OA p.105: a master teaches only his style's maneuvers)</span>` : ""}</td>
+      <td>${esc(info.method.replace(/^Mental and Physical Training/, "Mental/Physical"))}${info.diff ? ` ${info.diff}` : ""}${info.form ? `<span class="sub-note">${esc(info.form)}</span>` : ""}</td>
+      <td>${use}</td>
+      <td class="row-tools">${atk ? `<button type="button" class="cast-btn" data-oa-man-attack="${esc(i.name)}" ${sel ? "" : `disabled title="Add a style to the sheet first"`}>Attack</button>` : ""}
         <button type="button" class="cast-btn" data-oa-man-show="${i.id}">Show</button></td></tr>`;
   }).join("");
-  return `${attackRow}
-    ${man.length ? `<table class="oa-maneuvers"><tr><th class="left">Maneuver</th><th></th></tr>${rows}</table>` : `<p class="hint">No maneuvers on the sheet. Drag them from the martial arts compendium.</p>`}`;
+  const manBox = `<div class="box oa-man"><h3 class="box-title">Maneuvers</h3>
+    <table class="ledger oa-man-table"><thead><tr><th class="left">Maneuver</th><th>Method</th><th>Use</th><th></th></tr></thead>
+      <tbody>${rows || `<tr><td colspan="4" class="hint">Drag maneuvers here from the ${compName} compendium. Each costs one proficiency slot.</td></tr>`}</tbody></table>
+    <p class="hint">Target tokens, then click Attack: it rolls to hit with the style above and the chat card gives the maneuver's damage and effect. Click a name to post its description.
+      ${sel ? "" : " <strong>Attack buttons need a style on the sheet.</strong>"}</p></div>`;
+
+  /* slots and rules */
+  const pools = (s.classInfo ?? []).filter(c => CLASSES[c.key]).map(c => ({ c, p: profPool(CLASSES[c.key], c.level) }));
+  const total = pools.find(x => x.p)?.p?.total ?? null;
+  const usedSlots = slotsUsed(actor);
+  const styles = actor.items.filter(isStyle).length;
+  const slotBox = `<div class="box oa-slots"><h3 class="box-title">Proficiency Slots</h3>
+    ${line("Slots (OA Table 56)", total ?? "—")}
+    ${line("Used", usedSlots)}
+    ${total !== null ? line("Free", total - usedSlots < 0 ? `<span class="oa-warn">over by ${usedSlots - total}</span>` : total - usedSlots) : ""}
+    ${line("Styles / maneuvers", `${styles} / ${man.length}`)}
+    <p class="hint">${total === null ? "OA Table 56 gives no slots for this class; count them by hand. " : ""}Weapons, peaceful skills, styles and maneuvers share one pool (OA p.51). A style costs one slot, each maneuver or style weapon one more.</p></div>`;
+  const rulesBox = `<div class="box oa-rules"><h3 class="box-title">Learning Martial Arts</h3>
+    <ul class="oa-rule-list">
+      <li>Find a master who will teach (10% at first; +10% per respectful visit with a gift), or win a challenge (OA p.105).</li>
+      <li>Study a month, then spend a slot for the style's basics (OA p.106).</li>
+      <li>Practice an hour a day and six hours a week with the master, or learn nothing more.</li>
+      <li>Maneuvers in order of difficulty: every 1 before any 2.</li>
+      <li>No more than two slots on one style per level.</li>
+      <li>Several styles: one per round; only always-in-effect maneuvers carry over (OA p.106).</li>
+    </ul>
+    <label class="oa-wide"><span>Notes (master, school, training)</span><textarea data-oa-flag="maneuvers" rows="3">${esc(flags.maneuvers ?? "")}</textarea></label></div>`;
+
+  return `<div class="combat-top">${styleBox}${kiBox}</div>${manBox}<div class="combat-top">${slotBox}${rulesBox}</div>`;
 }
 
 export function renderOATab(app, element) {
@@ -127,11 +209,12 @@ export function tabHTML(actor) {
   const s = actor.system, flags = actor.flags?.[MID] ?? {};
   const oaClasses = (s.classInfo ?? []).filter(c => CLASSES[c.key]);
   const out = [];
+  out.push(topHTML(actor, flags, "OA Lite Martial Arts"));
+  out.push(`<div class="oa-classes">`);
   /* ---- class abilities ---- */
   for (const c of oaClasses) {
     const lines = classFeatures(c.key, c.level, s);
     const pool = profPool(CLASSES[c.key], c.level);
-    const used = slotsUsed(actor);
     const ma = CLASSES[c.key].oa ?? {};
     const req = Object.entries(ma.min ?? {}).map(([k, v]) => `${k.toUpperCase()} ${v}`).join(", ");
     out.push(box(`${esc(c.label)} ${c.level}`, `
@@ -139,22 +222,14 @@ export function tabHTML(actor) {
       <p class="hint">Minimums: ${esc(req)}${ma.max ? `; ${Object.entries(ma.max).map(([k, v]) => `${k.toUpperCase()} at most ${v}`).join(", ")}` : ""}. Alignment: ${esc(ma.align)}.
         ${ma.bonus ? `+10% experience with ${ma.bonus.map(([k, v]) => `${k.toUpperCase()} ${v}`).join(" and ")}.` : "No experience bonus."}</p>
       ${pool ? `<p><strong>Proficiencies (OA Table 56):</strong> ${pool.total} (${pool.initial} at 1st${pool.per ? `, one more every ${pool.per === 1 ? "level" : `${pool.per} levels`}` : ""}). Weapons, peaceful skills, martial arts styles and maneuvers share these slots.</p>
-        <p>${used > pool.total ? `<strong>Slots used: ${used} of ${pool.total} (over by ${used - pool.total}).</strong>` : `Slots used: ${used} of ${pool.total}.`}</p>`
-        : `<p class="hint">${c.key === "monkOA" ? "Monk proficiencies: one unarmed style with two of its maneuvers, plus five slots (religion and calligraphy required); OA Table 56 has no monk row, so no rate of gain is given." : c.key === "yakuza" ? "Yakuza: three proficiency slots plus gaming; OA Table 56 has no yakuza row, so no rate of gain is given." : ""} Slots used: ${slotsUsed(actor)}.</p>`}
+`
+        : `<p class="hint">${c.key === "monkOA" ? "Monk proficiencies: one unarmed style with two of its maneuvers, plus five slots (religion and calligraphy required); OA Table 56 has no monk row, so no rate of gain is given." : c.key === "yakuza" ? "Yakuza: three proficiency slots plus gaming; OA Table 56 has no yakuza row, so no rate of gain is given." : ""}</p>`}
       ${ma.nonProfNote ? `<p class="hint">${esc(ma.nonProfNote)}</p>` : ""}`));
   }
 
-  /* ---- ki ---- */
-  out.push(kiBox(actor));
 
-  /* ---- martial arts ---- */
-  out.push(box("Martial arts (OA p.101-106)", `
-    <div class="oa-grid">
-      <label><span>Style</span><input type="text" data-oa-flag="style" value="${esc(flags.style ?? "")}" placeholder="e.g. Karate"></label>
-    </div>
-    <label class="oa-wide"><span>Martial arts notes</span><textarea data-oa-flag="maneuvers" rows="3">${esc(flags.maneuvers ?? "")}</textarea></label>
-    ${martialHTML(actor, flags)}
-    <p class="hint">Drag a style from the OA Lite Martial Arts compendium onto the sheet: it goes to the Weapons list so you can attack with it, is added to the weapon proficiency list (learning a style costs one proficiency slot, OA p.106) and fills in the Style box if it is empty. Each maneuver costs one more slot. Pick the style (or martial arts weapon) under Attack with, then click a maneuver's Attack button: it rolls to hit against your targets with that style, and the chat card carries the maneuver's damage and effect. Show posts the maneuver's description. Rules the sheet does not check: a master must teach the style; maneuvers are learned in order of difficulty (all difficulty 1 before any difficulty 2); no more than two slots go to one style per level (OA p.106). Maneuvers are described in the OA Lite Martial Arts compendium and the Martial Arts journal.</p>`));
+
+  out.push(`</div>`);
 
   /* ---- race extras ---- */
   if (s.details?.race === "hengeyokai") {
@@ -187,6 +262,12 @@ function wire(sec, actor) {
   sec.querySelectorAll("[data-oa-ki]").forEach(el => el.addEventListener("change", ev => {
     ev.stopPropagation();
     actor.setFlag(MID, `kiUsed.${el.dataset.oaKi}`, Math.max(0, Number(el.value) || 0));
+  }));
+  sec.querySelectorAll("[data-oa-ki-step]").forEach(el => el.addEventListener("click", ev => {
+    ev.preventDefault();
+    const id = el.dataset.oaKiStep, cur = Number(actor.getFlag(MID, `kiUsed.${id}`) ?? 0), max = Number(el.dataset.max ?? Infinity);
+    const n = Math.max(0, Math.min(max, cur + Number(el.dataset.step)));
+    if (n !== cur) actor.setFlag(MID, `kiUsed.${id}`, n);
   }));
   sec.querySelector(".oa-ki-reset")?.addEventListener("click", ev => {
     ev.preventDefault();
