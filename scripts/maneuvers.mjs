@@ -49,6 +49,13 @@ export const MANEUVER_ATTACKS = {
 export const ALWAYS_ON = new Set(["Prone fighting", "Immovability", "Missile deflection", "Slow resistance", "Fall",
   "All-around sight", "Mental resistance", "Blind fighting", "Ironskin"]);
 
+/** Add-ons add maneuvers: registerManeuver(name, def) for an attack (same fields as above, plus hitMod),
+ *  or registerManeuver(name, null, { alwaysOn: true }) for one that is always in effect. */
+export function registerManeuver(name, def, { alwaysOn = false } = {}) {
+  if (def) MANEUVER_ATTACKS[name] = def;
+  if (alwaysOn) ALWAYS_ON.add(name);
+}
+
 const txt = (v, L) => typeof v === "function" ? v(L) : (v ?? "");
 const esc = s => foundry.utils.escapeHTML ? foundry.utils.escapeHTML(String(s ?? "")) : String(s ?? "");
 
@@ -79,6 +86,7 @@ export async function maneuverAttack(actor, weapon, name) {
     d.sm = `(${base(d.sm)}) * ${m.mult}`; d.l = `(${base(d.l || d.sm)}) * ${m.mult}`;
     d.smRange = d.sm; d.lRange = d.l;
   }
+  if (m.hitMod) data.system.bonus.hit = (data.system.bonus.hit ?? 0) + m.hitMod;
   if (m.plusLevel) data.system.bonus.dmg = (data.system.bonus.dmg ?? 0) + L;
   const temp = new Item.implementation(data, { parent: actor });
   const msg = await F.Rolls.rollAttack(actor, { item: temp });
@@ -86,7 +94,7 @@ export async function maneuverAttack(actor, weapon, name) {
   let content = msg.content;
   if (m.none) content = content.replace(/<div class="card-buttons">[\s\S]*?<\/div>(\s*<div class="hint">Includes[\s\S]*?<\/div>)?/, `<div class="hint"><strong>No damage.</strong></div>`);
   const parts = [txt(m.pre, L), m.hit ? `<em>Hit:</em> ${esc(txt(m.hit, L))}` : "", m.miss ? `<em>Miss:</em> ${esc(txt(m.miss, L))}` : ""].filter(Boolean);
-  const note = `<div class="hint oa-maneuver"><strong>${esc(name)} (OA p.103-105).</strong> ${parts.map((p, i) => i === 0 && m.pre ? esc(p) : p).join(" ")}${m.mult ? ` <span>The weapon's dice are multiplied; OA doesn't say whether bonuses are.</span>` : ""}</div>`;
+  const note = `<div class="hint oa-maneuver"><strong>${esc(name)} (${esc(m.source ?? "OA p.103-105")}).</strong> ${parts.map((p, i) => i === 0 && m.pre ? esc(p) : p).join(" ")}${m.mult ? ` <span>The weapon's dice are multiplied; OA doesn't say whether bonuses are.</span>` : ""}</div>`;
   const i = content.lastIndexOf("</div>");
   content = content.slice(0, i) + note + content.slice(i);
   const upd = { content };
