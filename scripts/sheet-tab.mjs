@@ -36,6 +36,51 @@ export function slotsUsed(actor) {
   return weapon + items + styles;
 }
 
+/**
+ * Ki powers with a daily limit, by class key: (level) => [{ id, label, max, all? }].
+ * "all" marks a power that needs all of the day's ki (no other ki power used that day).
+ * Add-ons can add classes with registerKi(key, fn).
+ */
+export const KI_POWERS = {
+  bushi: L => [{ id: "kiai", label: "Kiai: fight as two levels higher for a turn (OA p.16)", max: 1 }],
+  kensai: L => [{ id: "maxdmg", label: "Maximum damage with one hit, declared before rolling (OA p.16)", max: L },
+    ...(L >= 11 ? [{ id: "whirl", label: "Whirlwind attack (OA p.17)", max: 1, all: true }] : [])],
+  monkOA: L => [{ id: "save", label: `Ki save vs. magic: no damage or effect on a save${L >= 9 ? ", half on a failure" : ""} (OA p.18)`, max: L }],
+  ninja: L => [{ id: "breath", label: `Hold breath ${L} rounds (OA p.21)`, max: 1 },
+    ...(L >= 5 ? [{ id: "water", label: `Walk on water, ${5 * L} ft (OA p.21)`, max: L }] : []),
+    ...(L >= 12 ? [{ id: "walls", label: "Pass through walls (OA p.21)", max: 1, all: true }] : [])],
+  samurai: L => [{ id: "str", label: "Strength 18/00 for one round (OA p.22)", max: L },
+    ...(L >= 9 ? [{ id: "great", label: "Great kiai; no normal ki that day (OA p.22)", max: 1, all: true }] : [])],
+  shukenja: L => [{ id: "save", label: "+3 on a saving throw, declared before the roll (OA p.23)", max: L }],
+  sohei: L => L >= 3 ? [{ id: "berserk", label: "Ki berserk for one turn (OA p.24)", max: 1 }] : [],
+  wuJen: L => [{ id: "init", label: "+3 initiative for one round (OA p.25)", max: 1 },
+    ...(L >= 4 ? [{ id: "maxspell", label: `Cast a spell of level ${Math.max(1, L - 3)} or lower at maximum effect (OA p.25)`, max: 1 }] : [])],
+  yakuza: L => [{ id: "halve", label: "Halve the damage of one attack, once a round (OA p.27)", max: L }]
+};
+export function registerKi(key, fn) { KI_POWERS[key] = fn; }
+
+function kiBox(actor) {
+  const s = actor.system, used = actor.flags?.[MID]?.kiUsed ?? {};
+  const rows = [];
+  for (const c of s.classInfo ?? []) {
+    const fn = KI_POWERS[c.key];
+    if (!fn) continue;
+    const powers = fn(Math.max(1, c.level));
+    if (!powers.length) continue;
+    const any = powers.some(p => (used[`${c.key}-${p.id}`] ?? 0) > 0);
+    for (const p of powers) {
+      const id = `${c.key}-${p.id}`, n = used[id] ?? 0;
+      const warn = p.all && n > 0 && powers.some(q => q !== p && (used[`${c.key}-${q.id}`] ?? 0) > 0);
+      rows.push(`<tr><td class="left">${esc(c.label)}: ${esc(p.label)}${p.all ? ` <span class="hint">(needs all of the day's ki)</span>` : ""}${warn ? ` <strong>Other ki was used today.</strong>` : ""}</td>
+        <td><input type="number" min="0" max="${p.max}" data-oa-ki="${id}" value="${n}" style="width:3.5em"> of ${p.max}${n > p.max ? " <strong>(over)</strong>" : ""}</td></tr>`);
+    }
+  }
+  if (!rows.length) return "";
+  return box("Ki uses today", `<table class="oa-ki"><tr><th class="left">Power</th><th>Used</th></tr>${rows.join("")}</table>
+    <button type="button" class="oa-ki-reset"><i class="fa-solid fa-sun"></i> New day (clear ki uses)</button>
+    <p class="hint">Ki powers recover each day. Powers marked as needing all of the day's ki can be used only if no other ki power was used that day.</p>`);
+}
+
 function styleList(actor) {
   const styles = actor.items.filter(isStyle).map(i => i.name.slice(STYLE_PREFIX.length).trim());
   const man = actor.items.filter(i => i.type === "proficiency" && i.system.group === "oaManeuver").map(i => i.name);
@@ -83,6 +128,9 @@ export function tabHTML(actor) {
       ${ma.nonProfNote ? `<p class="hint">${esc(ma.nonProfNote)}</p>` : ""}`));
   }
 
+  /* ---- ki ---- */
+  out.push(kiBox(actor));
+
   /* ---- martial arts ---- */
   out.push(box("Martial arts (OA p.101-106)", `
     <div class="oa-grid">
@@ -114,6 +162,14 @@ export function tabHTML(actor) {
 }
 
 function wire(sec, actor) {
+  sec.querySelectorAll("[data-oa-ki]").forEach(el => el.addEventListener("change", ev => {
+    ev.stopPropagation();
+    actor.setFlag(MID, `kiUsed.${el.dataset.oaKi}`, Math.max(0, Number(el.value) || 0));
+  }));
+  sec.querySelector(".oa-ki-reset")?.addEventListener("click", ev => {
+    ev.preventDefault();
+    actor.update({ [`flags.${MID}.-=kiUsed`]: null });
+  });
   sec.querySelectorAll("[data-oa-flag]").forEach(el => el.addEventListener("change", ev => {
     ev.stopPropagation();
     const v = el.type === "number" ? (el.value === "" ? null : Number(el.value)) : el.value;
