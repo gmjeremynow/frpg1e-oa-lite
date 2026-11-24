@@ -2,7 +2,7 @@
 import { CLASSES } from "./classes.mjs";
 import { MANEUVER_ATTACKS, ALWAYS_ON, attackWeapons, maneuverAttack } from "./maneuvers.mjs";
 import { classFeatures } from "./features.mjs";
-import { HENGEYOKAI } from "./races.mjs";
+import { HENGEYOKAI, OA_RACE_KEYS } from "./races.mjs";
 import { WUJEN_INT } from "./tables.mjs";
 
 const MID = "frpg1e-oa-lite";
@@ -188,6 +188,14 @@ function topHTML(actor, flags, needs, compName) {
   return `<div class="combat-top">${styleBox}${kiBox}</div>${manBox}<div class="combat-top">${slotBox}${rulesBox}</div>`;
 }
 
+/** True when the character has an OA race or at least one OA class (OA, or an add-on class whose source is OA or Dragon). */
+export function usesOA(actor) {
+  const s = actor.system ?? {};
+  if (OA_RACE_KEYS.includes(s.details?.race)) return true;
+  const all = game.frpg1e?.api?.CLASSES ?? {};
+  return (s.classInfo ?? []).some(c => CLASSES[c.key] || /^(OA|Dragon #)/.test(c.def?.source ?? all[c.key]?.source ?? ""));
+}
+
 export function renderOATab(app, element) {
   const root = element instanceof HTMLElement ? element : element?.[0] ?? app.element;
   const actor = app.actor ?? app.document;
@@ -197,6 +205,20 @@ export function renderOATab(app, element) {
   if (!tabs || !scroll) return;
   root.querySelector(".tab-body[data-tab='oa']")?.remove();
   tabs.querySelector("[data-tab='oa']")?.remove();
+  // On the Proficiencies tab, a style is a proper choice: drop the system's "(not in the weapon list)" label from it
+  for (const o of root.querySelectorAll("select[data-prof-field='name'] option")) if (o.value.startsWith(STYLE_PREFIX)) o.textContent = o.value;
+  // The OA tab is shown only for an OA race or class (including OA classes from add-ons, such as the Dragon ones)
+  if (!usesOA(actor)) {
+    if (app._tab === "oa") {
+      const first = tabs.querySelector("[data-tab]");
+      if (first) {
+        app._tab = first.dataset.tab;
+        first.classList.add("active");
+        root.querySelector(`.tab-body[data-tab='${first.dataset.tab}']`)?.classList.add("active");
+      }
+    }
+    return;
+  }
   // Martial arts styles live on the OA tab: take them out of the Combat tab's Weapons list, keeping their to-hit numbers
   const needs = {};
   for (const row of root.querySelectorAll(".weapon-table tr.weapon-row[data-item-id]")) {
@@ -205,8 +227,6 @@ export function renderOATab(app, element) {
     needs[it.id] = [...row.querySelectorAll("td.need")].map(td => td.textContent.trim());
     row.remove();
   }
-  // On the Proficiencies tab, a style is a proper choice: drop the system's "(not in the weapon list)" label from it
-  for (const o of root.querySelectorAll("select[data-prof-field='name'] option")) if (o.value.startsWith(STYLE_PREFIX)) o.textContent = o.value;
   const wbody = root.querySelector(".weapon-table tbody");
   if (wbody && !wbody.querySelector("tr")) wbody.innerHTML = `<tr><td colspan="17" class="hint">Drag weapons here from the Weapons (PHB/UA) compendium. Martial arts styles are on the OA tab.</td></tr>`;
   const btn = document.createElement("button");
