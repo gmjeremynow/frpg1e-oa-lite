@@ -204,6 +204,8 @@ export function renderOATab(app, element) {
     needs[it.id] = [...row.querySelectorAll("td.need")].map(td => td.textContent.trim());
     row.remove();
   }
+  // On the Proficiencies tab, a style is a proper choice: drop the system's "(not in the weapon list)" label from it
+  for (const o of root.querySelectorAll("select[data-prof-field='name'] option")) if (o.value.startsWith(STYLE_PREFIX)) o.textContent = o.value;
   const wbody = root.querySelector(".weapon-table tbody");
   if (wbody && !wbody.querySelector("tr")) wbody.innerHTML = `<tr><td colspan="17" class="hint">Drag weapons here from the Weapons (PHB/UA) compendium. Martial arts styles are on the OA tab.</td></tr>`;
   const btn = document.createElement("button");
