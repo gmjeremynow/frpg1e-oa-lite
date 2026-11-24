@@ -6,7 +6,7 @@
  */
 import { CLASSES, SPELLS, OA_CLASS_KEYS } from "./classes.mjs";
 import { RACES, OA_RACE_KEYS, korobokuruSave } from "./races.mjs";
-import { renderOATab } from "./sheet-tab.mjs";
+import { isStyle, STYLE_PREFIX, renderOATab } from "./sheet-tab.mjs";
 import { offerImport, importCompendia } from "./compendia.mjs";
 
 export const MID = "frpg1e-oa-lite";
@@ -79,3 +79,18 @@ Hooks.on("frpg1e.prepareCharacter", (sys) => {
 
 /* ---------- sheet tab ---------- */
 Hooks.on("renderCharacterSheet", (app, element) => { if (!API?.conflict) renderOATab(app, element); });
+
+/* ---------- martial arts styles: dropping one adds it to the weapon proficiency list (OA p.106: a style costs one slot) ---------- */
+Hooks.on("createItem", async (item, options, userId) => {
+  if (API?.conflict) return; if (userId !== game.user.id || !isStyle(item)) return;
+  const actor = item.parent;
+  if (!actor || !["character", "npc"].includes(actor.type)) return;
+  const list = foundry.utils.deepClone(actor._source.system.profs?.weapons ?? []);
+  const update = {};
+  if (!list.some(w => String(w.name ?? "").toLowerCase() === item.name.toLowerCase())) {
+    list.push({ name: item.name, spec: "", bow: false });
+    update["system.profs.weapons"] = list;
+  }
+  if (!actor.getFlag(MID, "style")) update[`flags.${MID}.style`] = item.name.slice(STYLE_PREFIX.length).trim();
+  if (Object.keys(update).length) await actor.update(update);
+});
