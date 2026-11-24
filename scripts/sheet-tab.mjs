@@ -1,5 +1,6 @@
 /** OA tab on the character and NPC sheets. */
 import { CLASSES } from "./classes.mjs";
+import { MANEUVER_ATTACKS, ALWAYS_ON, attackWeapons, maneuverAttack } from "./maneuvers.mjs";
 import { classFeatures } from "./features.mjs";
 import { HENGEYOKAI } from "./races.mjs";
 import { WUJEN_INT } from "./tables.mjs";
@@ -81,10 +82,25 @@ function kiBox(actor) {
     <p class="hint">Ki powers recover each day. Powers marked as needing all of the day's ki can be used only if no other ki power was used that day.</p>`);
 }
 
-function styleList(actor) {
-  const styles = actor.items.filter(isStyle).map(i => i.name.slice(STYLE_PREFIX.length).trim());
-  const man = actor.items.filter(i => i.type === "proficiency" && i.system.group === "oaManeuver").map(i => i.name);
-  return `Styles on the sheet: ${styles.length ? esc(styles.join(", ")) : "none"}. Maneuvers on the sheet: ${man.length ? esc(man.join(", ")) : "none"}.`;
+function martialHTML(actor, flags) {
+  const weapons = attackWeapons(actor, isStyle);
+  const sel = weapons.find(w => w.id === flags.attackWith) ?? weapons[0] ?? null;
+  const man = actor.items.filter(i => i.type === "proficiency" && i.system.group === "oaManeuver")
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const opts = weapons.map(w => `<option value="${w.id}" ${w === sel ? "selected" : ""}>${esc(w.name.replace(/^Martial arts:\s*/, ""))}${isStyle(w) ? "" : " (weapon)"}</option>`).join("");
+  const attackRow = weapons.length
+    ? `<div class="oa-grid"><label><span>Attack with</span><select data-oa-flag="attackWith">${opts}</select></label>
+        <button type="button" class="oa-style-attack"><i class="fa-solid fa-hand-fist"></i> Attack</button></div>`
+    : `<p class="hint">No style or weapon on the sheet yet.</p>`;
+  const rows = man.map(i => {
+    const atk = MANEUVER_ATTACKS[i.name];
+    const tag = atk ? (atk.none ? "attack, no damage" : "attack") : (ALWAYS_ON.has(i.name) ? "always in effect" : "");
+    return `<tr><td class="left">${esc(i.name)}${tag ? ` <span class="hint">(${tag})</span>` : ""}</td>
+      <td>${atk && sel ? `<button type="button" class="cast-btn" data-oa-man-attack="${esc(i.name)}">Attack</button>` : ""}
+        <button type="button" class="cast-btn" data-oa-man-show="${i.id}">Show</button></td></tr>`;
+  }).join("");
+  return `${attackRow}
+    ${man.length ? `<table class="oa-maneuvers"><tr><th class="left">Maneuver</th><th></th></tr>${rows}</table>` : `<p class="hint">No maneuvers on the sheet. Drag them from the martial arts compendium.</p>`}`;
 }
 
 export function renderOATab(app, element) {
@@ -136,9 +152,9 @@ export function tabHTML(actor) {
     <div class="oa-grid">
       <label><span>Style</span><input type="text" data-oa-flag="style" value="${esc(flags.style ?? "")}" placeholder="e.g. Karate"></label>
     </div>
-    <label class="oa-wide"><span>Special maneuvers known</span><textarea data-oa-flag="maneuvers" rows="3">${esc(flags.maneuvers ?? "")}</textarea></label>
-    <p>${styleList(actor)}</p>
-    <p class="hint">Drag a style from the OA Lite Martial Arts compendium onto the sheet: it goes to the Weapons list so you can attack with it, is added to the weapon proficiency list (learning a style costs one proficiency slot, OA p.106) and fills in the Style box if it is empty. Each maneuver costs one more slot. Rules the sheet does not check: a master must teach the style; maneuvers are learned in order of difficulty (all difficulty 1 before any difficulty 2); no more than two slots go to one style per level (OA p.106). Maneuvers are described in the OA Lite Martial Arts compendium and the Martial Arts journal.</p>`));
+    <label class="oa-wide"><span>Martial arts notes</span><textarea data-oa-flag="maneuvers" rows="3">${esc(flags.maneuvers ?? "")}</textarea></label>
+    ${martialHTML(actor, flags)}
+    <p class="hint">Drag a style from the OA Lite Martial Arts compendium onto the sheet: it goes to the Weapons list so you can attack with it, is added to the weapon proficiency list (learning a style costs one proficiency slot, OA p.106) and fills in the Style box if it is empty. Each maneuver costs one more slot. Pick the style (or martial arts weapon) under Attack with, then click a maneuver's Attack button: it rolls to hit against your targets with that style, and the chat card carries the maneuver's damage and effect. Show posts the maneuver's description. Rules the sheet does not check: a master must teach the style; maneuvers are learned in order of difficulty (all difficulty 1 before any difficulty 2); no more than two slots go to one style per level (OA p.106). Maneuvers are described in the OA Lite Martial Arts compendium and the Martial Arts journal.</p>`));
 
   /* ---- race extras ---- */
   if (s.details?.race === "hengeyokai") {
@@ -162,6 +178,12 @@ export function tabHTML(actor) {
 }
 
 function wire(sec, actor) {
+  const pick = () => { const w = attackWeapons(actor, isStyle); return w.find(i => i.id === actor.getFlag(MID, "attackWith")) ?? w[0] ?? null; };
+  sec.querySelector(".oa-style-attack")?.addEventListener("click", ev => { ev.preventDefault(); const w = pick(); if (w) game.frpg1e.Rolls.rollAttack(actor, { item: w }); });
+  sec.querySelectorAll("[data-oa-man-attack]").forEach(el => el.addEventListener("click", ev => { ev.preventDefault(); maneuverAttack(actor, pick(), el.dataset.oaManAttack); }));
+  sec.querySelectorAll("[data-oa-man-show]").forEach(el => el.addEventListener("click", ev => {
+    ev.preventDefault(); const it = actor.items.get(el.dataset.oaManShow); if (it) game.frpg1e.Rolls.rollProficiency(actor, it);
+  }));
   sec.querySelectorAll("[data-oa-ki]").forEach(el => el.addEventListener("change", ev => {
     ev.stopPropagation();
     actor.setFlag(MID, `kiUsed.${el.dataset.oaKi}`, Math.max(0, Number(el.value) || 0));
