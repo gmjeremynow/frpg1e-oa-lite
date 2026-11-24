@@ -44,3 +44,6 @@ blockquote.oa-box { background: rgba(120, 110, 90, 0.12); border-left: 3px solid
 .oa-tab .oa-man-name:hover { color: var(--blood, #8a1c1c); }
 .oa-tab .oa-rule-list { margin: 4px 0 8px 1.1em; padding: 0; font-size: 13px; }
 .oa-tab .oa-rule-list li { margin: 2px 0; }
+.oa-tab .oa-needs { width: 100%; margin: 6px 0 4px; }
+.oa-tab .oa-needs th, .oa-tab .oa-needs td { text-align: center; padding: 1px 2px; }
+.oa-tab .oa-needs .left { text-align: left; white-space: nowrap; }

@@ -92,7 +92,7 @@ export function maneuverInfo(item) {
   return { method: m[1].trim(), diff: Number(m[2]), form: m[3] ?? "" };
 }
 
-function topHTML(actor, flags, compName) {
+function topHTML(actor, flags, needs, compName) {
   const s = actor.system;
   const weapons = attackWeapons(actor, isStyle);
   const sel = weapons.find(w => w.id === flags.attackWith) ?? weapons[0] ?? null;
@@ -110,6 +110,8 @@ function topHTML(actor, flags, compName) {
       ${st?.principal ? line("Principal attack", esc(st.principal)) : ""}
       ${st?.taughtText ? `<div class="ac-line oa-taught"><span>Maneuvers taught</span><span>${esc(st.taughtText)}</span></div>` : ""}
       ${st?.weapons && st.weapons !== "None." ? `<div class="ac-line oa-taught"><span>Style weapons</span><span>${esc(st.weapons)}</span></div>` : ""}
+      ${needs[sel.id]?.length === 11 ? `<table class="ledger oa-needs"><thead><tr><th class="left">To hit AC</th>${[10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0].map(n => `<th class="acn">${n}</th>`).join("")}</tr></thead>
+        <tbody><tr><td class="left">Score needed</td>${needs[sel.id].map(n => `<td class="acn need">${esc(n)}</td>`).join("")}</tr></tbody></table>` : ""}
       <p class="hint">The style's attacks and armor class apply only while fighting in it (OA p.102); armor class is not applied to the sheet.</p>`
     : `<p class="hint">No style on the sheet. Drag one from the ${compName} compendium onto the sheet; it costs one proficiency slot (OA p.106).</p>`;
   const styleBox = `<div class="box oa-style"><h3 class="box-title">Martial Arts
@@ -194,22 +196,32 @@ export function renderOATab(app, element) {
   if (!tabs || !scroll) return;
   root.querySelector(".tab-body[data-tab='oa']")?.remove();
   tabs.querySelector("[data-tab='oa']")?.remove();
+  // Martial arts styles live on the OA tab: take them out of the Combat tab's Weapons list, keeping their to-hit numbers
+  const needs = {};
+  for (const row of root.querySelectorAll(".weapon-table tr.weapon-row[data-item-id]")) {
+    const it = actor.items.get(row.dataset.itemId);
+    if (!isStyle(it)) continue;
+    needs[it.id] = [...row.querySelectorAll("td.need")].map(td => td.textContent.trim());
+    row.remove();
+  }
+  const wbody = root.querySelector(".weapon-table tbody");
+  if (wbody && !wbody.querySelector("tr")) wbody.innerHTML = `<tr><td colspan="17" class="hint">Drag weapons here from the Weapons (PHB/UA) compendium. Martial arts styles are on the OA tab.</td></tr>`;
   const btn = document.createElement("button");
   btn.type = "button"; btn.dataset.action = "sheetTab"; btn.dataset.tab = "oa"; btn.textContent = "OA";
   tabs.append(btn);
   const sec = document.createElement("section");
   sec.className = "tab-body oa-tab"; sec.dataset.tab = "oa";
-  sec.innerHTML = tabHTML(actor);
+  sec.innerHTML = tabHTML(actor, { needs });
   scroll.append(sec);
   if (app._tab === "oa") { btn.classList.add("active"); sec.classList.add("active"); }
   wire(sec, actor);
 }
 
-export function tabHTML(actor) {
+export function tabHTML(actor, { needs = {} } = {}) {
   const s = actor.system, flags = actor.flags?.[MID] ?? {};
   const oaClasses = (s.classInfo ?? []).filter(c => CLASSES[c.key]);
   const out = [];
-  out.push(topHTML(actor, flags, "OA Lite Martial Arts"));
+  out.push(topHTML(actor, flags, needs, "OA Lite Martial Arts"));
   out.push(`<div class="oa-classes">`);
   /* ---- class abilities ---- */
   for (const c of oaClasses) {
