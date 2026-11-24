@@ -1,4 +1,4 @@
-# OA Lite for 1e FRPG, v0.1.5
+# OA Lite for 1e FRPG, v0.1.6
 
 An optional add-on for the 1e FRPG system for Foundry VTT (system 0.48.0 or later, Foundry V14), for use in any campaign. It adds the OA races and classes on the character sheet, martial arts, OA proficiencies, shukenja and wu jen spells, OA weapons, armor and equipment priced in standard coins, magic items and monsters. It leaves out the Eastern Lands setting, the family, honor and society rules, OA's own money and the running-the-game chapters. Turn the module on or off in Manage Modules.
 
@@ -74,6 +74,7 @@ Then switch it on in the world and accept the offer to build the OA Lite compend
 
 ## Changes
 
+- 0.1.6: the OA weapons (46 of them, from the boku-toh to the wakizashi) are added to the weapon proficiency drop-down on the Proficiencies tab. Needs 1e FRPG 0.48.2 or later; on an older system the list stays as it was. OA entries that are a PHB weapon under another name (thrown club and dagger, composite short bow, staff sling, light lance, blowpipe) are left out, since the PHB name is already on the list.
 - 0.1.5: on the Proficiencies tab, a martial arts style in the weapon proficiency list no longer shows "(not in the weapon list)" after its name.
 - 0.1.4: martial arts styles no longer appear in the Combat tab's Weapons list; they are used from the OA tab. Their to-hit numbers (score needed against armor class 10 to 0) now show in the OA tab's Martial Arts box. Styles stay on the weapon proficiency list, where they use a slot.
 - 0.1.3: the OA tab is laid out like the Combat tab. At the top, a Martial Arts box shows the style you fight with (attacks per round, damage, armor class in the style, principal attack, maneuvers taught) with an Attack button, beside a Ki Uses Today box with - and + buttons and a New day button. Below them, a Maneuvers table lists each maneuver with its method, difficulty and use, a line on what it does, and Attack and Show buttons; maneuvers the chosen style doesn't teach are flagged (mental and physical training can be learned in any style). Then Proficiency Slots (total, used, free) and Learning Martial Arts (the OA p.105-106 rules, with a notes box), then the class boxes. Attack buttons now always show for attack maneuvers; without a style on the sheet they are greyed out with a note to add one. The Style text box is gone: the style comes from the sheet.

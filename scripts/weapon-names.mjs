@@ -1,0 +1,4 @@
+/** OA weapons added to the system's weapon proficiency list (from the OA weapons in this module's equipment).
+ * Left out: entries that match a PHB weapon already on the list under another name (thrown club and dagger,
+ * composite short bow, staff sling, light lance, blowpipe/blowgun). */
+export const OA_WEAPON_NAMES = ["Boku-toh", "Chain", "Chijiriki, spear", "Chopsticks", "Chu-ko-nu (repeating crossbow)", "Daikyu (great bow)", "Fang", "Gunsen", "Hankyu (little bow)", "Jitte", "Kama", "Katana", "Kau sin ke", "Kawanaga", "Kiseru", "Kumade", "Kusari-gama", "Kyoketsu-shogi", "Lajatang", "Lasso", "Mace", "Metsubishi", "Nagimaki", "Naginata", "Needle", "Nekode", "Ninja-to", "Nunchaku", "Parang", "Pellet bow", "Sai", "Sang kauw", "Shaken", "Shakujo yari", "Shikomi-zue", "Shuriken, spike", "Shuriken, star, large", "Shuriken, star, small", "Siangkam", "Sode garami", "Tetsu-bishi", "Tetsubo", "Three-piece rod", "Tui-fa (Tonfa)", "Uchi-ne", "Wakizashi"];

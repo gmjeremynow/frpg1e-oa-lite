@@ -7,6 +7,7 @@
 import { CLASSES, SPELLS, OA_CLASS_KEYS } from "./classes.mjs";
 import { RACES, OA_RACE_KEYS, korobokuruSave } from "./races.mjs";
 import { registerManeuver } from "./maneuvers.mjs";
+import { OA_WEAPON_NAMES } from "./weapon-names.mjs";
 import { isStyle, STYLE_PREFIX, registerKi, renderOATab } from "./sheet-tab.mjs";
 import { offerImport, importCompendia } from "./compendia.mjs";
 
@@ -24,6 +25,7 @@ Hooks.once("frpg1e.init", api => {
   api.registerSpellList("shukenja", "Shukenja (OA)");
   api.registerSpellList("wujen", "Wu Jen (OA)");
   for (const [k, l] of [["oaCommon", "Common (OA)"], ["oaArtisan", "Artisan (OA)"], ["oaCourt", "Court (OA)"], ["oaBarbarian", "Barbarian (OA)"], ["oaManeuver", "Martial arts maneuver (OA)"]]) api.registerProficiencyGroup(k, l);
+  api.registerWeaponNames?.(OA_WEAPON_NAMES); // the OA weapons in the weapon proficiency list (1e FRPG 0.48.2 or later)
   for (const [k, t] of Object.entries(SPELLS)) api.registerSpellProgression(k, t);
   for (const [k, d] of Object.entries(CLASSES)) api.registerClass(k, d);
   for (const [k, d] of Object.entries(RACES)) api.registerRace(k, d);
