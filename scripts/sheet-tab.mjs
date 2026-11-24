@@ -148,17 +148,18 @@ function topHTML(actor, flags, needs, compName) {
     // Mental and Physical Training can be learned in any style (OA p.105)
     const off = st && key && key !== "mental" && info.diff && Object.keys(st.taught).length && !st.taught[key]?.has(info.diff);
     const hitText = atk ? (typeof atk.hit === "function" ? atk.hit(L) : atk.hit ?? "") : "";
-    return `<tr>
+    return `<tr data-item-id="${i.id}">
       <td class="left"><a class="oa-man-name" data-oa-man-show="${i.id}" title="Post the description to chat">${esc(i.name)}</a>
         ${hitText ? `<span class="sub-note">${esc(hitText)}</span>` : ""}${off ? `<span class="sub-note oa-warn">Not on ${esc(short(sel.name))}'s list (OA p.105: a master teaches only his style's maneuvers)</span>` : ""}</td>
       <td>${esc(info.method.replace(/^Mental and Physical Training/, "Mental/Physical"))}${info.diff ? ` ${info.diff}` : ""}${info.form ? `<span class="sub-note">${esc(info.form)}</span>` : ""}</td>
       <td>${use}</td>
       <td class="row-tools">${atk ? `<button type="button" class="cast-btn" data-oa-man-attack="${esc(i.name)}" ${sel ? "" : `disabled title="Add a style to the sheet first"`}>Attack</button>` : ""}
-        <button type="button" class="cast-btn" data-oa-man-show="${i.id}">Show</button></td></tr>`;
+        <button type="button" class="cast-btn" data-oa-man-show="${i.id}">Show</button></td>
+      <td class="oa-del"><button type="button" class="icon-btn" data-action="itemDelete" title="Delete"><i class="fa-solid fa-trash"></i></button></td></tr>`;
   }).join("");
   const manBox = `<div class="box oa-man"><h3 class="box-title">Maneuvers</h3>
-    <table class="ledger oa-man-table"><thead><tr><th class="left">Maneuver</th><th>Method</th><th>Use</th><th></th></tr></thead>
-      <tbody>${rows || `<tr><td colspan="4" class="hint">Drag maneuvers here from the ${compName} compendium. Each costs one proficiency slot.</td></tr>`}</tbody></table>
+    <table class="ledger oa-man-table"><thead><tr><th class="left">Maneuver</th><th>Method</th><th>Use</th><th></th><th></th></tr></thead>
+      <tbody>${rows || `<tr><td colspan="5" class="hint">Drag maneuvers here from the ${compName} compendium. Each costs one proficiency slot.</td></tr>`}</tbody></table>
     <p class="hint">Target tokens, then click Attack: it rolls to hit with the style above and the chat card gives the maneuver's damage and effect. Click a name to post its description.
       ${sel ? "" : " <strong>Attack buttons need a style on the sheet.</strong>"}</p></div>`;
 

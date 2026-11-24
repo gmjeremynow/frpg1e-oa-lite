@@ -47,3 +47,7 @@ blockquote.oa-box { background: rgba(120, 110, 90, 0.12); border-left: 3px solid
 .oa-tab .oa-needs { width: 100%; margin: 6px 0 4px; }
 .oa-tab .oa-needs th, .oa-tab .oa-needs td { text-align: center; padding: 1px 2px; }
 .oa-tab .oa-needs .left { text-align: left; white-space: nowrap; }
+.oa-tab .oa-man-table td.oa-del { width: 2.5em; text-align: center; }
+/* text boxes match the sheet's Notes editor */
+.frpg1e .oa-tab textarea { background: rgba(255,255,255,.35) !important; color: var(--ink, #221b14) !important; border: none !important; border-radius: 0 !important; box-shadow: none !important; padding: 6px 10px; font-family: inherit; font-size: 14px; min-height: 5em; resize: vertical; }
+.frpg1e .oa-tab textarea:focus { background: rgba(255,255,255,.55) !important; outline: 1px solid var(--rule-strong, #444); }

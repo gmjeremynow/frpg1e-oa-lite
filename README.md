@@ -1,4 +1,4 @@
-# OA Lite for 1e FRPG, v0.1.6
+# OA Lite for 1e FRPG, v0.1.7
 
 An optional add-on for the 1e FRPG system for Foundry VTT (system 0.48.0 or later, Foundry V14), for use in any campaign. It adds the OA races and classes on the character sheet, martial arts, OA proficiencies, shukenja and wu jen spells, OA weapons, armor and equipment priced in standard coins, magic items and monsters. It leaves out the Eastern Lands setting, the family, honor and society rules, OA's own money and the running-the-game chapters. Turn the module on or off in Manage Modules.
 
@@ -74,6 +74,7 @@ Then switch it on in the world and accept the offer to build the OA Lite compend
 
 ## Changes
 
+- 0.1.7: each maneuver row on the OA tab has a delete button, as on the Proficiencies tab; the OA tab's text boxes now have the same light background as the sheet's Notes editor.
 - 0.1.6: the OA weapons (46 of them, from the boku-toh to the wakizashi) are added to the weapon proficiency drop-down on the Proficiencies tab. Needs 1e FRPG 0.48.2 or later; on an older system the list stays as it was. OA entries that are a PHB weapon under another name (thrown club and dagger, composite short bow, staff sling, light lance, blowpipe) are left out, since the PHB name is already on the list.
 - 0.1.5: on the Proficiencies tab, a martial arts style in the weapon proficiency list no longer shows "(not in the weapon list)" after its name.
 - 0.1.4: martial arts styles no longer appear in the Combat tab's Weapons list; they are used from the OA tab. Their to-hit numbers (score needed against armor class 10 to 0) now show in the OA tab's Martial Arts box. Styles stay on the weapon proficiency list, where they use a slot.
